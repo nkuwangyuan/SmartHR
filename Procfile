@@ -1,1 +1,1 @@
-web: gunicorn Employee_Attrition_dash:server
+web: gunicorn app:server
