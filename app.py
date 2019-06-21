@@ -56,7 +56,7 @@ app.layout = html.Div([
 
     html.H1(children='Smart HR'),
 
-    dcc.Tabs(id="tabs", value='tab-1', children=[
+    dcc.Tabs(id="tabs", value='tab-4', children=[
         dcc.Tab(label='Tab 1 Name', value='tab-1'),
         dcc.Tab(label='Tab 2 Name', value='tab-2'),
         dcc.Tab(label='Tab 3 Name', value='tab-3'),
@@ -716,8 +716,10 @@ add_image = html.Div([
 
 Tab6_Design = html.Div(
     children=[
-        html.H1(children='Big Title Here'),
-        
+        html.H1(children='Prediction detail'),
+        html.H1(children='More detail'),
+        html.H1(children='More detail'),
+
         html.Div(
             [
             dcc.RadioItems(
@@ -727,21 +729,22 @@ Tab6_Design = html.Div(
                 labelStyle={'display': 'inline-block'}
             )
             ],
-            style={'width': '50%', 'display': 'inline-block'},
+            style={'width': '90%', 'display': 'inline-block'},
         ),
         
         html.Div(id='Employee_Plot'),
 
         html.Div(children=[
-            html.H1(children='Big Title Here'),
+            html.H1(children='Input ID Here'),
             dcc.Input(id='Employee_ID', value=0, type='number'),
 
             html.Div([
-                html.H1(children='Title Here'), 
+                html.H1(children='Analysis Here'), 
                 add_image, 
                 html.Div(id='Employee_Analysis')])
+
         ])
-    ]
+    ], style={'columnCount': 2}
 )    
 
 @app.callback(
