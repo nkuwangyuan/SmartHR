@@ -26,7 +26,6 @@ jsonschema==3.0.1
 jupyter-core==4.5.0
 lxml==4.3.4
 MarkupSafe==1.1.1
-mkl-random==1.0.2
 more-itertools==7.0.0
 nbformat==4.4.0
 numpy==1.16.4
