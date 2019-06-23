@@ -3,7 +3,7 @@ import dash
 import dash_table as table
 import dash_core_components as dcc
 import dash_html_components as html
-from dash.dependencies import Input, Output
+from dash.dependencies import Input, Output, State
 
 import pandas as pd
 import numpy as np
@@ -11,6 +11,14 @@ import colorlover as cl
 import plotly_express as px
 import plotly.graph_objs as go
 import base64
+
+from sklearn.model_selection import train_test_split, cross_val_predict
+from sklearn.preprocessing import LabelEncoder, StandardScaler
+from sklearn.ensemble import AdaBoostClassifier, RandomForestClassifier
+from sklearn.tree import DecisionTreeClassifier
+
+import lime
+import lime.lime_tabular
 
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
@@ -22,6 +30,8 @@ server = app.server
 app.config['suppress_callback_exceptions']=True
 
 data = pd.read_csv('WA_Fn-UseC_-HR-Employee-Attrition.csv')
+Feature_Ranking = pd.read_csv('Feature_Ranking.csv').sort_values(by='Feature_Importance',ascending=True)
+
 
 all_col = list(data)
 remove = ['EmployeeCount','EmployeeNumber','Over18','StandardHours']
@@ -31,14 +41,7 @@ cat_col = ['Attrition','BusinessTravel','Department','EducationField','Gender','
 num_col = list(set(all_col)-set(remove)-set(cat_col))
 
 
-feature_importances_list = [0.03489322, 0.04384273, 0.04995378, 0.02728444, 0.11044229,
-       0.02294369, 0.09278575, 0.04318212, 0.01870959, 0.01987845,
-       0.02085904, 0.03519061, 0.05598235, 0.00685271, 0.08265259,
-       0.00833128, 0.06414993, 0.01767811, 0.00548018, 0.02769908,
-       0.01030461, 0.04067725, 0.03109849, 0.07080172, 0.00470841,
-       0.01627989, 0.00653033, 0.0158892 , 0.        , 0.01491816]
-Feature_Importances = pd.DataFrame({'Feature': feature, 'Feature Importance': feature_importances_list}) \
-                        .sort_values(by='Feature Importance',ascending=True).head(30)
+
 
 
 
@@ -299,15 +302,15 @@ Tab2_Design = html.Div(children=[
         value='MTL'
     ),
 
-    html.Label('Checkboxes'),
-    dcc.Checklist(
-        options=[
-            {'label': 'New York City', 'value': 'NYC'},
-            {'label': u'Montréal', 'value': 'MTL'},
-            {'label': 'San Francisco', 'value': 'SF'}
-        ],
-        value=['MTL', 'SF']
-    ),
+    # html.Label('Checkboxes'),
+    # dcc.Checklist(
+    #     options=[
+    #         {'label': 'New York City', 'value': 'NYC'},
+    #         {'label': u'Montréal', 'value': 'MTL'},
+    #         {'label': 'San Francisco', 'value': 'SF'}
+    #     ],
+    #     values='MTL'
+    # ),
 
     html.Label('Slider'),
                 dcc.Slider(
@@ -401,8 +404,8 @@ Tab3_Design = html.Div(
                     figure=go.Figure(
                         data=[
                             go.Bar(
-                                x=Feature_Importances['Feature Importance'],
-                                y=Feature_Importances['Feature'],
+                                x=Feature_Ranking['Feature_Importance'],
+                                y=Feature_Ranking['Feature'],
                                 orientation='h',
                             )
                         ],
@@ -441,8 +444,42 @@ Tab3_Design = html.Div(
 #    style={'columnCount': 2}
 )])
 
-Tab4_Design = html.Div(
-    children=[
+Feature_Ranking = dcc.Graph(figure = go.Figure(
+    data=[go.Bar(
+            x=Feature_Ranking['Feature_Importance'],
+            y=Feature_Ranking['Feature'],
+            orientation='h',
+            #marker=dict(color=cl.scales['9']['seq']['Reds'],reversescale=True),
+            marker=dict(color=cl.scales['11']['div']['RdYlGn']),
+            )
+        ],
+    layout = go.Layout(
+        title='Turnover Rate is 17% in year 2018.',
+        yaxis=go.layout.YAxis(
+            #title='Feature',
+            tickmode='array',
+            automargin=True,
+            showgrid=False,
+            showline=True,
+            showticklabels=True,
+            titlefont=dict(size=15),
+            ),
+        xaxis=dict(
+            zeroline=False,
+            showline=False, 
+            showticklabels=False,
+            showgrid=True,
+            #domain=[0, 0.42],
+            ),
+        autosize=False,
+        width=700,
+        height=700,
+        #plot_bgcolor='#c7c7c7'
+        )
+    )
+)
+
+Tab4_Design = html.Div(children=[
         
         html.Div(
             id='top-bar',
@@ -452,100 +489,52 @@ Tab4_Design = html.Div(
                    }
         ),
         
-        html.Div(
-            children=[
+        html.Div(children=[
+            html.Div([
+                html.Label('Load HR Data Here'),
+                dcc.Dropdown(id='load_data',
+                    options=[{'label': 'Tech_Company_2018', 'value': 'Tech_Company_2018'}],
+                    )
+                ], className="four columns"
+            ),
+            
+            html.H4(' --- Features attributes to Attrition --- ',
+                className='eight columns')
 
-                html.Div(children=[
-                            html.Label('Text Input'),
-                            dcc.Input(value='MTL', type='text'),
-                            
-                            dcc.Graph(id='graph1',
-                                figure=go.Figure(
-                                    data=[
-                                            go.Scatter(
-                                            x= [2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018],
-                                            y= [15.5,15.7,13.0,11.2,11.3,11.5,12.5,13.0,14.2,15.3,16.0],
-                                            text='%',
-                                            name='Technology',
-                                            marker=dict(color='rgb(49,130,189)')
-                                            ),
+            ], className="row"
+        ),
 
-                                            go.Scatter(
-                                            x= [2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018],
-                                            y= [13.7,12.6,10.8,9.8,9.6,10.4,11.0,11.25,11.6,12.2,12.9],
-                                            text='%',
-                                            name='All_Industries',
-                                            )
-                                        ],
+        html.Div(children=[
+            html.Div(id='Turnover_Rate',
+                className="four columns"),           
 
-                                    layout=go.Layout(
-                                            title='Turnover Rate Over Last 10 Years',
-                                            xaxis=dict(
-                                                title='Year',
-                                                #zeroline=True
-                                                ),
-                                            yaxis=dict(
-                                                range=[0, 20],
-                                                zeroline=True,
-                                                showgrid= True,
-                                                title= 'Turnover Rate (%)'
-                                                ),
-                                            showlegend=True,
-                                            legend=go.layout.Legend(x=0.6,y=0.1),
-                                            #margin=go.layout.Margin(l=40, r=0, t=40, b=30)
-                                    ),
-                                )
-                            ),
-                        ],
-                ),      
-
-                html.Div(children=[
-                            dcc.Graph(id='graph2',
-                                figure=go.Figure(
-                                    data=[
-                                        go.Bar(
-                                            x=Feature_Importances['Feature Importance'],
-                                            y=Feature_Importances['Feature'],
-                                            orientation='h',
-                                        )
-                                    ],
-
-                                    layout = go.Layout(
-                                        title='Features Importance Ranking',
-                                
-                                        yaxis=go.layout.YAxis(
-                                            #title='Feature',
-                                            tickmode='array',
-                                            automargin=True,
-                                            showgrid=False,
-                                            showline=True,
-                                            showticklabels=True,
-                                            titlefont=dict(size=15),
-                                        ),
-
-                                        xaxis=dict(
-                                            zeroline=False,
-                                            showline=False,
-                                            showticklabels=False,
-                                            showgrid=True,
-                                            #domain=[0, 0.42],
-                                        ),
-                            
-                                        autosize=False,
-                                        width=540,
-                                        height=540,
-                                        #plot_bgcolor='#c7c7c7'
-                                    )
-                                )
-                            )
-                        ]
-                ),
-                ],
-
-                style={'columnCount': 2}
+            html.Div(id='Feature_Ranking',
+                className="eight columns"),            
+            
+            ], className="row"
         )
     ]
-)    
+) 
+
+@app.callback(
+    Output(component_id='Turnover_Rate', component_property='children'),
+    [Input(component_id='load_data', component_property='value')]
+)
+def update_output_div(input_value):
+    if input_value == 'Tech_Company_2018':
+        return html.Label('Turnover Rate is 17% in year 2018.')
+    else:
+        return
+
+@app.callback(
+    Output(component_id='Feature_Ranking', component_property='children'),
+    [Input(component_id='load_data', component_property='value')]
+)
+def update_output_div(input_value):
+    if input_value == 'Tech_Company_2018':
+        return Feature_Ranking
+    else:
+        return 
 
 
 Tab5_Design = html.Div(
@@ -713,39 +702,85 @@ add_image = html.Div([
     ], className="row gs-header")
 
 
+def Exit_Analysis(Employee_ID):
+    
+    df = data.copy()
+    
+    all_col = list(df)
+    remove = ['EmployeeCount','EmployeeNumber','Over18','StandardHours']
+    target = ['Attrition']
+    feature = list(set(all_col)-set(remove)-set(target))
 
-Tab6_Design = html.Div(
-    children=[
-        html.H1(children='Prediction detail'),
-        html.H1(children='More detail'),
-        html.H1(children='More detail'),
+    for col in all_col:
+        df[col] = LabelEncoder().fit(df[col]).transform(df[col])
 
-        html.Div(
-            [
-            dcc.RadioItems(
-                id='All_Employee',
-                options=[{'label': i, 'value': i} for i in ['[ All Employee ]','[ Exit Risk ]', '[ Exit Cost ]']],
-                value='[ All Employee ]',
-                labelStyle={'display': 'inline-block'}
-            )
-            ],
-            style={'width': '90%', 'display': 'inline-block'},
-        ),
-        
-        html.Div(id='Employee_Plot'),
+    X = df[feature]
+    y = df['Attrition'].tolist()
+    X_train, X_test, y_train, y_test = train_test_split(X,y,test_size=.75, random_state=42)
+
+    ada = AdaBoostClassifier(DecisionTreeClassifier(max_depth=1),n_estimators=500,learning_rate=1,algorithm='SAMME')
+    ada_fit = ada.fit(X_train, y_train)
+    
+    explainer = lime.lime_tabular.LimeTabularExplainer(X_train, feature_names=feature,
+                                                    class_names=['No','Yes'], discretize_continuous=False)
+
+    predict_fn_ada = lambda x: ada.predict_proba(x).astype(float)
+    exp = explainer.explain_instance(X.iloc[Employee_ID], predict_fn_ada, num_features=5)
+
+    tmp_lime = pd.DataFrame(exp.as_list(),columns=['feature', 'weight'])
+    tmp_lime['color']=(tmp_lime['weight']>0).astype('int')
+    tmp_lime['weight%'] = (round(tmp_lime['weight']*10000,2)).astype(str)+'%'
+
+    fig = px.bar(tmp_lime[::-1], y='feature', x='weight', color = 'color', orientation = 'h',
+        #color_continuous_scale = ['green','lightyellow','red'], opacity =0.8,
+        color_continuous_scale =px.colors.diverging.Tealrose,opacity =0.7,
+        labels={'color':'weight'},
+        text='weight%', template='plotly_white+presentation+xgridoff',
+        )
+
+    fig = fig.update(layout=dict(
+        title=dict(text='Top Exit Risk Attributes',font=dict(family='Arial', size=28, color='black')), 
+        yaxis=dict(title=None,ticks='outside',showline=True,showgrid=False,mirror=True,linecolor='black'), 
+        xaxis=dict(title=None,showticklabels=False,showline=True,mirror=True,linecolor='black'),
+        ))
+
+    return fig
+
+
+Tab6_Design = html.Div(children=[
+    
+    html.Div(children=[
+        html.Div(children=[
+            html.H1(children='Prediction detail'),
+            html.Div(
+                [
+                dcc.RadioItems(
+                    id='All_Employee',
+                    options=[{'label': i, 'value': i} for i in ['[ All Employee ]','[ Exit Risk ]', '[ Exit Cost ]']],
+                    value='[ All Employee ]',
+                    labelStyle={'display': 'inline-block'}
+                )
+                ],
+                style={'width': '90%', 'display': 'inline-block'},
+            ),
+            
+            html.Div(id='Employee_Plot'),
+        ], className='four columns padded'),
 
         html.Div(children=[
-            html.H1(children='Input ID Here'),
+            html.Label('Input Employee ID'),
             dcc.Input(id='Employee_ID', value=0, type='number'),
+            html.Button('Submit', id='button'),
+            #add_image,            
+            html.Div(id='Employee_Profile'),
+            html.Div(id='Exit_Analysis'), 
+        ], className='eight columns padded'),
+    ], className="row"),
 
-            html.Div([
-                html.H1(children='Analysis Here'), 
-                add_image, 
-                html.Div(id='Employee_Analysis')])
+       
 
-        ])
-    ], style={'columnCount': 2}
-)    
+])
+   
 
 @app.callback(
     Output(component_id='Employee_Plot', component_property='children'),
@@ -761,10 +796,11 @@ def update_output_div(input_value):
    
 
 @app.callback(
-    Output(component_id='Employee_Analysis', component_property='children'),
-    [Input(component_id='Employee_ID', component_property='value')]
+    Output(component_id='Employee_Profile', component_property='children'),
+    [Input('button', 'n_clicks')],
+    [State(component_id='Employee_ID', component_property='value')]
 )
-def update_output_div(Employee_ID):
+def update_output_(n_clicks, Employee_ID):
     html.H1(children='Title Here')
     Employee = data.iloc[Employee_ID,[0,11,31,4,15,14,18]]
     trace=[go.Table(
@@ -785,6 +821,14 @@ def update_output_div(Employee_ID):
         )
     return dcc.Graph(figure=go.Figure(trace, layout))
 
+@app.callback(
+    Output(component_id='Exit_Analysis', component_property='children'),
+    [Input('button', 'n_clicks')],
+    [State(component_id='Employee_ID', component_property='value')]
+)
+def update_output_div(n_clicks, Employee_ID):
+    fig = Exit_Analysis(Employee_ID)
+    return dcc.Graph(figure=fig)
 
 
 if __name__ == '__main__':
