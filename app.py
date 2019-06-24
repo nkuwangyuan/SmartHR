@@ -59,18 +59,14 @@ app.layout = html.Div([
 
     html.H1(children='Smart HR'),
 
-    dcc.Tabs(id="tabs", value='tab-4', children=[
-        dcc.Tab(label='Tab 1 Name', value='tab-1'),
-        dcc.Tab(label='Tab 2 Name', value='tab-2'),
-        dcc.Tab(label='Tab 3 Name', value='tab-3'),
-        dcc.Tab(label='Tab 4 Name', value='tab-4'),
-        dcc.Tab(label='Tab 5 Name', value='tab-5'),
-        dcc.Tab(label='Tab 6 Name', value='tab-6'),
+    dcc.Tabs(id="tabs", value='tab-1', children=[
+        dcc.Tab(label='Company Strategy', value='tab-1'),
+        dcc.Tab(label='Features', value='tab-2'),
+        dcc.Tab(label='Employee Analysis', value='tab-3'),
     ]),
 
     html.Div(id='tabs-content'),
 
-    html.H2(children='Footnote Here All pages')
 ])
 
 @app.callback(Output('tabs-content', 'children'),
@@ -83,12 +79,7 @@ def render_content(tab):
         return Tab2_Design
     elif tab == 'tab-3':
         return Tab3_Design
-    elif tab == 'tab-4':
-        return Tab4_Design
-    elif tab == 'tab-5':
-        return Tab5_Design
-    elif tab == 'tab-6':
-        return Tab6_Design
+
 
 def Header():
     return html.Div([
@@ -224,226 +215,6 @@ Year_plot =  dcc.Graph(
             )
     )
 
-
-Tab1_Design = html.Div(children=[
-   
-    html.H1(children='Big Title Here'),
-
-    dcc.Markdown(children=markdown_text),
-
-    html.Div(children='''
-        Dash: A web application framework for Python.
-    '''),
-
-    dcc.Graph(id='graph1',
-    figure=go.Figure(
-        data=[
-                go.Scatter(
-                x= [2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018],
-                y= [15.5,15.7,13.0,11.2,11.3,11.5,12.5,13.0,14.2,15.3,16.0],
-                text='%',
-                name='Technology',
-                marker=dict(color='rgb(49,130,189)')
-                ),
-
-                go.Scatter(
-                x= [2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018],
-                y= [13.7,12.6,10.8,9.8,9.6,10.4,11.0,11.25,11.6,12.2,12.9],
-                text='%',
-                name='All_Industries',
-                )
-            ],
-
-        layout=go.Layout(
-                title='Turnover Rate Over Last 10 Years',
-                xaxis=dict(
-                    title='Year',
-                    #zeroline=True
-                    ),
-                yaxis=dict(
-                    range=[0, 20],
-                    zeroline=True,
-                    showgrid= True,
-                    title= 'Turnover Rate (%)'
-                    ),
-                showlegend=True,
-                legend=go.layout.Legend(x=0.8,y=0.1),
-                #margin=go.layout.Margin(l=40, r=0, t=40, b=30)
-           ),
-    )
-    ),
-
-    #dcc.Graph(px.violin(data, x='Attrition', y='MonthlyRate', color='Gender', box=True, points='all',)),
-
-    html.H4(children='New Table Here'),
-
-    generate_table(data)
-])
-
-Tab2_Design = html.Div(children=[
-    
-    html.Label('Dropdown'),
-    dcc.Dropdown(
-        options=[
-            {'label': 'New York City', 'value': 'NYC'},
-            {'label': u'Montréal', 'value': 'MTL'},
-            {'label': 'San Francisco', 'value': 'SF'}
-        ],
-        value='MTL'
-    ),
-
-    html.Label('Radio Items'),
-    dcc.RadioItems(
-        options=[
-            {'label': 'New York City', 'value': 'NYC'},
-            {'label': u'Montréal', 'value': 'MTL'},
-            {'label': 'San Francisco', 'value': 'SF'}
-        ],
-        value='MTL'
-    ),
-
-    # html.Label('Checkboxes'),
-    # dcc.Checklist(
-    #     options=[
-    #         {'label': 'New York City', 'value': 'NYC'},
-    #         {'label': u'Montréal', 'value': 'MTL'},
-    #         {'label': 'San Francisco', 'value': 'SF'}
-    #     ],
-    #     values='MTL'
-    # ),
-
-    html.Label('Slider'),
-                dcc.Slider(
-                    min=0,
-                    max=9,
-                     marks={i: 'Label {}'.format(i) if i == 1 else str(i) for i in range(1, 6)},
-                    value=5,
-                 ),
-])
-
-
-Tab3_Design = html.Div(
-    children=[
-        html.Div(
-            id='top-bar',
-            className='row',
-            style={'backgroundColor': '#fa4f56',
-                   'height': '5px',
-                   }
-        ),
-        html.Div(
-            className='container', children=[
-                
-                html.Div(id='left-side-column', className='seven columns padded', 
-                    style={
-                        #'display': 'flex',
-                        #'flexDirection': 'column',
-                        #'flex': 1,
-                        #'height': 'calc(100vh - 5px)',
-                        #'backgroundColor': '#F2F2F2',
-                        #'overflow-y': 'scroll',
-                        #'marginLeft': '0px',
-                        'justifyContent': 'flex-start',
-                        'alignItems': 'left'
-                    },
-                    children=[
-                    html.Label('Text Input'),
-                    dcc.Input(value='MTL', type='text'),
-                    dcc.Graph(id='graph1',
-                        figure=go.Figure(
-                            data=[
-                                    go.Scatter(
-                                    x= [2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018],
-                                    y= [15.5,15.7,13.0,11.2,11.3,11.5,12.5,13.0,14.2,15.3,16.0],
-                                    text='%',
-                                    name='Technology',
-                                    marker=dict(color='rgb(49,130,189)')
-                                    ),
-
-                                    go.Scatter(
-                                    x= [2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018],
-                                    y= [13.7,12.6,10.8,9.8,9.6,10.4,11.0,11.25,11.6,12.2,12.9],
-                                    text='%',
-                                    name='All_Industries',
-                                    )
-                                ],
-
-                            layout=go.Layout(
-                                    title='Turnover Rate Over Last 10 Years',
-                                    xaxis=dict(
-                                        title='Year',
-                                        #zeroline=True
-                                        ),
-                                    yaxis=dict(
-                                        range=[0, 20],
-                                        zeroline=True,
-                                        showgrid= True,
-                                        title= 'Turnover Rate (%)'
-                                        ),
-                                    showlegend=True,
-                                    legend=go.layout.Legend(x=0.6,y=0.1),
-                                    #margin=go.layout.Margin(l=40, r=0, t=40, b=30)
-                            ),
-                        )
-                    ),
-                    ]
-                    ),
-
-    html.Div(id='right-side-column',
-            className='five columns',
-            # style={
-            #     'height': 'calc(100vh - 5px)',
-            #     'overflow-y': 'scroll',
-            #     'marginLeft': '1%',
-            #     'display': 'flex',
-            #     'backgroundColor': '#F9F9F9',
-            #     'flexDirection': 'column'
-            # },
-            children=[
-                 dcc.Graph(id='graph2',
-                    figure=go.Figure(
-                        data=[
-                            go.Bar(
-                                x=Feature_Ranking['Feature_Importance'],
-                                y=Feature_Ranking['Feature'],
-                                orientation='h',
-                            )
-                        ],
-
-                        layout = go.Layout(
-                            title='Features Importance Ranking',
-                    
-                            yaxis=go.layout.YAxis(
-                                #title='Feature',
-                                tickmode='array',
-                                automargin=True,
-                                showgrid=False,
-                                showline=True,
-                                showticklabels=True,
-                                titlefont=dict(size=15),
-                            ),
-
-                            xaxis=dict(
-                                zeroline=False,
-                                showline=False,
-                                showticklabels=False,
-                                showgrid=True,
-                                #domain=[0, 0.42],
-                            ),
-                
-                            autosize=False,
-                            width=900,
-                            height=900,
-                            #plot_bgcolor='#c7c7c7'
-                        )
-                    )
-                 )
-            ]
-    )
-],
-#    style={'columnCount': 2}
-)])
-
 Feature_Ranking = dcc.Graph(figure = go.Figure(
     data=[go.Bar(
             x=Feature_Ranking['Feature_Importance'],
@@ -479,7 +250,7 @@ Feature_Ranking = dcc.Graph(figure = go.Figure(
     )
 )
 
-Tab4_Design = html.Div(children=[
+Tab1_Design = html.Div(children=[
         
         html.Div(
             id='top-bar',
@@ -537,7 +308,7 @@ def update_output_div(input_value):
         return 
 
 
-Tab5_Design = html.Div(
+Tab2_Design = html.Div(
     children=[
         Header(),
         html.Div(
@@ -590,23 +361,23 @@ def turnover_rate_plot(feature):
     return dcc.Graph(figure=fig)
 
 
-Year = [2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018]
-All_Industries = [13.7,12.6,10.8,9.8,9.6,10.4,11.0,11.25,11.6,12.2,12.9]
-Technology =[15.5,15.7,13.0,11.2,11.3,11.5,12.5,13.0,14.2,15.3,16.0]
+df = data.copy()
+People_Ranking = df.loc[[44,1255,131,610,295],['Department','JobRole','JobLevel','YearsAtCompany','MonthlyIncome']].head(5)
+People_Ranking['Risk'] = ['84.6%','82.3%','73.2%','66.1%','62.0%']
+People_Ranking['Cost'] = df['MonthlyIncome']*4
 
-People_Ranking = pd.DataFrame(list(zip(Year, Year, All_Industries, Technology)), columns =['ID', 'Name','Risk', 'Cost'])
+All_Employee   = People_Ranking.sort_values(by=['MonthlyIncome'], ascending=False)
 People_Risk    = People_Ranking.sort_values(by=['Risk'], ascending=False)
 People_Cost    = People_Ranking.sort_values(by=['Cost'], ascending=False)
-People_All     = People_Ranking.sort_values(by=['ID'], ascending=False)
 
 colors = cl.scales['9']['seq']['YlOrRd']
 
 All_Employee =  dcc.Graph(
             figure=go.Figure(
                 data=[go.Table(
-                        #columnwidth = [1,2,3,1],
                         header = dict(
-                            values = ['<b>ID</b>', '<b>Name</b>', '<b>Risk</b>','<b>Cost<b>'],
+                            values = ['<b>Employee ID</b>', '<b>Department</b>', '<b>Job Role</b>','<b>Job Level<b>',
+                                        '<b>Years at Company<b>','<b>Monthly Income<b>','<b>Exit Risk<b>','<b>Replacement Cost<b>'],
                             line = dict(color = 'silver'),
                             fill = dict(color = 'lightskyblue'),
                             align = 'center',
@@ -614,9 +385,11 @@ All_Employee =  dcc.Graph(
                             height = 40
                         ),
                         cells = dict(
-                            values = [People_All['ID'], People_All['Name'],People_All['Risk'], People_All['Cost']],
+                            values = [All_Employee.index, All_Employee.iloc[:,0], All_Employee.iloc[:,1], All_Employee.iloc[:,2],
+                                    All_Employee.iloc[:,3], All_Employee.iloc[:,4], All_Employee.iloc[:,5], All_Employee.iloc[:,6]],
                             line = dict(color = ['silver']),
-                            fill = dict(color = ['whitesmoke','lightyellow','lemonchiffon','lightgoldenrodyellow']),
+                            fill = dict(color = ['whitesmoke','lightyellow','lightyellow','lightyellow',
+                                                'lightyellow','lightyellow','lightyellow','lightyellow']),
                             align = 'center',
                             font = dict(color = 'black', size = 12),
                             height = 30
@@ -625,8 +398,8 @@ All_Employee =  dcc.Graph(
                 ],
                 layout = go.Layout(
                     autosize=False,
-                    width=500,
-                    height=600
+                    width=1200,
+                    height=500
                 )
             )
         )
@@ -634,9 +407,9 @@ All_Employee =  dcc.Graph(
 People_Risk_table =  dcc.Graph(
             figure=go.Figure(
                 data=[go.Table(
-                        #columnwidth = [1,2,3,1],
                         header = dict(
-                            values = ['<b>ID</b>', '<b>Name</b>', '<b>Risk</b>','<b>Cost<b>'],
+                            values = ['<b>Employee ID</b>', '<b>Department</b>', '<b>Job Role</b>','<b>Job Level<b>',
+                                        '<b>Years at Company<b>','<b>Monthly Income<b>','<b>Exit Risk<b>','<b>Replacement Cost<b>'],
                             line = dict(color = 'silver'),
                             fill = dict(color = 'lightskyblue'),
                             align = 'center',
@@ -644,9 +417,11 @@ People_Risk_table =  dcc.Graph(
                             height = 40
                         ),
                         cells = dict(
-                            values = [People_Risk['ID'], People_Risk['Name'],People_Risk['Risk'], People_Risk['Cost']],
+                            values = [People_Risk.index, People_Risk.iloc[:,0],People_Risk.iloc[:,1],People_Risk.iloc[:,2],
+                                    People_Risk.iloc[:,3],People_Risk.iloc[:,4],People_Risk.iloc[:,5],People_Risk.iloc[:,6]],
                             line = dict(color = ['silver']),
-                            fill = dict(color = ['whitesmoke','lightyellow',np.array(colors)[np.arange(5,0,-1)],'lemonchiffon']),
+                            fill = dict(color = ['whitesmoke','lightyellow','lightyellow','lightyellow','lightyellow',
+                                                'lightyellow',np.array(colors)[np.arange(5,0,-1)],'lightyellow']),
                             align = 'center',
                             font = dict(color = 'black', size = 12),
                             height = 30
@@ -655,8 +430,8 @@ People_Risk_table =  dcc.Graph(
                 ],
                 layout = go.Layout(
                     autosize=False,
-                    width=500,
-                    height=600
+                    width=1200,
+                    height=500
                 )
             )
         )
@@ -664,9 +439,9 @@ People_Risk_table =  dcc.Graph(
 People_Cost_table =  dcc.Graph(
             figure=go.Figure(
                 data=[go.Table(
-                        #columnwidth = [1,2,3,1],
                         header = dict(
-                            values = ['<b>ID</b>', '<b>Name</b>', '<b>Risk</b>','<b>Cost<b>'],
+                            values = ['<b>Employee ID</b>', '<b>Department</b>', '<b>Job Role</b>','<b>Job Level<b>',
+                                        '<b>Years at Company<b>','<b>Monthly Income<b>','<b>Exit Risk<b>','<b>Replacement Cost<b>'],
                             line = dict(color = 'silver'),
                             fill = dict(color = 'lightskyblue'),
                             align = 'center',
@@ -674,9 +449,11 @@ People_Cost_table =  dcc.Graph(
                             height = 40
                         ),
                         cells = dict(
-                            values = [People_Cost['ID'], People_Cost['Name'],People_Cost['Risk'], People_Cost['Cost']],
+                            values = [People_Cost.index, People_Cost.iloc[:,0], People_Cost.iloc[:,1], People_Cost.iloc[:,2],
+                                    People_Cost.iloc[:,3], People_Cost.iloc[:,4], People_Cost.iloc[:,5], People_Cost.iloc[:,6]],
                             line = dict(color = ['silver']),
-                            fill = dict(color = ['whitesmoke','lightyellow','lemonchiffon', np.array(colors)[np.arange(5,0,-1)]]),
+                            fill = dict(color = ['whitesmoke','lightyellow','lightyellow','lightyellow','lightyellow',
+                                                'lightyellow','lightyellow',np.array(colors)[np.arange(5,0,-1)]]),
                             align = 'center',
                             font = dict(color = 'black', size = 12),
                             height = 30
@@ -685,8 +462,8 @@ People_Cost_table =  dcc.Graph(
                 ],
                 layout = go.Layout(
                     autosize=False,
-                    width=500,
-                    height=600
+                    width=1200,
+                    height=500
                 )
             )
         )
@@ -747,38 +524,27 @@ def Exit_Analysis(Employee_ID):
     return fig
 
 
-Tab6_Design = html.Div(children=[
-    
-    html.Div(children=[
-        html.Div(children=[
-            html.H1(children='Prediction detail'),
+Tab3_Design = html.Div(children=[
+
             html.Div(
                 [
                 dcc.RadioItems(
                     id='All_Employee',
-                    options=[{'label': i, 'value': i} for i in ['[ All Employee ]','[ Exit Risk ]', '[ Exit Cost ]']],
+                    options=[{'label': i, 'value': i} for i in ['[ All Employee ]','[ Exit Risk ]', '[ Replacement Cost ]']],
                     value='[ All Employee ]',
                     labelStyle={'display': 'inline-block'}
                 )
                 ],
-                style={'width': '90%', 'display': 'inline-block'},
+                style={'width': '100%', 'display': 'inline-block'},
             ),
             
             html.Div(id='Employee_Plot'),
-        ], className='four columns padded'),
 
-        html.Div(children=[
             html.Label('Input Employee ID'),
             dcc.Input(id='Employee_ID', value=0, type='number'),
             html.Button('Submit', id='button'),
             #add_image,            
-            html.Div(id='Employee_Profile'),
             html.Div(id='Exit_Analysis'), 
-        ], className='eight columns padded'),
-    ], className="row"),
-
-       
-
 ])
    
 
@@ -789,7 +555,7 @@ Tab6_Design = html.Div(children=[
 def update_output_div(input_value):
     if input_value == '[ Exit Risk ]':
         return People_Risk_table
-    elif input_value == '[ Exit Cost ]':
+    elif input_value == '[ Replacement Cost ]':
         return People_Cost_table
     else:
         return All_Employee
