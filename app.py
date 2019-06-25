@@ -244,7 +244,7 @@ Feature_Ranking = dcc.Graph(figure = go.Figure(
             ),
         autosize=False,
         width=700,
-        height=700,
+        height=500,
         #plot_bgcolor='#c7c7c7'
         )
     )
@@ -291,8 +291,8 @@ Tab1_Design = html.Div(children=[
     Output(component_id='Turnover_Rate', component_property='children'),
     [Input(component_id='load_data', component_property='value')]
 )
-def update_output_div(input_value):
-    if input_value == 'Tech_Company_2018':
+def update_output_div(load_data):
+    if load_data == 'Tech_Company_2018':
         return html.Label('Turnover Rate is 17% in year 2018.')
     else:
         return
@@ -301,8 +301,8 @@ def update_output_div(input_value):
     Output(component_id='Feature_Ranking', component_property='children'),
     [Input(component_id='load_data', component_property='value')]
 )
-def update_output_div(input_value):
-    if input_value == 'Tech_Company_2018':
+def update_output_div(load_data):
+    if load_data == 'Tech_Company_2018':
         return Feature_Ranking
     else:
         return 
@@ -329,20 +329,20 @@ Tab2_Design = html.Div(
     Output(component_id='feature_plot', component_property='children'),
     [Input(component_id='feature_name', component_property='value')]
 )
-def update_output_div(input_value):
-    if input_value == '[ Age ]':
+def update_output_div(feature_name):
+    if feature_name == '[ Age ]':
         return Age_plot
-    elif input_value == '[ Year ]':
+    elif feature_name == '[ Year ]':
         return Year_plot
-    elif input_value == '[ Wage ]':
+    elif feature_name == '[ Wage ]':
         return dcc.Graph(figure = px.violin(data, x='Attrition', y='MonthlyRate', color='Gender', box=True, points='all',))
-    elif input_value == '[ Overtime ]':
+    elif feature_name == '[ Overtime ]':
         return turnover_rate_plot('OverTime')
-    elif input_value == '[ Gender ]':
+    elif feature_name == '[ Gender ]':
         return turnover_rate_plot('Gender')
-    elif input_value == '[ Business Travel ]':
+    elif feature_name == '[ Business Travel ]':
         return turnover_rate_plot('BusinessTravel')
-    elif input_value == '[ Job Role ]':
+    elif feature_name == '[ Job Role ]':
         return turnover_rate_plot('JobRole')
     else:
         return 'Please select a feature to explore'
@@ -375,9 +375,10 @@ colors = cl.scales['9']['seq']['YlOrRd']
 All_Employee =  dcc.Graph(
             figure=go.Figure(
                 data=[go.Table(
+                        columnwidth = [1,2,2,1,1,1,1,1],
                         header = dict(
                             values = ['<b>Employee ID</b>', '<b>Department</b>', '<b>Job Role</b>','<b>Job Level<b>',
-                                        '<b>Years at Company<b>','<b>Monthly Income<b>','<b>Exit Risk<b>','<b>Replacement Cost<b>'],
+                                        '<b>Years at Company<b>','<b>Monthly Income<b>','<b>Exit Risk<b>','<b>Replacement Cost ($)<b>'],
                             line = dict(color = 'silver'),
                             fill = dict(color = 'lightskyblue'),
                             align = 'center',
@@ -397,9 +398,11 @@ All_Employee =  dcc.Graph(
                     )
                 ],
                 layout = go.Layout(
+                    #automargin=True,
                     autosize=False,
                     width=1200,
-                    height=500
+                    height=300,
+                    margin=go.layout.Margin(t=30,b=30)
                 )
             )
         )
@@ -407,9 +410,10 @@ All_Employee =  dcc.Graph(
 People_Risk_table =  dcc.Graph(
             figure=go.Figure(
                 data=[go.Table(
+                        columnwidth = [1,2,2,1,1,1,1,1],
                         header = dict(
                             values = ['<b>Employee ID</b>', '<b>Department</b>', '<b>Job Role</b>','<b>Job Level<b>',
-                                        '<b>Years at Company<b>','<b>Monthly Income<b>','<b>Exit Risk<b>','<b>Replacement Cost<b>'],
+                                        '<b>Years at Company<b>','<b>Monthly Income<b>','<b>Exit Risk<b>','<b>Replacement Cost ($)<b>'],
                             line = dict(color = 'silver'),
                             fill = dict(color = 'lightskyblue'),
                             align = 'center',
@@ -431,7 +435,8 @@ People_Risk_table =  dcc.Graph(
                 layout = go.Layout(
                     autosize=False,
                     width=1200,
-                    height=500
+                    height=300,
+                    margin=go.layout.Margin(t=30,b=30)
                 )
             )
         )
@@ -439,9 +444,10 @@ People_Risk_table =  dcc.Graph(
 People_Cost_table =  dcc.Graph(
             figure=go.Figure(
                 data=[go.Table(
+                        columnwidth = [1,2,2,1,1,1,1,1],
                         header = dict(
                             values = ['<b>Employee ID</b>', '<b>Department</b>', '<b>Job Role</b>','<b>Job Level<b>',
-                                        '<b>Years at Company<b>','<b>Monthly Income<b>','<b>Exit Risk<b>','<b>Replacement Cost<b>'],
+                                        '<b>Years at Company<b>','<b>Monthly Income<b>','<b>Exit Risk<b>','<b>Replacement Cost ($)<b>'],
                             line = dict(color = 'silver'),
                             fill = dict(color = 'lightskyblue'),
                             align = 'center',
@@ -463,7 +469,8 @@ People_Cost_table =  dcc.Graph(
                 layout = go.Layout(
                     autosize=False,
                     width=1200,
-                    height=500
+                    height=300,
+                    margin=go.layout.Margin(t=30,b=30)
                 )
             )
         )
@@ -519,6 +526,7 @@ def Exit_Analysis(Employee_ID):
         title=dict(text='Top Exit Risk Attributes',font=dict(family='Arial', size=28, color='black')), 
         yaxis=dict(title=None,ticks='outside',showline=True,showgrid=False,mirror=True,linecolor='black'), 
         xaxis=dict(title=None,showticklabels=False,showline=True,mirror=True,linecolor='black'),
+        autosize=False, width=1200, height=400, margin=go.layout.Margin(l=400,r=200,t=50) 
         ))
 
     return fig
@@ -526,27 +534,32 @@ def Exit_Analysis(Employee_ID):
 
 Tab3_Design = html.Div(children=[
 
-            html.Div(
-                [
-                dcc.RadioItems(
+    html.Div([
+        dcc.RadioItems(
                     id='All_Employee',
                     options=[{'label': i, 'value': i} for i in ['[ All Employee ]','[ Exit Risk ]', '[ Replacement Cost ]']],
                     value='[ All Employee ]',
                     labelStyle={'display': 'inline-block'}
-                )
-                ],
-                style={'width': '100%', 'display': 'inline-block'},
-            ),
+        )],
+        style={'width': '100%', 'display': 'inline-block'},),
             
-            html.Div(id='Employee_Plot'),
+    html.Div(id='Employee_Plot'),
+            
+    html.Label('Input Employee ID'),
 
-            html.Label('Input Employee ID'),
-            dcc.Input(id='Employee_ID', value=0, type='number'),
-            html.Button('Submit', id='button'),
-            #add_image,            
-            html.Div(id='Exit_Analysis'), 
+    html.Div([
+        dcc.Dropdown(id='Employee_ID', placeholder='Enter...',
+        options=[{'label': i, 'value': i} for i in df.index]),
+        ], style={'width': '20%', 'display': 'inline-block', 'verticalAlign': "middle"}),
+    html.Div([
+        html.Button(id='button', children='Submit', type='submit'),
+        ], style={'display': 'inline-block', 'verticalAlign': "middle"}),
+
+
+    
+    html.Div(id='Exit_Analysis'), 
 ])
-   
+
 
 @app.callback(
     Output(component_id='Employee_Plot', component_property='children'),
@@ -559,42 +572,20 @@ def update_output_div(input_value):
         return People_Cost_table
     else:
         return All_Employee
-   
 
-@app.callback(
-    Output(component_id='Employee_Profile', component_property='children'),
-    [Input('button', 'n_clicks')],
-    [State(component_id='Employee_ID', component_property='value')]
-)
-def update_output_(n_clicks, Employee_ID):
-    html.H1(children='Title Here')
-    Employee = data.iloc[Employee_ID,[0,11,31,4,15,14,18]]
-    trace=[go.Table(
-        header=dict(line = dict(color='white')),
-        cells = dict(
-            values = [Employee.index, Employee.values],
-            line = dict(color = ['white']),
-            fill = dict(color = ['whitesmoke','lightgoldenrodyellow']),
-            align = 'left',
-            font = dict(color = 'black', size = 12),
-            height = 30
-            )
-        )]
-    layout = go.Layout(
-            autosize=False,
-            width=500,
-            height=600
-        )
-    return dcc.Graph(figure=go.Figure(trace, layout))
 
 @app.callback(
     Output(component_id='Exit_Analysis', component_property='children'),
-    [Input('button', 'n_clicks')],
-    [State(component_id='Employee_ID', component_property='value')]
+    [Input(component_id='button', component_property='n_clicks')],
+    [State(component_id='Employee_ID', component_property='value')] 
 )
 def update_output_div(n_clicks, Employee_ID):
-    fig = Exit_Analysis(Employee_ID)
-    return dcc.Graph(figure=fig)
+    
+    if Employee_ID in df.index:
+        fig = Exit_Analysis(Employee_ID)
+        return dcc.Graph(figure=fig)
+    else:
+        return
 
 
 if __name__ == '__main__':
