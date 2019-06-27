@@ -519,18 +519,18 @@ def Exit_Analysis(Employee_ID):
 
     fig = px.bar(tmp_lime[::-1], y='feature', x='weight', color = 'color', orientation = 'h',
         #color_continuous_scale = ['green','lightyellow','red'], opacity =0.8,
-        color_continuous_scale =px.colors.diverging.Tealrose,opacity =0.7,
+        color_discrete_sequence=px.colors.diverging.Tealrose,opacity =0.7,
         labels={'color':'weight'},
         #text='weight%',
         template='plotly_white+presentation+xgridoff',
         )
 
     fig = fig.update(layout=dict(
-        title=dict(text='Top Exit Risk Attributes                            No       Yes       ',
+        title=dict(text='Top Exit Risk Attributes                          \'No\'       \'Yes\'       ',
                     font=dict(family='Arial', size=28, color='black')), 
         yaxis=dict(title=None,ticks='outside',showline=True,showgrid=False,mirror=True,linecolor='black'), 
         xaxis=dict(title=None,showticklabels=False,showline=True,mirror=True,linecolor='black'),
-        autosize=False, width=1000, height=400, margin=go.layout.Margin(l=400,r=8,t=50) 
+        autosize=False, width=1200, height=400, margin=go.layout.Margin(l=350,r=100,t=50) 
         ))
 
     return fig
