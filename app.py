@@ -518,9 +518,9 @@ def Exit_Analysis(Employee_ID):
     tmp_lime['weight%'] = (round(tmp_lime['weight']*10000,2)).astype(str)+'%'
 
     fig = px.bar(tmp_lime[::-1], y='feature', x='weight', color = 'color', orientation = 'h',
-        #color_continuous_scale = ['green','lightyellow','red'], opacity =0.8,
-        color_discrete_sequence=px.colors.diverging.Tealrose,opacity =0.7,
-        labels={'color':'weight'},
+        color_discrete_sequence = ['green','red'], opacity =0.8,
+        #color_discrete_sequence=px.colors.diverging.Tealrose,opacity =0.7,
+        labels={'color':'Attrition'},
         #text='weight%',
         template='plotly_white+presentation+xgridoff',
         )
