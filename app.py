@@ -29,6 +29,8 @@ server = app.server
 
 app.config['suppress_callback_exceptions']=True
 
+app.title = 'Smart HR'
+
 data = pd.read_csv('WA_Fn-UseC_-HR-Employee-Attrition.csv')
 Feature_Ranking = pd.read_csv('Feature_Ranking.csv').sort_values(by='Feature_Importance',ascending=True)
 
@@ -215,17 +217,17 @@ Year_plot =  dcc.Graph(
             )
     )
 
+color_RdYlGn = cl.scales['11']['div']['RdYlGn']
 Feature_Ranking = dcc.Graph(figure = go.Figure(
     data=[go.Bar(
             x=Feature_Ranking['Feature_Importance'],
             y=Feature_Ranking['Feature'],
             orientation='h',
             #marker=dict(color=cl.scales['9']['seq']['Reds'],reversescale=True),
-            marker=dict(color=cl.scales['11']['div']['RdYlGn']),
+            marker=dict(color=np.array(color_RdYlGn)[np.arange(10,0,-1)]),
             )
         ],
     layout = go.Layout(
-        title='Turnover Rate is 17% in year 2018.',
         yaxis=go.layout.YAxis(
             #title='Feature',
             tickmode='array',
@@ -370,7 +372,7 @@ All_Employee   = People_Ranking.sort_values(by=['MonthlyIncome'], ascending=Fals
 People_Risk    = People_Ranking.sort_values(by=['Risk'], ascending=False)
 People_Cost    = People_Ranking.sort_values(by=['Cost'], ascending=False)
 
-colors = cl.scales['9']['seq']['YlOrRd']
+colors_YlOrRd = cl.scales['9']['seq']['YlOrRd']
 
 All_Employee =  dcc.Graph(
             figure=go.Figure(
@@ -425,7 +427,7 @@ People_Risk_table =  dcc.Graph(
                                     People_Risk.iloc[:,3],People_Risk.iloc[:,4],People_Risk.iloc[:,5],People_Risk.iloc[:,6]],
                             line = dict(color = ['silver']),
                             fill = dict(color = ['whitesmoke','lightyellow','lightyellow','lightyellow','lightyellow',
-                                                'lightyellow',np.array(colors)[np.arange(5,0,-1)],'lightyellow']),
+                                                'lightyellow',np.array(colors_YlOrRd)[np.arange(5,0,-1)],'lightyellow']),
                             align = 'center',
                             font = dict(color = 'black', size = 12),
                             height = 30
@@ -459,7 +461,7 @@ People_Cost_table =  dcc.Graph(
                                     People_Cost.iloc[:,3], People_Cost.iloc[:,4], People_Cost.iloc[:,5], People_Cost.iloc[:,6]],
                             line = dict(color = ['silver']),
                             fill = dict(color = ['whitesmoke','lightyellow','lightyellow','lightyellow','lightyellow',
-                                                'lightyellow','lightyellow',np.array(colors)[np.arange(5,0,-1)]]),
+                                                'lightyellow','lightyellow',np.array(colors_YlOrRd)[np.arange(5,0,-1)]]),
                             align = 'center',
                             font = dict(color = 'black', size = 12),
                             height = 30
@@ -486,25 +488,25 @@ add_image = html.Div([
     ], className="row gs-header")
 
 
+df = data.copy()
+    
+all_col = list(df)
+remove = ['EmployeeCount','EmployeeNumber','Over18','StandardHours']
+target = ['Attrition']
+feature = list(set(all_col)-set(remove)-set(target))
+
+for col in all_col:
+    df[col] = LabelEncoder().fit(df[col]).transform(df[col])
+
+X = df[feature]
+y = df['Attrition'].tolist()
+X_train, X_test, y_train, y_test = train_test_split(X,y,test_size=.75, random_state=42)
+
+ada = AdaBoostClassifier(DecisionTreeClassifier(max_depth=1),n_estimators=500,learning_rate=1,algorithm='SAMME')
+ada_fit = ada.fit(X_train, y_train)
+
 def Exit_Analysis(Employee_ID):
-    
-    df = data.copy()
-    
-    all_col = list(df)
-    remove = ['EmployeeCount','EmployeeNumber','Over18','StandardHours']
-    target = ['Attrition']
-    feature = list(set(all_col)-set(remove)-set(target))
-
-    for col in all_col:
-        df[col] = LabelEncoder().fit(df[col]).transform(df[col])
-
-    X = df[feature]
-    y = df['Attrition'].tolist()
-    X_train, X_test, y_train, y_test = train_test_split(X,y,test_size=.75, random_state=42)
-
-    ada = AdaBoostClassifier(DecisionTreeClassifier(max_depth=1),n_estimators=500,learning_rate=1,algorithm='SAMME')
-    ada_fit = ada.fit(X_train, y_train)
-    
+       
     explainer = lime.lime_tabular.LimeTabularExplainer(X_train, feature_names=feature,
                                                     class_names=['No','Yes'], discretize_continuous=False)
 
@@ -519,14 +521,16 @@ def Exit_Analysis(Employee_ID):
         #color_continuous_scale = ['green','lightyellow','red'], opacity =0.8,
         color_continuous_scale =px.colors.diverging.Tealrose,opacity =0.7,
         labels={'color':'weight'},
-        text='weight%', template='plotly_white+presentation+xgridoff',
+        #text='weight%',
+        template='plotly_white+presentation+xgridoff',
         )
 
     fig = fig.update(layout=dict(
-        title=dict(text='Top Exit Risk Attributes',font=dict(family='Arial', size=28, color='black')), 
+        title=dict(text='Top Exit Risk Attributes                            No       Yes       ',
+                    font=dict(family='Arial', size=28, color='black')), 
         yaxis=dict(title=None,ticks='outside',showline=True,showgrid=False,mirror=True,linecolor='black'), 
         xaxis=dict(title=None,showticklabels=False,showline=True,mirror=True,linecolor='black'),
-        autosize=False, width=1200, height=400, margin=go.layout.Margin(l=400,r=200,t=50) 
+        autosize=False, width=1000, height=400, margin=go.layout.Margin(l=400,r=8,t=50) 
         ))
 
     return fig
