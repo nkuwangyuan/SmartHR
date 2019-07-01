@@ -266,7 +266,7 @@ Tab1_Design = html.Div(children=[
             html.Div([
                 html.Label('Load HR Data Here'),
                 dcc.Dropdown(id='load_data',
-                    options=[{'label': 'Tech_Company_2018', 'value': 'Tech_Company_2018'}],
+                    options=[{'label': 'Tech_Company_A', 'value': 'Tech_Company_A'}],
                     )
                 ], className="four columns"
             ),
@@ -294,8 +294,8 @@ Tab1_Design = html.Div(children=[
     [Input(component_id='load_data', component_property='value')]
 )
 def update_output_div(load_data):
-    if load_data == 'Tech_Company_2018':
-        return html.Label('Turnover Rate is 17% in year 2018.')
+    if load_data == 'Tech_Company_A':
+        return html.Label('Turnover Rate is 17%.')
     else:
         return
 
@@ -304,7 +304,7 @@ def update_output_div(load_data):
     [Input(component_id='load_data', component_property='value')]
 )
 def update_output_div(load_data):
-    if load_data == 'Tech_Company_2018':
+    if load_data == 'Tech_Company_A':
         return Feature_Ranking
     else:
         return 
