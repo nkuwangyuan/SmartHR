@@ -312,7 +312,6 @@ def update_output_div(load_data):
 
 Tab2_Design = html.Div(
     children=[
-        Header(),
         html.Div(
             [
             dcc.RadioItems(
