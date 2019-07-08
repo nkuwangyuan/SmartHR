@@ -31,8 +31,10 @@ app.config['suppress_callback_exceptions']=True
 
 app.title = 'Smart HR'
 
-data = pd.read_csv('WA_Fn-UseC_-HR-Employee-Attrition.csv')
+data = pd.read_csv('Employee_Attrition.csv')
 Feature_Ranking = pd.read_csv('Feature_Ranking.csv').sort_values(by='Feature_Importance',ascending=True)
+Exit_Risk = pd.read_csv('Exit_Risk.csv')
+
 
 
 all_col = list(data)
@@ -55,11 +57,32 @@ specification of Markdown.
 Check out their [60 Second Markdown Tutorial](http://commonmark.org/help/)
 if this is your first introduction to Markdown!
 '''
+    # '#1f77b4',  # muted blue
+    # '#ff7f0e',  # safety orange
+    # '#2ca02c',  # cooked asparagus green
+    # '#d62728',  # brick red
+    # '#9467bd',  # muted purple
+    # '#8c564b',  # chestnut brown
+    # '#e377c2',  # raspberry yogurt pink
+    # '#7f7f7f',  # middle gray
+    # '#bcbd22',  # curry yellow-green
+    # '#17becf'   # blue-teal
+
+def add_image(image_name):
+    image_filename = image_name
+    encoded_image = base64.b64encode(open(image_filename, 'rb').read())
+    image = html.Img(src='data:image/png;base64,{}'.format(encoded_image.decode()),
+                        style={'width': '100%'})
+    return image
 
 
 app.layout = html.Div([
 
-    html.H1(children='Smart HR'),
+    html.Div([add_image('SmartHR_3.png')], className="row"),
+    
+    
+    
+
 
     dcc.Tabs(id="tabs", value='tab-1', children=[
         dcc.Tab(label='Company Strategy', value='tab-1'),
@@ -87,7 +110,7 @@ def Header():
     return html.Div([
         get_header(),
         html.Br([]),
-        get_menu()
+        add_image('SmartHR_3.png')
     ])
 
 def get_header():
@@ -217,17 +240,18 @@ Year_plot =  dcc.Graph(
             )
     )
 
-color_RdYlGn = cl.scales['11']['div']['RdYlGn']
+color_PuBu = cl.scales['9']['seq']['PuBu']
 Feature_Ranking = dcc.Graph(figure = go.Figure(
     data=[go.Bar(
             x=Feature_Ranking['Feature_Importance'],
             y=Feature_Ranking['Feature'],
             orientation='h',
             #marker=dict(color=cl.scales['9']['seq']['Reds'],reversescale=True),
-            marker=dict(color=np.array(color_RdYlGn)[np.arange(10,0,-1)]),
+            marker=dict(color=np.array(color_PuBu)[[4,4,5,5,6,6,7,7,8,8]]),
             )
         ],
     layout = go.Layout(
+        title='Turnover Rate is 17% this year.',
         yaxis=go.layout.YAxis(
             #title='Feature',
             tickmode='array',
@@ -252,13 +276,14 @@ Feature_Ranking = dcc.Graph(figure = go.Figure(
     )
 )
 
+
 Tab1_Design = html.Div(children=[
         
         html.Div(
             id='top-bar',
             className='row',
-            style={'backgroundColor': '#fa4f56',
-                   'height': '5px',
+            style={'backgroundColor': '#17becf',
+                   'height': '3px',
                    }
         ),
         
@@ -266,13 +291,13 @@ Tab1_Design = html.Div(children=[
             html.Div([
                 html.Label('Load HR Data Here'),
                 dcc.Dropdown(id='load_data',
-                    options=[{'label': 'Tech_Company_A', 'value': 'Tech_Company_A'}],
+                    options=[{'label': 'Tech_Company_X', 'value': 'Tech_Company_X'}],
                     )
                 ], className="four columns"
             ),
             
-            html.H4(' --- Features attributes to Attrition --- ',
-                className='eight columns')
+            html.H5(' ---  Top Factors Attribute to Employee Attrition  --- ',
+                style={'horizontalAlign': "middle"}, className='eight columns')
 
             ], className="row"
         ),
@@ -294,7 +319,7 @@ Tab1_Design = html.Div(children=[
     [Input(component_id='load_data', component_property='value')]
 )
 def update_output_div(load_data):
-    if load_data == 'Tech_Company_A':
+    if load_data == 'Tech_Company_X':
         return html.Label('Turnover Rate is 17%.')
     else:
         return
@@ -304,7 +329,7 @@ def update_output_div(load_data):
     [Input(component_id='load_data', component_property='value')]
 )
 def update_output_div(load_data):
-    if load_data == 'Tech_Company_A':
+    if load_data == 'Tech_Company_X':
         return Feature_Ranking
     else:
         return 
@@ -312,6 +337,15 @@ def update_output_div(load_data):
 
 Tab2_Design = html.Div(
     children=[
+
+        html.Div(
+            id='top-bar',
+            className='row',
+            style={'backgroundColor': '#17becf',
+                   'height': '3px',
+                   }
+        ),
+
         html.Div(
             [
             dcc.RadioItems(
@@ -362,33 +396,24 @@ def turnover_rate_plot(feature):
     return dcc.Graph(figure=fig)
 
 
-df = data.copy()
-People_Ranking = df.loc[[44,1255,131,610,295],['Department','JobRole','JobLevel','YearsAtCompany','MonthlyIncome']].head(5)
-People_Ranking['Risk'] = ['84.6%','82.3%','73.2%','66.1%','62.0%']
-People_Ranking['Cost'] = df['MonthlyIncome']*4
+All_Employee   = Exit_Risk.sort_values(by=['Employee ID'], ascending=True)
 
-All_Employee   = People_Ranking.sort_values(by=['MonthlyIncome'], ascending=False)
-People_Risk    = People_Ranking.sort_values(by=['Risk'], ascending=False)
-People_Cost    = People_Ranking.sort_values(by=['Cost'], ascending=False)
-
-colors_YlOrRd = cl.scales['9']['seq']['YlOrRd']
-
-All_Employee =  dcc.Graph(
+All_Employee_table =  dcc.Graph(
             figure=go.Figure(
                 data=[go.Table(
-                        columnwidth = [1,2,2,1,1,1,1,1],
+                        columnwidth = [2,3,3,2,2,2,2,2],
                         header = dict(
                             values = ['<b>Employee ID</b>', '<b>Department</b>', '<b>Job Role</b>','<b>Job Level<b>',
-                                        '<b>Years at Company<b>','<b>Monthly Income<b>','<b>Exit Risk<b>','<b>Replacement Cost ($)<b>'],
+                                        '<b>Working Years<b>','<b>Monthly Income<b>','<b>Exit Risk<b>','<b>Replacement Cost<b>'],
                             line = dict(color = 'silver'),
                             fill = dict(color = 'lightskyblue'),
                             align = 'center',
-                            font = dict(color = 'white', size = 15),
+                            font = dict(color = 'white', size = 13),
                             height = 40
                         ),
                         cells = dict(
-                            values = [All_Employee.index, All_Employee.iloc[:,0], All_Employee.iloc[:,1], All_Employee.iloc[:,2],
-                                    All_Employee.iloc[:,3], All_Employee.iloc[:,4], All_Employee.iloc[:,5], All_Employee.iloc[:,6]],
+                            values = [All_Employee.iloc[:,0],All_Employee.iloc[:,1],All_Employee.iloc[:,2],All_Employee.iloc[:,3],
+                                    All_Employee.iloc[:,4],All_Employee.iloc[:,5],All_Employee.iloc[:,6],All_Employee.iloc[:,7]],
                             line = dict(color = ['silver']),
                             fill = dict(color = ['whitesmoke','lightyellow','lightyellow','lightyellow',
                                                 'lightyellow','lightyellow','lightyellow','lightyellow']),
@@ -401,32 +426,41 @@ All_Employee =  dcc.Graph(
                 layout = go.Layout(
                     #automargin=True,
                     autosize=False,
-                    width=1200,
+                    width=1300,
                     height=300,
-                    margin=go.layout.Margin(t=30,b=30)
+                    margin=go.layout.Margin(t=30,b=30,l=60)
                 )
             )
         )
 
-People_Risk_table =  dcc.Graph(
+
+People_Risk = Exit_Risk.sort_values(by=['Risk'], ascending=False)
+
+colors_RdYlGn = cl.scales['5']['div']['RdYlGn']
+colors_order  =  [0]*len(People_Risk[People_Risk['Exit Risk']=='HIGH'])\
+                +[1]*len(People_Risk[People_Risk['Exit Risk']=='MEDIUM'])\
+                +[2]*len(People_Risk[People_Risk['Exit Risk']=='LOW'])\
+                +[3]*len(People_Risk[People_Risk['Exit Risk']=='NO'])
+
+People_Risk_table = dcc.Graph(
             figure=go.Figure(
                 data=[go.Table(
-                        columnwidth = [1,2,2,1,1,1,1,1],
+                        columnwidth = [2,3,3,2,2,2,2,2],
                         header = dict(
                             values = ['<b>Employee ID</b>', '<b>Department</b>', '<b>Job Role</b>','<b>Job Level<b>',
-                                        '<b>Years at Company<b>','<b>Monthly Income<b>','<b>Exit Risk<b>','<b>Replacement Cost ($)<b>'],
+                                    '<b>Years at Company<b>','<b>Monthly Income<b>','<b>Exit Risk<b>','<b>Replacement Cost<b>'],
                             line = dict(color = 'silver'),
                             fill = dict(color = 'lightskyblue'),
                             align = 'center',
-                            font = dict(color = 'white', size = 15),
+                            font = dict(color = 'white', size = 13),
                             height = 40
                         ),
                         cells = dict(
-                            values = [People_Risk.index, People_Risk.iloc[:,0],People_Risk.iloc[:,1],People_Risk.iloc[:,2],
-                                    People_Risk.iloc[:,3],People_Risk.iloc[:,4],People_Risk.iloc[:,5],People_Risk.iloc[:,6]],
+                            values = [People_Risk.iloc[:,0],People_Risk.iloc[:,1],People_Risk.iloc[:,2],People_Risk.iloc[:,3],
+                                    People_Risk.iloc[:,4],People_Risk.iloc[:,5],People_Risk.iloc[:,6],People_Risk.iloc[:,7]],
                             line = dict(color = ['silver']),
                             fill = dict(color = ['whitesmoke','lightyellow','lightyellow','lightyellow','lightyellow',
-                                                'lightyellow',np.array(colors_YlOrRd)[np.arange(5,0,-1)],'lightyellow']),
+                                                'lightyellow',np.array(colors_RdYlGn)[colors_order],'lightyellow']),
                             align = 'center',
                             font = dict(color = 'black', size = 12),
                             height = 30
@@ -435,32 +469,38 @@ People_Risk_table =  dcc.Graph(
                 ],
                 layout = go.Layout(
                     autosize=False,
-                    width=1200,
+                    width=1300,
                     height=300,
-                    margin=go.layout.Margin(t=30,b=30)
+                    margin=go.layout.Margin(t=30,b=30,l=60)
                 )
             )
         )
+
+
+People_Cost = Exit_Risk[Exit_Risk['Exit Risk']=='HIGH'].sort_values(by=['Cost'], ascending=False)
+
+colors_Reds = cl.scales['9']['seq']['Reds']
+colors_order = [n for n in range(7) for i in range(3)][::-1]
 
 People_Cost_table =  dcc.Graph(
             figure=go.Figure(
                 data=[go.Table(
-                        columnwidth = [1,2,2,1,1,1,1,1],
+                        columnwidth = [2,3,3,2,2,2,2,2],
                         header = dict(
                             values = ['<b>Employee ID</b>', '<b>Department</b>', '<b>Job Role</b>','<b>Job Level<b>',
-                                        '<b>Years at Company<b>','<b>Monthly Income<b>','<b>Exit Risk<b>','<b>Replacement Cost ($)<b>'],
+                                        '<b>Years at Company<b>','<b>Monthly Income<b>','<b>Exit Risk<b>','<b>Replacement Cost<b>'],
                             line = dict(color = 'silver'),
                             fill = dict(color = 'lightskyblue'),
                             align = 'center',
-                            font = dict(color = 'white', size = 15),
+                            font = dict(color = 'white', size = 13),
                             height = 40
                         ),
                         cells = dict(
-                            values = [People_Cost.index, People_Cost.iloc[:,0], People_Cost.iloc[:,1], People_Cost.iloc[:,2],
-                                    People_Cost.iloc[:,3], People_Cost.iloc[:,4], People_Cost.iloc[:,5], People_Cost.iloc[:,6]],
+                            values = [People_Cost.iloc[:,0], People_Cost.iloc[:,1], People_Cost.iloc[:,2], People_Cost.iloc[:,3],
+                                    People_Cost.iloc[:,4], People_Cost.iloc[:,5], People_Cost.iloc[:,6], People_Cost.iloc[:,7]],
                             line = dict(color = ['silver']),
                             fill = dict(color = ['whitesmoke','lightyellow','lightyellow','lightyellow','lightyellow',
-                                                'lightyellow','lightyellow',np.array(colors_YlOrRd)[np.arange(5,0,-1)]]),
+                                                'lightyellow','lightyellow',np.array(colors_Reds)[colors_order]]),
                             align = 'center',
                             font = dict(color = 'black', size = 12),
                             height = 30
@@ -469,22 +509,12 @@ People_Cost_table =  dcc.Graph(
                 ],
                 layout = go.Layout(
                     autosize=False,
-                    width=1200,
+                    width=1300,
                     height=300,
-                    margin=go.layout.Margin(t=30,b=30)
+                    margin=go.layout.Margin(t=30,b=30,l=60)
                 )
             )
         )
-
-image_filename = 'Gru.png' # replace with your own image
-encoded_image = base64.b64encode(open(image_filename, 'rb').read())
-add_image = html.Div([
-
-        html.Div([
-            html.Img(src='data:image/png;base64,{}'.format(encoded_image.decode()), height='200px')
-            ], className="ten columns padded"
-        )
-    ], className="row gs-header")
 
 
 df = data.copy()
@@ -493,50 +523,65 @@ all_col = list(df)
 remove = ['EmployeeCount','EmployeeNumber','Over18','StandardHours']
 target = ['Attrition']
 feature = list(set(all_col)-set(remove)-set(target))
+feature_update = feature.copy()
+feature_update.remove('MonthlyIncome')
+feature_update.remove('DailyRate')
+feature_update.remove('HourlyRate')
+
 
 for col in all_col:
     df[col] = LabelEncoder().fit(df[col]).transform(df[col])
 
-X = df[feature]
+X = df[feature_update]
 y = df['Attrition'].tolist()
 X_train, X_test, y_train, y_test = train_test_split(X,y,test_size=.75, random_state=42)
 
 ada = AdaBoostClassifier(DecisionTreeClassifier(max_depth=1),n_estimators=500,learning_rate=1,algorithm='SAMME')
 ada_fit = ada.fit(X_train, y_train)
 
-def Exit_Analysis(Employee_ID):
-       
-    explainer = lime.lime_tabular.LimeTabularExplainer(X_train, feature_names=feature,
+explainer = lime.lime_tabular.LimeTabularExplainer(X_train, feature_names=feature_update,
                                                     class_names=['No','Yes'], discretize_continuous=False)
+predict_fn_ada = lambda x: ada.predict_proba(x).astype(float)
 
-    predict_fn_ada = lambda x: ada.predict_proba(x).astype(float)
+def Exit_Analysis(Employee_ID):
+
     exp = explainer.explain_instance(X.iloc[Employee_ID], predict_fn_ada, num_features=5)
 
     tmp_lime = pd.DataFrame(exp.as_list(),columns=['feature', 'weight'])
-    tmp_lime['color']=(tmp_lime['weight']>0).astype('int')
     tmp_lime['weight%'] = (round(tmp_lime['weight']*10000,2)).astype(str)+'%'
+    tmp_lime['Exit']=(tmp_lime['weight']>0).astype('str')
+    tmp_lime = tmp_lime.replace(regex={'True': 'Yes', 'False': 'No'})
 
-    fig = px.bar(tmp_lime[::-1], y='feature', x='weight', color = 'color', orientation = 'h',
-        color_discrete_sequence = ['green','red'], opacity =0.8,
-        #color_discrete_sequence=px.colors.diverging.Tealrose,opacity =0.7,
-        labels={'color':'Attrition'},
-        #text='weight%',
+
+    fig = px.bar(tmp_lime[::-1], y='feature', x='weight', color = 'Exit', orientation = 'h',
+        color_discrete_map = {'No':'green', 'Yes':'red'}, opacity =0.8,
+        category_orders={'Exit':['No','Yes']},
+        text='weight%',
         template='plotly_white+presentation+xgridoff',
         )
 
     fig = fig.update(layout=dict(
-        title=dict(text='Top Exit Risk Attributes                          \'No\'       \'Yes\'       ',
-                    font=dict(family='Arial', size=28, color='black')), 
+        title=dict(text='Top Exit Risk Attributes',
+                    font=dict(family='Arial', size=28, color='black')),
+        legend=dict(orientation='h', x=0.2, y=1.15),
         yaxis=dict(title=None,ticks='outside',showline=True,showgrid=False,mirror=True,linecolor='black'), 
         xaxis=dict(title=None,showticklabels=False,showline=True,mirror=True,linecolor='black'),
-        autosize=False, width=1200, height=400, margin=go.layout.Margin(l=350,r=100,t=50) 
+        autosize=False, width=1300, height=500, margin=go.layout.Margin(l=350,r=200,t=100) 
         ))
 
     return fig
 
 
+
 Tab3_Design = html.Div(children=[
 
+    html.Div(id='top-bar',
+        className='row',
+        style={'backgroundColor': '#17becf','height': '3px',}
+        ),
+    
+    html.H3('Which Employees are at the Highest Exit Risk?'),
+    
     html.Div([
         dcc.RadioItems(
                     id='All_Employee',
@@ -547,7 +592,9 @@ Tab3_Design = html.Div(children=[
         style={'width': '100%', 'display': 'inline-block'},),
             
     html.Div(id='Employee_Plot'),
-            
+
+    html.H3('Employee Exit Analysis'),
+
     html.Label('Input Employee ID'),
 
     html.Div([
@@ -574,7 +621,7 @@ def update_output_div(input_value):
     elif input_value == '[ Replacement Cost ]':
         return People_Cost_table
     else:
-        return All_Employee
+        return All_Employee_table
 
 
 @app.callback(
