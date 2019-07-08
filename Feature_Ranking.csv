@@ -1,11 +1,11 @@
 Feature,Feature_Importance
-OverTime,0.11949921855733361
-YearsAtCompany,0.1053253076290221
-Age,0.0685693178874514
-YearsSinceLastPromotion,0.06306699971573528
-MonthlyRate,0.052506294439028066
-NumCompaniesWorked,0.04592861515557244
-PercentSalaryHike,0.025908602783814332
-DistanceFromHome,0.020542275393534763
-YearsInCurrentRole,0.013186836053600428
-Gender,0.01110653468976182
+Working Over Time,0.119499219
+Working Years At Company,0.105325308
+Age,0.068569318
+Years Since Last Promotion,0.063067
+Monthly Income,0.052506294
+Number Companies Worked,0.045928615
+Total Working Years,0.038121778
+Percent Salary Hike,0.025908603
+Distance From Home,0.020542275
+Years In Current Role,0.013186836

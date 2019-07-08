@@ -1,0 +1,1471 @@
+Employee ID,Department,JobRole,JobLevel,Working Years,MonthlyIncome,Exit Risk,Replacement Cost,Risk,Cost
+237,Sales,Manager,5,33,"$19,068 ",HIGH,"$71,272 ",52.50%,71272
+463,Research & Development,Laboratory Technician,1,1,"$2,340 ",HIGH,"$8,360 ",51.50%,8360
+270,Research & Development,Manager,5,36,"$19,045 ",HIGH,"$71,180 ",51.50%,71180
+911,Sales,Sales Representative,1,1,"$1,118 ",HIGH,"$3,472 ",51.40%,3472
+595,Research & Development,Research Director,5,31,"$19,246 ",HIGH,"$71,984 ",51.20%,71984
+127,Sales,Sales Representative,1,0,"$1,675 ",HIGH,"$5,700 ",51.20%,5700
+656,Research & Development,Laboratory Technician,1,1,"$2,795 ",HIGH,"$10,180 ",51.20%,10180
+688,Sales,Sales Representative,1,1,"$2,121 ",HIGH,"$7,484 ",51.20%,7484
+385,Research & Development,Research Scientist,1,1,"$2,285 ",HIGH,"$8,140 ",51.20%,8140
+1153,Sales,Sales Representative,1,0,"$1,569 ",HIGH,"$5,276 ",51.10%,5276
+323,Research & Development,Research Scientist,1,3,"$3,464 ",HIGH,"$12,856 ",51.00%,12856
+540,Research & Development,Research Scientist,1,7,"$2,216 ",HIGH,"$7,864 ",51.00%,7864
+14,Research & Development,Laboratory Technician,1,4,"$2,028 ",HIGH,"$7,112 ",51.00%,7112
+357,Sales,Sales Representative,1,3,"$2,174 ",HIGH,"$7,696 ",51.00%,7696
+457,Sales,Sales Representative,1,0,"$1,878 ",HIGH,"$6,512 ",51.00%,6512
+731,Research & Development,Research Scientist,1,1,"$2,600 ",HIGH,"$9,400 ",51.00%,9400
+1396,Sales,Sales Executive,3,2,"$10,448 ",HIGH,"$38,792 ",51.00%,38792
+842,Research & Development,Laboratory Technician,1,1,"$2,515 ",HIGH,"$9,060 ",51.00%,9060
+214,Research & Development,Research Scientist,1,5,"$2,657 ",HIGH,"$9,628 ",51.00%,9628
+711,Research & Development,Research Scientist,1,0,"$2,404 ",HIGH,"$8,616 ",51.00%,8616
+1332,Research & Development,Research Scientist,1,1,"$2,439 ",HIGH,"$8,756 ",51.00%,8756
+1060,Research & Development,Laboratory Technician,1,0,"$3,172 ",HIGH,"$11,688 ",51.00%,11688
+2,Research & Development,Laboratory Technician,1,0,"$2,090 ",MEDIUM,"$7,360 ",50.90%,7360
+1339,Research & Development,Research Scientist,1,1,"$2,472 ",MEDIUM,"$8,888 ",50.90%,8888
+1273,Research & Development,Laboratory Technician,1,1,"$2,398 ",MEDIUM,"$8,592 ",50.90%,8592
+26,Research & Development,Research Scientist,1,10,"$3,919 ",MEDIUM,"$14,676 ",50.90%,14676
+102,Research & Development,Laboratory Technician,1,1,"$2,926 ",MEDIUM,"$10,704 ",50.90%,10704
+414,Sales,Sales Representative,1,5,"$3,202 ",MEDIUM,"$11,808 ",50.90%,11808
+1262,Research & Development,Research Scientist,1,1,"$2,437 ",MEDIUM,"$8,748 ",50.90%,8748
+669,Research & Development,Laboratory Technician,1,2,"$2,404 ",MEDIUM,"$8,616 ",50.80%,8616
+514,Research & Development,Research Scientist,1,10,"$3,348 ",MEDIUM,"$12,392 ",50.80%,12392
+336,Research & Development,Laboratory Technician,1,7,"$2,119 ",MEDIUM,"$7,476 ",50.80%,7476
+363,Sales,Sales Representative,1,1,"$2,851 ",MEDIUM,"$10,404 ",50.80%,10404
+50,Research & Development,Laboratory Technician,3,1,"$5,381 ",MEDIUM,"$18,524 ",50.80%,18524
+683,Sales,Sales Representative,1,1,"$2,413 ",MEDIUM,"$8,652 ",50.80%,8652
+952,Sales,Sales Representative,1,3,"$2,302 ",MEDIUM,"$8,208 ",50.80%,8208
+947,Sales,Sales Executive,3,8,"$8,446 ",MEDIUM,"$30,784 ",50.80%,30784
+36,Sales,Sales Representative,1,3,"$2,683 ",MEDIUM,"$9,732 ",50.70%,9732
+762,Research & Development,Research Scientist,1,3,"$2,042 ",MEDIUM,"$7,168 ",50.70%,7168
+1436,Sales,Sales Representative,1,2,"$2,380 ",MEDIUM,"$8,520 ",50.70%,8520
+513,Research & Development,Research Scientist,1,1,"$1,009 ",MEDIUM,"$3,036 ",50.70%,3036
+914,Research & Development,Healthcare Representative,4,33,"$13,577 ",MEDIUM,"$50,308 ",50.70%,50308
+1255,Sales,Sales Executive,3,0,"$8,564 ",MEDIUM,"$31,256 ",50.70%,31256
+1168,Research & Development,Research Scientist,1,6,"$3,760 ",MEDIUM,"$14,040 ",50.70%,14040
+798,Research & Development,Research Scientist,1,2,"$2,313 ",MEDIUM,"$8,252 ",50.70%,8252
+1171,Research & Development,Laboratory Technician,1,4,"$2,166 ",MEDIUM,"$7,664 ",50.70%,7664
+1136,Research & Development,Laboratory Technician,1,1,"$2,408 ",LOW,"$8,632 ",50.60%,8632
+660,Research & Development,Laboratory Technician,1,1,"$2,380 ",LOW,"$8,520 ",50.60%,8520
+658,Research & Development,Research Scientist,1,8,"$2,559 ",LOW,"$9,236 ",50.60%,9236
+0,Sales,Sales Executive,2,6,"$5,993 ",LOW,"$21,972 ",50.60%,21972
+51,Research & Development,Laboratory Technician,1,2,"$3,441 ",LOW,"$12,764 ",50.60%,12764
+1297,Human Resources,Human Resources,1,5,"$2,148 ",LOW,"$7,592 ",50.60%,7592
+126,Research & Development,Healthcare Representative,3,40,"$10,312 ",LOW,"$38,248 ",50.60%,38248
+1326,Sales,Sales Executive,2,2,"$9,907 ",LOW,"$37,628 ",50.60%,37628
+1313,Human Resources,Human Resources,1,2,"$2,335 ",LOW,"$8,340 ",50.60%,8340
+776,Sales,Sales Representative,1,2,"$2,323 ",LOW,"$8,292 ",50.60%,8292
+1032,Research & Development,Laboratory Technician,1,1,"$3,646 ",LOW,"$13,584 ",50.60%,13584
+1110,Research & Development,Laboratory Technician,1,1,"$2,074 ",LOW,"$7,296 ",50.60%,7296
+1435,Research & Development,Research Scientist,1,4,"$2,436 ",LOW,"$8,744 ",50.60%,8744
+559,Research & Development,Research Scientist,1,1,"$3,057 ",LOW,"$11,228 ",50.60%,11228
+589,Research & Development,Laboratory Technician,1,1,"$2,319 ",LOW,"$8,276 ",50.60%,8276
+1036,Research & Development,Laboratory Technician,1,2,"$3,722 ",LOW,"$13,888 ",50.60%,13888
+921,Research & Development,Laboratory Technician,1,4,"$2,154 ",LOW,"$7,616 ",50.60%,7616
+966,Research & Development,Manufacturing Director,3,10,"$10,008 ",LOW,"$37,032 ",50.60%,37032
+286,Research & Development,Laboratory Technician,1,1,"$3,161 ",LOW,"$11,644 ",50.60%,11644
+720,Research & Development,Research Scientist,1,5,"$2,132 ",LOW,"$7,528 ",50.60%,7528
+19,Research & Development,Research Scientist,1,3,"$3,944 ",LOW,"$14,776 ",50.60%,14776
+1395,Sales,Sales Executive,2,10,"$5,617 ",LOW,"$20,468 ",50.50%,20468
+747,Sales,Sales Executive,2,1,"$6,861 ",LOW,"$25,444 ",50.50%,25444
+997,Research & Development,Research Scientist,1,8,"$2,394 ",LOW,"$8,576 ",50.50%,8576
+815,Research & Development,Research Scientist,1,2,"$2,070 ",LOW,"$7,280 ",50.50%,7280
+909,Research & Development,Research Scientist,1,1,"$2,994 ",LOW,"$10,976 ",50.50%,10976
+182,Sales,Sales Representative,1,4,"$3,140 ",LOW,"$11,560 ",50.50%,11560
+1442,Research & Development,Research Scientist,1,2,"$4,787 ",LOW,"$18,148 ",50.50%,18148
+665,Sales,Sales Representative,1,3,"$3,294 ",LOW,"$12,176 ",50.50%,12176
+1167,Sales,Sales Executive,2,2,"$5,440 ",LOW,"$19,760 ",50.50%,19760
+100,Human Resources,Human Resources,1,3,"$2,073 ",LOW,"$7,292 ",50.50%,7292
+547,Research & Development,Research Scientist,1,2,"$2,759 ",LOW,"$10,036 ",50.50%,10036
+645,Sales,Sales Representative,1,3,"$2,800 ",LOW,"$10,200 ",50.50%,10200
+124,Sales,Sales Executive,2,7,"$6,172 ",LOW,"$22,688 ",50.50%,22688
+709,Research & Development,Research Scientist,1,3,"$2,321 ",LOW,"$8,284 ",50.50%,8284
+889,Research & Development,Research Scientist,1,9,"$2,235 ",LOW,"$7,940 ",50.50%,7940
+632,Research & Development,Research Scientist,1,2,"$2,515 ",LOW,"$9,060 ",50.50%,9060
+1086,Research & Development,Research Director,4,32,"$14,411 ",LOW,"$53,644 ",50.50%,53644
+602,Research & Development,Manufacturing Director,2,0,"$6,877 ",LOW,"$25,508 ",50.50%,25508
+234,Research & Development,Laboratory Technician,1,5,"$2,436 ",LOW,"$8,744 ",50.50%,8744
+1201,Research & Development,Laboratory Technician,1,5,"$3,989 ",LOW,"$14,956 ",50.50%,14956
+122,Research & Development,Research Scientist,1,5,"$4,963 ",LOW,"$18,852 ",50.50%,18852
+239,Research & Development,Laboratory Technician,1,3,"$3,730 ",LOW,"$13,920 ",50.50%,13920
+435,Research & Development,Manager,3,7,"$13,610 ",LOW,"$51,440 ",50.50%,51440
+38,Research & Development,Research Scientist,1,1,"$3,419 ",LOW,"$12,676 ",50.50%,12676
+1122,Research & Development,Laboratory Technician,1,10,"$4,723 ",LOW,"$17,892 ",50.50%,17892
+204,Research & Development,Healthcare Representative,2,1,"$6,673 ",LOW,"$24,692 ",50.50%,24692
+989,Research & Development,Research Scientist,1,6,"$2,996 ",LOW,"$10,984 ",50.50%,10984
+1402,Research & Development,Laboratory Technician,1,1,"$1,129 ",LOW,"$3,516 ",50.50%,3516
+791,Sales,Sales Executive,3,8,"$9,582 ",LOW,"$35,328 ",50.50%,35328
+829,Sales,Sales Executive,2,5,"$8,224 ",LOW,"$30,896 ",50.50%,30896
+1413,Research & Development,Laboratory Technician,1,2,"$3,977 ",LOW,"$14,908 ",50.50%,14908
+180,Research & Development,Research Scientist,1,4,"$3,929 ",LOW,"$14,716 ",50.50%,14716
+229,Research & Development,Research Scientist,1,4,"$2,389 ",LOW,"$8,556 ",50.50%,8556
+913,Sales,Manager,5,24,"$18,824 ",LOW,"$70,296 ",50.50%,70296
+763,Sales,Sales Representative,1,1,"$2,220 ",NO,"$7,880 ",50.40%,7880
+686,Research & Development,Laboratory Technician,1,18,"$4,721 ",NO,"$17,884 ",50.40%,17884
+1186,Sales,Sales Executive,2,11,"$4,581 ",NO,"$16,324 ",50.40%,16324
+1062,Research & Development,Manufacturing Director,3,2,"$10,209 ",NO,"$37,836 ",50.40%,37836
+932,Research & Development,Laboratory Technician,1,7,"$3,339 ",NO,"$12,356 ",50.40%,12356
+1406,Research & Development,Manufacturing Director,2,5,"$4,440 ",NO,"$15,760 ",50.40%,15760
+1422,Research & Development,Laboratory Technician,1,2,"$2,660 ",NO,"$9,640 ",50.40%,9640
+1142,Research & Development,Laboratory Technician,2,10,"$5,769 ",NO,"$21,076 ",50.40%,21076
+779,Research & Development,Research Scientist,1,10,"$2,461 ",NO,"$8,844 ",50.40%,8844
+1375,Research & Development,Research Scientist,1,4,"$2,432 ",NO,"$8,728 ",50.40%,8728
+1084,Sales,Sales Executive,3,10,"$7,083 ",NO,"$25,332 ",50.40%,25332
+416,Research & Development,Laboratory Technician,1,1,"$1,702 ",NO,"$5,808 ",50.40%,5808
+1215,Research & Development,Research Scientist,1,5,"$4,930 ",NO,"$18,720 ",50.40%,18720
+801,Sales,Sales Executive,2,0,"$4,728 ",NO,"$16,912 ",50.40%,16912
+1102,Sales,Sales Representative,1,3,"$2,644 ",NO,"$9,576 ",50.40%,9576
+691,Research & Development,Research Scientist,1,1,"$3,617 ",NO,"$13,468 ",50.40%,13468
+1369,Sales,Sales Executive,2,2,"$9,854 ",NO,"$37,416 ",50.40%,37416
+1317,Research & Development,Laboratory Technician,1,5,"$2,379 ",NO,"$8,516 ",50.40%,8516
+1164,Research & Development,Manufacturing Director,3,4,"$7,945 ",NO,"$28,780 ",50.40%,28780
+69,Research & Development,Research Scientist,1,1,"$3,388 ",NO,"$12,552 ",50.40%,12552
+319,Sales,Sales Executive,2,13,"$5,228 ",NO,"$18,912 ",50.40%,18912
+1349,Research & Development,Research Scientist,1,1,"$2,933 ",NO,"$10,732 ",50.40%,10732
+1058,Sales,Sales Executive,2,15,"$4,599 ",NO,"$16,396 ",50.40%,16396
+354,Sales,Sales Executive,2,2,"$4,736 ",NO,"$16,944 ",50.40%,16944
+494,Sales,Sales Representative,1,8,"$2,579 ",NO,"$9,316 ",50.40%,9316
+111,Research & Development,Laboratory Technician,2,9,"$6,074 ",NO,"$22,296 ",50.40%,22296
+1007,Research & Development,Healthcare Representative,3,8,"$7,553 ",NO,"$27,212 ",50.40%,27212
+612,Sales,Sales Executive,2,8,"$4,779 ",NO,"$17,116 ",50.40%,17116
+830,Research & Development,Laboratory Technician,1,1,"$4,766 ",NO,"$18,064 ",50.40%,18064
+440,Human Resources,Human Resources,3,3,"$9,950 ",NO,"$36,800 ",50.40%,36800
+453,Human Resources,Human Resources,1,7,"$2,741 ",NO,"$9,964 ",50.30%,9964
+859,Research & Development,Research Scientist,1,5,"$2,168 ",NO,"$7,672 ",50.30%,7672
+585,Research & Development,Laboratory Technician,1,0,"$1,601 ",NO,"$5,404 ",50.30%,5404
+369,Research & Development,Research Scientist,1,2,"$2,657 ",NO,"$9,628 ",50.30%,9628
+171,Sales,Sales Representative,1,0,"$2,325 ",NO,"$8,300 ",50.30%,8300
+293,Sales,Sales Executive,2,8,"$5,828 ",NO,"$21,312 ",50.30%,21312
+192,Research & Development,Manufacturing Director,2,1,"$5,916 ",NO,"$21,664 ",50.30%,21664
+860,Research & Development,Research Scientist,1,0,"$2,853 ",NO,"$10,412 ",50.30%,10412
+1353,Research & Development,Research Scientist,1,5,"$2,307 ",NO,"$8,228 ",50.30%,8228
+578,Research & Development,Manufacturing Director,2,15,"$5,980 ",NO,"$21,920 ",50.30%,21920
+533,Sales,Sales Executive,3,18,"$10,475 ",NO,"$38,900 ",50.30%,38900
+636,Research & Development,Research Scientist,1,10,"$2,022 ",NO,"$7,088 ",50.30%,7088
+562,Research & Development,Research Scientist,1,10,"$2,686 ",NO,"$9,744 ",50.30%,9744
+288,Research & Development,Laboratory Technician,1,3,"$2,373 ",NO,"$8,492 ",50.30%,8492
+1281,Sales,Sales Executive,2,10,"$5,813 ",NO,"$21,252 ",50.30%,21252
+634,Sales,Sales Executive,2,5,"$4,194 ",NO,"$14,776 ",50.30%,14776
+327,Sales,Sales Executive,2,1,"$5,238 ",NO,"$18,952 ",50.30%,18952
+624,Sales,Sales Executive,3,5,"$10,934 ",NO,"$40,736 ",50.30%,40736
+887,Research & Development,Research Director,3,1,"$13,191 ",NO,"$49,764 ",50.30%,49764
+673,Research & Development,Research Scientist,1,3,"$2,799 ",NO,"$10,196 ",50.30%,10196
+857,Research & Development,Research Scientist,1,6,"$2,936 ",NO,"$10,744 ",50.30%,10744
+91,Sales,Sales Executive,2,10,"$5,441 ",NO,"$19,764 ",50.30%,19764
+350,Human Resources,Human Resources,1,3,"$2,696 ",NO,"$9,784 ",50.30%,9784
+912,Research & Development,Research Scientist,1,8,"$2,875 ",NO,"$10,500 ",50.30%,10500
+1165,Human Resources,Human Resources,2,10,"$5,743 ",NO,"$20,972 ",50.30%,20972
+170,Research & Development,Research Scientist,1,5,"$3,058 ",NO,"$11,232 ",50.30%,11232
+946,Sales,Sales Executive,3,5,"$9,094 ",NO,"$33,376 ",50.30%,33376
+378,Sales,Sales Executive,2,5,"$5,304 ",NO,"$19,216 ",50.20%,19216
+962,Human Resources,Manager,4,33,"$14,026 ",NO,"$52,104 ",50.20%,52104
+1192,Research & Development,Laboratory Technician,1,2,"$2,587 ",NO,"$9,348 ",50.20%,9348
+318,Research & Development,Research Scientist,1,4,"$2,478 ",NO,"$8,912 ",50.20%,8912
+479,Research & Development,Laboratory Technician,1,6,"$2,886 ",NO,"$10,544 ",50.20%,10544
+796,Research & Development,Laboratory Technician,1,7,"$3,691 ",NO,"$13,764 ",50.20%,13764
+52,Sales,Sales Executive,2,4,"$5,454 ",NO,"$19,816 ",50.20%,19816
+1204,Sales,Sales Representative,1,9,"$2,655 ",NO,"$9,620 ",50.20%,9620
+1137,Research & Development,Research Scientist,1,4,"$2,814 ",NO,"$10,256 ",50.20%,10256
+1250,Research & Development,Healthcare Representative,2,3,"$6,294 ",NO,"$23,176 ",50.20%,23176
+290,Research & Development,Research Director,5,3,"$18,665 ",NO,"$69,660 ",50.20%,69660
+54,Sales,Sales Executive,2,2,"$4,157 ",NO,"$14,628 ",50.20%,14628
+652,Sales,Sales Executive,3,10,"$7,642 ",NO,"$27,568 ",50.20%,27568
+346,Research & Development,Manufacturing Director,2,5,"$6,032 ",NO,"$22,128 ",50.20%,22128
+753,Research & Development,Manufacturing Director,3,21,"$10,880 ",NO,"$40,520 ",50.20%,40520
+320,Sales,Sales Executive,2,5,"$4,478 ",NO,"$15,912 ",50.20%,15912
+924,Research & Development,Research Scientist,1,3,"$3,506 ",NO,"$13,024 ",50.20%,13024
+48,Sales,Sales Executive,2,9,"$5,772 ",NO,"$21,088 ",50.20%,21088
+528,Sales,Sales Executive,2,4,"$6,796 ",NO,"$25,184 ",50.20%,25184
+215,Sales,Manager,3,1,"$13,591 ",NO,"$51,364 ",50.20%,51364
+107,Sales,Sales Executive,2,6,"$5,744 ",NO,"$20,976 ",50.20%,20976
+1200,Human Resources,Human Resources,1,2,"$3,195 ",NO,"$11,780 ",50.20%,11780
+553,Research & Development,Research Scientist,1,4,"$2,342 ",NO,"$8,368 ",50.10%,8368
+1236,Sales,Sales Executive,2,2,"$6,134 ",NO,"$22,536 ",50.10%,22536
+1213,Sales,Sales Representative,1,3,"$2,275 ",NO,"$8,100 ",50.10%,8100
+719,Sales,Sales Executive,2,9,"$4,163 ",NO,"$14,652 ",50.10%,14652
+917,Sales,Sales Executive,2,3,"$4,538 ",NO,"$16,152 ",50.10%,16152
+929,Research & Development,Laboratory Technician,1,2,"$3,867 ",NO,"$14,468 ",50.10%,14468
+34,Research & Development,Research Scientist,1,2,"$2,293 ",NO,"$8,172 ",50.10%,8172
+1196,Sales,Sales Executive,3,2,"$7,082 ",NO,"$25,328 ",50.10%,25328
+450,Sales,Sales Executive,2,6,"$6,582 ",NO,"$24,328 ",50.10%,24328
+3,Research & Development,Research Scientist,1,8,"$2,909 ",NO,"$10,636 ",50.10%,10636
+575,Research & Development,Manufacturing Director,2,5,"$5,485 ",NO,"$19,940 ",50.10%,19940
+931,Research & Development,Manufacturing Director,2,8,"$4,695 ",NO,"$16,780 ",50.10%,16780
+309,Research & Development,Research Scientist,1,5,"$4,821 ",NO,"$18,284 ",50.10%,18284
+542,Research & Development,Manufacturing Director,3,1,"$7,861 ",NO,"$28,444 ",50.10%,28444
+725,Research & Development,Laboratory Technician,1,4,"$3,743 ",NO,"$13,972 ",50.10%,13972
+132,Sales,Sales Executive,2,2,"$4,559 ",NO,"$16,236 ",50.10%,16236
+1400,Human Resources,Human Resources,1,6,"$2,991 ",NO,"$10,964 ",50.10%,10964
+655,Human Resources,Human Resources,1,4,"$2,277 ",NO,"$8,108 ",50.10%,8108
+614,Research & Development,Research Scientist,1,8,"$2,366 ",NO,"$8,464 ",50.10%,8464
+139,Human Resources,Human Resources,2,11,"$6,347 ",NO,"$23,388 ",50.10%,23388
+164,Research & Development,Research Scientist,1,1,"$2,566 ",NO,"$9,264 ",50.10%,9264
+892,Research & Development,Research Scientist,1,1,"$1,859 ",NO,"$6,436 ",50.10%,6436
+1074,Research & Development,Healthcare Representative,2,0,"$6,388 ",NO,"$23,552 ",50.10%,23552
+1450,Human Resources,Human Resources,3,9,"$8,837 ",NO,"$32,348 ",50.10%,32348
+203,Research & Development,Laboratory Technician,2,7,"$2,741 ",NO,"$8,964 ",50.10%,8964
+1028,Research & Development,Research Scientist,1,4,"$2,127 ",NO,"$7,508 ",50.10%,7508
+256,Research & Development,Laboratory Technician,1,9,"$2,593 ",NO,"$9,372 ",50.10%,9372
+882,Research & Development,Manufacturing Director,3,7,"$10,252 ",NO,"$38,008 ",50.10%,38008
+996,Sales,Sales Executive,2,6,"$5,769 ",NO,"$21,076 ",50.10%,21076
+1188,Sales,Sales Executive,2,10,"$4,187 ",NO,"$14,748 ",50.10%,14748
+11,Research & Development,Laboratory Technician,2,9,"$4,193 ",NO,"$14,772 ",50.10%,14772
+918,Sales,Manager,5,29,"$19,847 ",NO,"$74,388 ",50.10%,74388
+568,Research & Development,Manager,5,5,"$19,859 ",NO,"$74,436 ",50.10%,74436
+77,Research & Development,Research Director,3,0,"$13,245 ",NO,"$49,980 ",50.10%,49980
+667,Research & Development,Laboratory Technician,1,7,"$2,778 ",NO,"$10,112 ",50.10%,10112
+995,Research & Development,Research Scientist,2,20,"$4,081 ",NO,"$14,324 ",50.10%,14324
+981,Sales,Sales Executive,2,4,"$4,614 ",NO,"$16,456 ",50.00%,16456
+17,Research & Development,Laboratory Technician,1,1,"$2,935 ",NO,"$10,740 ",50.00%,10740
+1419,Research & Development,Research Scientist,2,4,"$5,410 ",NO,"$19,640 ",50.00%,19640
+895,Research & Development,Healthcare Representative,2,6,"$6,833 ",NO,"$25,332 ",50.00%,25332
+1461,Sales,Sales Executive,3,3,"$10,854 ",NO,"$40,416 ",50.00%,40416
+1011,Sales,Sales Executive,2,5,"$9,278 ",NO,"$35,112 ",50.00%,35112
+195,Research & Development,Research Scientist,1,8,"$3,564 ",NO,"$13,256 ",50.00%,13256
+79,Human Resources,Human Resources,2,4,"$5,021 ",NO,"$18,084 ",50.00%,18084
+157,Research & Development,Research Scientist,1,1,"$3,346 ",NO,"$12,384 ",50.00%,12384
+389,Research & Development,Manufacturing Director,2,1,"$4,197 ",NO,"$14,788 ",50.00%,14788
+397,Sales,Sales Executive,2,5,"$4,487 ",NO,"$15,948 ",50.00%,15948
+631,Research & Development,Laboratory Technician,1,3,"$2,818 ",NO,"$10,272 ",50.00%,10272
+505,Research & Development,Laboratory Technician,1,3,"$2,659 ",NO,"$9,636 ",50.00%,9636
+925,Research & Development,Research Scientist,2,1,"$2,372 ",NO,"$7,488 ",50.00%,7488
+566,Sales,Sales Executive,2,5,"$6,397 ",NO,"$23,588 ",50.00%,23588
+991,Sales,Sales Executive,2,3,"$4,078 ",NO,"$14,312 ",50.00%,14312
+1359,Sales,Sales Executive,2,4,"$8,103 ",NO,"$30,412 ",50.00%,30412
+854,Research & Development,Research Scientist,1,3,"$4,477 ",NO,"$16,908 ",50.00%,16908
+1368,Research & Development,Research Scientist,2,15,"$5,747 ",NO,"$20,988 ",50.00%,20988
+703,Sales,Sales Executive,2,5,"$5,666 ",NO,"$20,664 ",50.00%,20664
+986,Sales,Sales Executive,2,5,"$6,120 ",NO,"$22,480 ",50.00%,22480
+827,Research & Development,Research Scientist,1,3,"$2,703 ",NO,"$9,812 ",50.00%,9812
+284,Research & Development,Healthcare Representative,2,5,"$4,741 ",NO,"$16,964 ",50.00%,16964
+1303,Research & Development,Manufacturing Director,3,22,"$10,333 ",NO,"$38,332 ",50.00%,38332
+406,Research & Development,Manufacturing Director,3,5,"$7,969 ",NO,"$28,876 ",50.00%,28876
+1279,Research & Development,Research Scientist,1,5,"$2,342 ",NO,"$8,368 ",50.00%,8368
+778,Research & Development,Research Scientist,2,16,"$4,615 ",NO,"$16,460 ",50.00%,16460
+1123,Research & Development,Healthcare Representative,2,5,"$6,142 ",NO,"$22,568 ",50.00%,22568
+283,Research & Development,Laboratory Technician,2,10,"$5,415 ",NO,"$19,660 ",50.00%,19660
+985,Research & Development,Manufacturing Director,2,10,"$6,179 ",NO,"$22,716 ",50.00%,22716
+422,Human Resources,Human Resources,1,1,"$2,564 ",NO,"$9,256 ",50.00%,9256
+689,Research & Development,Laboratory Technician,1,1,"$2,973 ",NO,"$10,892 ",50.00%,10892
+202,Research & Development,Research Scientist,1,5,"$3,815 ",NO,"$14,260 ",50.00%,14260
+886,Research & Development,Research Scientist,1,11,"$3,579 ",NO,"$13,316 ",50.00%,13316
+1379,Human Resources,Human Resources,1,1,"$2,863 ",NO,"$10,452 ",50.00%,10452
+1126,Sales,Manager,5,1,"$19,331 ",NO,"$72,324 ",49.90%,72324
+1034,Research & Development,Healthcare Representative,3,7,"$10,851 ",NO,"$40,404 ",49.90%,40404
+1037,Research & Development,Manufacturing Director,3,3,"$9,380 ",NO,"$34,520 ",49.90%,34520
+1278,Research & Development,Healthcare Representative,3,12,"$8,321 ",NO,"$30,284 ",49.90%,30284
+1345,Research & Development,Manufacturing Director,2,3,"$4,788 ",NO,"$17,152 ",49.90%,17152
+1145,Research & Development,Manufacturing Director,2,3,"$4,663 ",NO,"$16,652 ",49.90%,16652
+294,Research & Development,Research Scientist,1,4,"$2,326 ",NO,"$8,304 ",49.90%,8304
+93,Research & Development,Healthcare Representative,3,10,"$10,673 ",NO,"$39,692 ",49.90%,39692
+1340,Sales,Sales Executive,2,10,"$5,673 ",NO,"$20,692 ",49.90%,20692
+368,Sales,Sales Executive,2,6,"$6,380 ",NO,"$23,520 ",49.90%,23520
+438,Research & Development,Healthcare Representative,3,8,"$7,632 ",NO,"$27,528 ",49.90%,27528
+577,Research & Development,Research Scientist,1,5,"$2,782 ",NO,"$10,128 ",49.90%,10128
+271,Research & Development,Manager,3,10,"$11,849 ",NO,"$44,396 ",49.90%,44396
+342,Research & Development,Manufacturing Director,3,11,"$7,143 ",NO,"$25,572 ",49.90%,25572
+1308,Sales,Sales Representative,2,4,"$5,405 ",NO,"$19,620 ",49.90%,19620
+42,Research & Development,Laboratory Technician,1,1,"$2,293 ",NO,"$8,172 ",49.90%,8172
+651,Sales,Sales Executive,2,7,"$4,537 ",NO,"$16,148 ",49.90%,16148
+625,Sales,Sales Executive,3,5,"$10,761 ",NO,"$40,044 ",49.90%,40044
+106,Research & Development,Research Director,5,8,"$18,172 ",NO,"$67,688 ",49.90%,67688
+976,Research & Development,Manufacturing Director,4,19,"$13,402 ",NO,"$49,608 ",49.90%,49608
+1057,Sales,Sales Executive,2,5,"$5,765 ",NO,"$21,060 ",49.90%,21060
+1344,Research & Development,Research Scientist,2,5,"$4,284 ",NO,"$15,136 ",49.90%,15136
+1459,Research & Development,Laboratory Technician,2,4,"$4,025 ",NO,"$14,100 ",49.90%,14100
+1067,Sales,Sales Executive,2,5,"$4,591 ",NO,"$16,364 ",49.90%,16364
+175,Research & Development,Research Scientist,1,2,"$4,257 ",NO,"$16,028 ",49.90%,16028
+948,Research & Development,Manager,3,9,"$11,916 ",NO,"$44,664 ",49.90%,44664
+1365,Sales,Sales Representative,1,1,"$1,091 ",NO,"$3,364 ",49.90%,3364
+1378,Sales,Sales Executive,2,0,"$5,087 ",NO,"$18,348 ",49.90%,18348
+749,Sales,Manager,5,32,"$19,845 ",NO,"$74,380 ",49.90%,74380
+937,Research & Development,Manager,4,19,"$17,123 ",NO,"$64,492 ",49.90%,64492
+1382,Research & Development,Research Scientist,1,4,"$3,065 ",NO,"$11,260 ",49.90%,11260
+1261,Research & Development,Healthcare Representative,2,1,"$5,811 ",NO,"$21,244 ",49.90%,21244
+16,Research & Development,Research Scientist,1,6,"$3,298 ",NO,"$12,192 ",49.90%,12192
+1068,Research & Development,Laboratory Technician,1,0,"$2,561 ",NO,"$9,244 ",49.90%,9244
+961,Research & Development,Research Scientist,2,9,"$4,249 ",NO,"$14,996 ",49.90%,14996
+1116,Sales,Manager,5,36,"$19,586 ",NO,"$73,344 ",49.90%,73344
+55,Research & Development,Research Director,3,15,"$13,458 ",NO,"$50,832 ",49.90%,50832
+523,Research & Development,Laboratory Technician,1,20,"$3,221 ",NO,"$11,884 ",49.90%,11884
+312,Research & Development,Research Scientist,1,2,"$2,695 ",NO,"$9,780 ",49.90%,9780
+31,Research & Development,Healthcare Representative,2,4,"$6,465 ",NO,"$23,860 ",49.90%,23860
+1433,Sales,Sales Executive,2,5,"$4,907 ",NO,"$17,628 ",49.80%,17628
+644,Research & Development,Research Scientist,1,6,"$2,356 ",NO,"$8,424 ",49.80%,8424
+451,Research & Development,Manufacturing Director,3,10,"$7,406 ",NO,"$26,624 ",49.80%,26624
+1392,Sales,Sales Executive,2,10,"$5,204 ",NO,"$18,816 ",49.80%,18816
+881,Research & Development,Research Scientist,2,8,"$4,998 ",NO,"$17,992 ",49.80%,17992
+140,Research & Development,Laboratory Technician,1,5,"$4,200 ",NO,"$15,800 ",49.80%,15800
+693,Sales,Sales Executive,3,16,"$10,325 ",NO,"$38,300 ",49.80%,38300
+1364,Sales,Sales Executive,2,7,"$6,834 ",NO,"$25,336 ",49.80%,25336
+1401,Human Resources,Manager,5,10,"$19,636 ",NO,"$73,544 ",49.80%,73544
+468,Research & Development,Research Scientist,2,10,"$5,577 ",NO,"$20,308 ",49.80%,20308
+950,Sales,Sales Executive,3,10,"$9,852 ",NO,"$36,408 ",49.80%,36408
+870,Sales,Sales Executive,2,7,"$8,966 ",NO,"$33,864 ",49.80%,33864
+1012,Sales,Sales Representative,1,1,"$1,359 ",NO,"$4,436 ",49.80%,4436
+597,Research & Development,Manufacturing Director,2,4,"$6,062 ",NO,"$22,248 ",49.80%,22248
+1111,Research & Development,Manufacturing Director,3,33,"$10,169 ",NO,"$37,676 ",49.80%,37676
+1077,Research & Development,Research Scientist,1,9,"$2,362 ",NO,"$8,448 ",49.80%,8448
+335,Sales,Sales Executive,2,4,"$7,457 ",NO,"$27,828 ",49.80%,27828
+343,Sales,Sales Executive,2,7,"$8,268 ",NO,"$31,072 ",49.80%,31072
+1216,Sales,Sales Executive,2,10,"$7,847 ",NO,"$29,388 ",49.80%,29388
+60,Research & Development,Manufacturing Director,2,9,"$6,162 ",NO,"$22,648 ",49.80%,22648
+190,Research & Development,Manager,5,33,"$19,999 ",NO,"$74,996 ",49.80%,74996
+474,Research & Development,Research Scientist,1,6,"$2,725 ",NO,"$9,900 ",49.80%,9900
+481,Research & Development,Research Scientist,1,6,"$3,622 ",NO,"$13,488 ",49.80%,13488
+277,Sales,Sales Executive,2,8,"$5,605 ",NO,"$20,420 ",49.80%,20420
+745,Research & Development,Healthcare Representative,2,8,"$6,385 ",NO,"$23,540 ",49.80%,23540
+795,Sales,Sales Executive,2,1,"$6,694 ",NO,"$24,776 ",49.80%,24776
+975,Sales,Sales Executive,4,19,"$13,695 ",NO,"$50,780 ",49.80%,50780
+477,Human Resources,Manager,5,32,"$18,200 ",NO,"$67,800 ",49.80%,67800
+1295,Sales,Sales Executive,3,22,"$10,447 ",NO,"$38,788 ",49.80%,38788
+62,Research & Development,Research Director,5,27,"$18,740 ",NO,"$69,960 ",49.80%,69960
+253,Research & Development,Research Scientist,2,3,"$6,545 ",NO,"$24,180 ",49.70%,24180
+133,Sales,Sales Executive,3,9,"$8,189 ",NO,"$29,756 ",49.70%,29756
+707,Research & Development,Manufacturing Director,2,19,"$5,067 ",NO,"$18,268 ",49.70%,18268
+486,Sales,Sales Executive,2,3,"$9,602 ",NO,"$36,408 ",49.70%,36408
+206,Research & Development,Research Scientist,1,4,"$2,328 ",NO,"$8,312 ",49.70%,8312
+980,Sales,Sales Representative,1,1,"$2,785 ",NO,"$10,140 ",49.70%,10140
+1342,Sales,Sales Executive,3,5,"$9,713 ",NO,"$35,852 ",49.70%,35852
+666,Research & Development,Manufacturing Director,2,3,"$4,171 ",NO,"$14,684 ",49.70%,14684
+807,Sales,Sales Executive,3,8,"$8,740 ",NO,"$31,960 ",49.70%,31960
+845,Research & Development,Research Scientist,2,1,"$4,422 ",NO,"$15,688 ",49.70%,15688
+380,Sales,Sales Executive,2,5,"$4,260 ",NO,"$15,040 ",49.70%,15040
+1025,Sales,Sales Executive,2,5,"$4,162 ",NO,"$14,648 ",49.70%,14648
+690,Research & Development,Healthcare Representative,2,9,"$5,855 ",NO,"$21,420 ",49.70%,21420
+1229,Research & Development,Manufacturing Director,2,1,"$6,516 ",NO,"$24,064 ",49.70%,24064
+331,Sales,Sales Executive,2,5,"$6,349 ",NO,"$23,396 ",49.70%,23396
+1358,Sales,Sales Executive,2,5,"$6,583 ",NO,"$24,332 ",49.70%,24332
+1235,Sales,Sales Executive,3,10,"$10,368 ",NO,"$38,472 ",49.70%,38472
+1425,Research & Development,Healthcare Representative,2,9,"$4,878 ",NO,"$17,512 ",49.70%,17512
+152,Sales,Sales Representative,2,7,"$2,306 ",NO,"$7,224 ",49.70%,7224
+752,Research & Development,Laboratory Technician,1,17,"$2,743 ",NO,"$9,972 ",49.70%,9972
+838,Sales,Sales Executive,4,21,"$13,758 ",NO,"$51,032 ",49.70%,51032
+301,Sales,Sales Representative,1,0,"$1,200 ",NO,"$3,800 ",49.70%,3800
+500,Research & Development,Research Scientist,2,6,"$6,322 ",NO,"$23,288 ",49.70%,23288
+777,Research & Development,Laboratory Technician,1,1,"$1,416 ",NO,"$4,664 ",49.70%,4664
+236,Research & Development,Laboratory Technician,1,9,"$2,707 ",NO,"$9,828 ",49.70%,9828
+1252,Research & Development,Research Scientist,1,5,"$2,932 ",NO,"$10,728 ",49.70%,10728
+621,Sales,Sales Executive,2,18,"$6,201 ",NO,"$22,804 ",49.70%,22804
+1456,Research & Development,Healthcare Representative,2,10,"$5,689 ",NO,"$20,756 ",49.70%,20756
+1237,Sales,Sales Executive,2,0,"$6,735 ",NO,"$24,940 ",49.70%,24940
+1438,Sales,Sales Representative,1,1,"$1,790 ",NO,"$6,160 ",49.70%,6160
+718,Research & Development,Laboratory Technician,2,9,"$3,633 ",NO,"$12,532 ",49.60%,12532
+80,Research & Development,Laboratory Technician,2,10,"$5,126 ",NO,"$18,504 ",49.60%,18504
+1093,Research & Development,Healthcare Representative,3,20,"$10,124 ",NO,"$37,496 ",49.60%,37496
+201,Research & Development,Manufacturing Director,2,7,"$6,804 ",NO,"$25,216 ",49.60%,25216
+825,Research & Development,Manufacturing Director,2,10,"$5,056 ",NO,"$18,224 ",49.60%,18224
+1095,Research & Development,Laboratory Technician,2,15,"$5,207 ",NO,"$18,828 ",49.60%,18828
+92,Sales,Sales Executive,2,11,"$5,209 ",NO,"$18,836 ",49.60%,18836
+1021,Sales,Sales Representative,1,3,"$4,400 ",NO,"$16,600 ",49.60%,16600
+433,Sales,Sales Executive,3,3,"$9,071 ",NO,"$33,284 ",49.60%,33284
+421,Research & Development,Research Scientist,1,2,"$2,546 ",NO,"$9,184 ",49.60%,9184
+123,Research & Development,Research Director,5,20,"$19,537 ",NO,"$73,148 ",49.60%,73148
+1338,Sales,Sales Representative,1,1,"$1,081 ",NO,"$3,324 ",49.60%,3324
+361,Research & Development,Laboratory Technician,1,7,"$2,213 ",NO,"$7,852 ",49.60%,7852
+1128,Research & Development,Laboratory Technician,2,3,"$5,562 ",NO,"$20,248 ",49.60%,20248
+443,Research & Development,Laboratory Technician,1,2,"$3,894 ",NO,"$14,576 ",49.60%,14576
+480,Sales,Sales Representative,1,1,"$2,033 ",NO,"$7,132 ",49.60%,7132
+491,Research & Development,Laboratory Technician,2,8,"$5,679 ",NO,"$20,716 ",49.60%,20716
+901,Research & Development,Laboratory Technician,1,1,"$2,559 ",NO,"$9,236 ",49.60%,9236
+729,Research & Development,Healthcare Representative,3,16,"$10,388 ",NO,"$38,552 ",49.60%,38552
+1271,Sales,Sales Representative,1,1,"$2,679 ",NO,"$9,716 ",49.60%,9716
+943,Human Resources,Human Resources,1,7,"$3,423 ",NO,"$12,692 ",49.60%,12692
+1087,Sales,Sales Representative,1,11,"$2,308 ",NO,"$8,232 ",49.60%,8232
+841,Research & Development,Laboratory Technician,1,4,"$3,597 ",NO,"$13,388 ",49.60%,13388
+546,Sales,Sales Representative,1,1,"$2,642 ",NO,"$9,568 ",49.60%,9568
+664,Research & Development,Healthcare Representative,2,16,"$6,586 ",NO,"$24,344 ",49.60%,24344
+83,Research & Development,Research Scientist,2,13,"$5,329 ",NO,"$19,316 ",49.60%,19316
+1277,Research & Development,Research Director,5,2,"$19,328 ",NO,"$72,312 ",49.60%,72312
+1039,Human Resources,Human Resources,1,2,"$2,742 ",NO,"$9,968 ",49.60%,9968
+1329,Human Resources,Human Resources,1,1,"$2,804 ",NO,"$10,216 ",49.60%,10216
+381,Sales,Sales Representative,1,1,"$2,476 ",NO,"$8,904 ",49.60%,8904
+674,Research & Development,Healthcare Representative,3,6,"$10,552 ",NO,"$39,208 ",49.60%,39208
+316,Research & Development,Healthcare Representative,4,7,"$13,964 ",NO,"$51,856 ",49.60%,51856
+561,Sales,Manager,4,34,"$16,856 ",NO,"$63,424 ",49.60%,63424
+988,Research & Development,Research Scientist,2,6,"$5,467 ",NO,"$19,868 ",49.60%,19868
+1161,Research & Development,Manufacturing Director,3,5,"$7,756 ",NO,"$28,024 ",49.60%,28024
+497,Research & Development,Manager,5,2,"$19,513 ",NO,"$73,052 ",49.60%,73052
+1391,Sales,Sales Representative,1,1,"$2,858 ",NO,"$10,432 ",49.50%,10432
+764,Sales,Sales Representative,1,1,"$1,052 ",NO,"$3,208 ",49.50%,3208
+370,Sales,Sales Representative,1,1,"$2,716 ",NO,"$9,864 ",49.50%,9864
+926,Sales,Sales Executive,3,21,"$10,231 ",NO,"$37,924 ",49.50%,37924
+1205,Research & Development,Laboratory Technician,1,1,"$1,393 ",NO,"$4,572 ",49.50%,4572
+635,Research & Development,Manufacturing Director,3,17,"$10,685 ",NO,"$39,740 ",49.50%,39740
+1222,Human Resources,Human Resources,1,1,"$1,555 ",NO,"$5,220 ",49.50%,5220
+1467,Research & Development,Manufacturing Director,2,6,"$6,142 ",NO,"$22,568 ",49.50%,22568
+1315,Research & Development,Research Scientist,2,1,"$6,962 ",NO,"$25,848 ",49.50%,25848
+109,Research & Development,Laboratory Technician,1,0,"$2,871 ",NO,"$10,484 ",49.50%,10484
+21,Sales,Sales Representative,1,5,"$3,407 ",NO,"$12,628 ",49.50%,12628
+1000,Research & Development,Laboratory Technician,1,5,"$2,950 ",NO,"$10,800 ",49.50%,10800
+573,Sales,Sales Executive,2,4,"$5,326 ",NO,"$19,304 ",49.50%,19304
+216,Sales,Sales Executive,2,6,"$6,696 ",NO,"$24,784 ",49.50%,24784
+1118,Research & Development,Research Scientist,1,1,"$2,061 ",NO,"$7,244 ",49.50%,7244
+473,Research & Development,Research Director,5,31,"$19,502 ",NO,"$73,008 ",49.50%,73008
+1197,Sales,Sales Representative,1,2,"$2,728 ",NO,"$9,912 ",49.50%,9912
+308,Research & Development,Healthcare Representative,2,5,"$5,660 ",NO,"$20,640 ",49.50%,20640
+296,Research & Development,Laboratory Technician,1,0,"$1,420 ",NO,"$4,680 ",49.50%,4680
+163,Research & Development,Healthcare Representative,3,5,"$9,439 ",NO,"$34,756 ",49.50%,34756
+53,Research & Development,Healthcare Representative,3,4,"$9,884 ",NO,"$36,536 ",49.50%,36536
+797,Research & Development,Laboratory Technician,1,1,"$2,377 ",NO,"$8,508 ",49.50%,8508
+610,Research & Development,Research Director,3,9,"$12,808 ",NO,"$48,232 ",49.50%,48232
+511,Research & Development,Manufacturing Director,2,3,"$8,847 ",NO,"$33,388 ",49.50%,33388
+496,Sales,Sales Representative,1,3,"$3,447 ",NO,"$12,788 ",49.50%,12788
+1016,Research & Development,Research Scientist,1,1,"$1,261 ",NO,"$4,044 ",49.40%,4044
+264,Research & Development,Laboratory Technician,1,0,"$3,485 ",NO,"$12,940 ",49.40%,12940
+398,Research & Development,Research Scientist,2,13,"$4,449 ",NO,"$15,796 ",49.40%,15796
+908,Sales,Sales Executive,3,9,"$8,380 ",NO,"$30,520 ",49.40%,30520
+1390,Research & Development,Laboratory Technician,1,4,"$2,367 ",NO,"$8,468 ",49.40%,8468
+888,Sales,Sales Executive,3,13,"$10,377 ",NO,"$38,508 ",49.40%,38508
+601,Research & Development,Laboratory Technician,2,1,"$5,094 ",NO,"$18,376 ",49.40%,18376
+177,Research & Development,Laboratory Technician,1,1,"$1,102 ",NO,"$3,408 ",49.40%,3408
+695,Sales,Sales Executive,3,14,"$10,609 ",NO,"$39,436 ",49.40%,39436
+101,Research & Development,Research Scientist,1,1,"$2,956 ",NO,"$10,824 ",49.40%,10824
+591,Sales,Sales Executive,2,3,"$5,324 ",NO,"$19,296 ",49.40%,19296
+663,Research & Development,Research Scientist,1,1,"$2,693 ",NO,"$9,772 ",49.40%,9772
+258,Research & Development,Research Scientist,1,1,"$2,723 ",NO,"$9,892 ",49.40%,9892
+1226,Research & Development,Research Scientist,1,5,"$3,433 ",NO,"$12,732 ",49.40%,12732
+23,Research & Development,Research Scientist,1,0,"$1,232 ",NO,"$3,928 ",49.40%,3928
+487,Research & Development,Research Scientist,1,1,"$2,836 ",NO,"$10,344 ",49.40%,10344
+871,Research & Development,Laboratory Technician,1,1,"$2,210 ",NO,"$7,840 ",49.40%,7840
+748,Sales,Sales Executive,2,2,"$4,969 ",NO,"$17,876 ",49.40%,17876
+828,Research & Development,Laboratory Technician,1,0,"$1,904 ",NO,"$6,616 ",49.40%,6616
+436,Research & Development,Laboratory Technician,1,4,"$3,408 ",NO,"$12,632 ",49.40%,12632
+525,Sales,Sales Executive,2,2,"$4,577 ",NO,"$16,308 ",49.40%,16308
+1098,Research & Development,Healthcare Representative,2,2,"$4,069 ",NO,"$14,276 ",49.40%,14276
+700,Research & Development,Research Scientist,1,1,"$2,479 ",NO,"$8,916 ",49.40%,8916
+263,Sales,Manager,4,7,"$16,872 ",NO,"$63,488 ",49.40%,63488
+800,Research & Development,Laboratory Technician,1,1,"$2,596 ",NO,"$9,384 ",49.40%,9384
+544,Sales,Sales Executive,4,22,"$13,770 ",NO,"$51,080 ",49.40%,51080
+1444,Research & Development,Laboratory Technician,1,10,"$2,339 ",NO,"$8,356 ",49.40%,8356
+1066,Research & Development,Laboratory Technician,1,5,"$3,838 ",NO,"$14,352 ",49.40%,14352
+856,Research & Development,Laboratory Technician,1,2,"$3,033 ",NO,"$11,132 ",49.40%,11132
+521,Sales,Sales Executive,2,6,"$4,647 ",NO,"$16,588 ",49.40%,16588
+618,Research & Development,Research Scientist,1,4,"$3,424 ",NO,"$12,696 ",49.40%,12696
+57,Research & Development,Laboratory Technician,1,2,"$4,014 ",NO,"$15,056 ",49.40%,15056
+1115,Research & Development,Research Scientist,1,1,"$2,972 ",NO,"$10,888 ",49.40%,10888
+1214,Research & Development,Healthcare Representative,3,8,"$7,879 ",NO,"$28,516 ",49.40%,28516
+1319,Sales,Sales Executive,2,0,"$4,648 ",NO,"$16,592 ",49.40%,16592
+903,Research & Development,Healthcare Representative,2,6,"$6,623 ",NO,"$24,492 ",49.40%,24492
+744,Research & Development,Healthcare Representative,2,1,"$4,777 ",NO,"$17,108 ",49.40%,17108
+742,Research & Development,Laboratory Technician,1,1,"$2,380 ",NO,"$8,520 ",49.30%,8520
+953,Research & Development,Laboratory Technician,1,3,"$2,362 ",NO,"$8,448 ",49.30%,8448
+759,Human Resources,Human Resources,1,6,"$2,177 ",NO,"$7,708 ",49.30%,7708
+98,Sales,Sales Executive,4,37,"$13,872 ",NO,"$51,488 ",49.30%,51488
+1312,Human Resources,Human Resources,1,1,"$2,956 ",NO,"$10,824 ",49.30%,10824
+1249,Sales,Sales Representative,1,2,"$2,760 ",NO,"$10,040 ",49.30%,10040
+1144,Sales,Sales Executive,2,5,"$5,332 ",NO,"$19,328 ",49.30%,19328
+45,Research & Development,Research Director,5,22,"$19,545 ",NO,"$73,180 ",49.30%,73180
+715,Research & Development,Healthcare Representative,2,6,"$5,488 ",NO,"$19,952 ",49.30%,19952
+405,Research & Development,Laboratory Technician,1,2,"$4,031 ",NO,"$15,124 ",49.30%,15124
+400,Research & Development,Manager,5,21,"$19,197 ",NO,"$71,788 ",49.30%,71788
+598,Research & Development,Research Scientist,1,2,"$4,382 ",NO,"$16,528 ",49.30%,16528
+766,Research & Development,Research Director,5,8,"$19,237 ",NO,"$71,948 ",49.30%,71948
+915,Research & Development,Laboratory Technician,1,2,"$2,625 ",NO,"$9,500 ",49.30%,9500
+341,Research & Development,Research Director,3,11,"$11,510 ",NO,"$43,040 ",49.30%,43040
+1056,Sales,Sales Representative,1,3,"$2,909 ",NO,"$10,636 ",49.30%,10636
+460,Sales,Sales Executive,2,0,"$4,306 ",NO,"$15,224 ",49.30%,15224
+353,Research & Development,Research Scientist,2,7,"$5,974 ",NO,"$21,896 ",49.30%,21896
+149,Research & Development,Laboratory Technician,1,1,"$1,483 ",NO,"$4,932 ",49.30%,4932
+1162,Sales,Sales Executive,3,13,"$10,306 ",NO,"$38,224 ",49.30%,38224
+118,Research & Development,Laboratory Technician,1,1,"$2,835 ",NO,"$10,340 ",49.30%,10340
+72,Research & Development,Research Scientist,1,1,"$2,501 ",NO,"$9,004 ",49.30%,9004
+437,Sales,Sales Representative,1,3,"$2,983 ",NO,"$10,932 ",49.30%,10932
+849,Sales,Sales Executive,2,4,"$5,346 ",NO,"$19,384 ",49.30%,19384
+1267,Sales,Sales Executive,2,15,"$4,001 ",NO,"$14,004 ",49.30%,14004
+811,Sales,Sales Executive,3,1,"$7,351 ",NO,"$26,404 ",49.30%,26404
+927,Research & Development,Manufacturing Director,2,16,"$5,410 ",NO,"$19,640 ",49.30%,19640
+756,Research & Development,Laboratory Technician,1,8,"$4,025 ",NO,"$15,100 ",49.30%,15100
+371,Research & Development,Research Scientist,1,3,"$2,201 ",NO,"$7,804 ",49.30%,7804
+230,Research & Development,Laboratory Technician,1,2,"$3,212 ",NO,"$11,848 ",49.30%,11848
+439,Research & Development,Healthcare Representative,3,1,"$9,824 ",NO,"$36,296 ",49.30%,36296
+1386,Research & Development,Laboratory Technician,1,7,"$2,867 ",NO,"$10,468 ",49.30%,10468
+1427,Research & Development,Laboratory Technician,1,1,"$2,406 ",NO,"$8,624 ",49.30%,8624
+478,Sales,Sales Representative,1,7,"$2,096 ",NO,"$7,384 ",49.30%,7384
+382,Research & Development,Research Scientist,1,6,"$3,102 ",NO,"$11,408 ",49.30%,11408
+1207,Research & Development,Research Scientist,1,4,"$3,537 ",NO,"$13,148 ",49.30%,13148
+933,Research & Development,Research Scientist,1,3,"$2,080 ",NO,"$7,320 ",49.30%,7320
+222,Research & Development,Research Director,3,10,"$12,185 ",NO,"$45,740 ",49.30%,45740
+32,Research & Development,Laboratory Technician,1,10,"$2,206 ",NO,"$7,824 ",49.30%,7824
+1009,Research & Development,Research Director,5,9,"$19,701 ",NO,"$73,804 ",49.30%,73804
+730,Research & Development,Research Director,3,8,"$11,416 ",NO,"$42,664 ",49.30%,42664
+717,Research & Development,Laboratory Technician,1,2,"$2,811 ",NO,"$10,244 ",49.30%,10244
+395,Research & Development,Laboratory Technician,1,3,"$2,258 ",NO,"$8,032 ",49.30%,8032
+1097,Research & Development,Laboratory Technician,1,1,"$2,296 ",NO,"$8,184 ",49.30%,8184
+259,Research & Development,Laboratory Technician,1,5,"$3,479 ",NO,"$12,916 ",49.30%,12916
+502,Sales,Sales Executive,2,14,"$8,381 ",NO,"$31,524 ",49.30%,31524
+1169,Research & Development,Research Scientist,1,3,"$3,517 ",NO,"$13,068 ",49.30%,13068
+956,Human Resources,Manager,5,7,"$19,717 ",NO,"$73,868 ",49.30%,73868
+4,Research & Development,Laboratory Technician,1,2,"$3,468 ",NO,"$12,872 ",49.20%,12872
+670,Research & Development,Research Scientist,1,1,"$2,318 ",NO,"$8,272 ",49.20%,8272
+465,Research & Development,Healthcare Representative,3,2,"$10,527 ",NO,"$39,108 ",49.20%,39108
+1246,Human Resources,Human Resources,1,4,"$2,180 ",NO,"$7,720 ",49.20%,7720
+141,Research & Development,Research Scientist,1,6,"$3,452 ",NO,"$12,808 ",49.20%,12808
+1270,Sales,Sales Executive,2,2,"$6,029 ",NO,"$22,116 ",49.20%,22116
+86,Sales,Sales Representative,1,0,"$2,322 ",NO,"$8,288 ",49.20%,8288
+1059,Sales,Sales Representative,1,1,"$2,404 ",NO,"$8,616 ",49.20%,8616
+835,Human Resources,Human Resources,1,5,"$4,323 ",NO,"$16,292 ",49.20%,16292
+1121,Sales,Sales Executive,2,1,"$6,815 ",NO,"$25,260 ",49.20%,25260
+1373,Research & Development,Research Scientist,2,20,"$2,133 ",NO,"$6,532 ",49.20%,6532
+1240,Research & Development,Laboratory Technician,2,9,"$6,472 ",NO,"$23,888 ",49.20%,23888
+1096,Human Resources,Manager,4,21,"$16,437 ",NO,"$61,748 ",49.20%,61748
+314,Research & Development,Manager,4,21,"$17,068 ",NO,"$64,272 ",49.20%,64272
+362,Sales,Sales Representative,1,3,"$2,610 ",NO,"$9,440 ",49.20%,9440
+1085,Research & Development,Research Scientist,1,7,"$4,084 ",NO,"$15,336 ",49.20%,15336
+732,Research & Development,Laboratory Technician,1,3,"$2,422 ",NO,"$8,688 ",49.20%,8688
+430,Research & Development,Laboratory Technician,1,5,"$4,230 ",NO,"$15,920 ",49.20%,15920
+476,Research & Development,Laboratory Technician,1,1,"$2,127 ",NO,"$7,508 ",49.20%,7508
+603,Research & Development,Research Scientist,1,1,"$2,274 ",NO,"$8,096 ",49.20%,8096
+1318,Research & Development,Laboratory Technician,1,11,"$3,812 ",NO,"$14,248 ",49.20%,14248
+564,Sales,Sales Representative,2,8,"$6,632 ",NO,"$24,528 ",49.20%,24528
+1449,Research & Development,Research Scientist,1,4,"$2,439 ",NO,"$8,756 ",49.20%,8756
+864,Research & Development,Research Scientist,1,1,"$2,107 ",NO,"$7,428 ",49.20%,7428
+930,Research & Development,Laboratory Technician,1,7,"$2,838 ",NO,"$10,352 ",49.20%,10352
+1296,Research & Development,Manufacturing Director,3,7,"$9,667 ",NO,"$35,668 ",49.20%,35668
+1005,Human Resources,Human Resources,3,10,"$7,988 ",NO,"$28,952 ",49.20%,28952
+47,Research & Development,Research Scientist,1,1,"$3,022 ",NO,"$11,088 ",49.20%,11088
+1408,Research & Development,Laboratory Technician,1,5,"$2,647 ",NO,"$9,588 ",49.20%,9588
+1006,Research & Development,Laboratory Technician,2,4,"$4,284 ",NO,"$15,136 ",49.20%,15136
+1454,Sales,Sales Executive,2,5,"$4,850 ",NO,"$17,400 ",49.20%,17400
+1172,Sales,Sales Executive,2,5,"$5,869 ",NO,"$21,476 ",49.20%,21476
+861,Sales,Manager,4,26,"$17,048 ",NO,"$64,192 ",49.20%,64192
+6,Research & Development,Laboratory Technician,1,1,"$2,670 ",NO,"$9,680 ",49.20%,9680
+672,Sales,Sales Executive,2,5,"$6,244 ",NO,"$22,976 ",49.20%,22976
+1020,Research & Development,Research Scientist,1,6,"$3,420 ",NO,"$12,680 ",49.20%,12680
+633,Human Resources,Human Resources,1,5,"$2,342 ",NO,"$8,368 ",49.20%,8368
+1114,Research & Development,Research Scientist,1,8,"$2,367 ",NO,"$8,468 ",49.20%,8468
+862,Research & Development,Research Scientist,1,0,"$2,290 ",NO,"$8,160 ",49.20%,8160
+1343,Research & Development,Laboratory Technician,1,3,"$2,062 ",NO,"$7,248 ",49.20%,7248
+940,Research & Development,Research Scientist,1,5,"$3,904 ",NO,"$14,616 ",49.20%,14616
+143,Research & Development,Research Scientist,1,5,"$2,632 ",NO,"$9,528 ",49.20%,9528
+275,Research & Development,Research Director,3,5,"$13,603 ",NO,"$51,412 ",49.20%,51412
+235,Sales,Manager,4,17,"$16,064 ",NO,"$60,256 ",49.20%,60256
+819,Research & Development,Research Scientist,1,5,"$3,201 ",NO,"$11,804 ",49.20%,11804
+217,Research & Development,Research Scientist,1,6,"$2,058 ",NO,"$7,232 ",49.20%,7232
+662,Sales,Sales Representative,1,2,"$2,044 ",NO,"$7,176 ",49.20%,7176
+741,Sales,Manager,5,1,"$18,303 ",NO,"$68,212 ",49.20%,68212
+1035,Human Resources,Human Resources,1,3,"$2,109 ",NO,"$7,436 ",49.20%,7436
+1354,Research & Development,Laboratory Technician,1,4,"$2,587 ",NO,"$9,348 ",49.20%,9348
+643,Research & Development,Laboratory Technician,2,5,"$5,231 ",NO,"$18,924 ",49.20%,18924
+1443,Research & Development,Manager,5,22,"$18,880 ",NO,"$70,520 ",49.10%,70520
+1244,Research & Development,Research Scientist,1,9,"$4,968 ",NO,"$18,872 ",49.10%,18872
+1017,Research & Development,Laboratory Technician,1,5,"$2,099 ",NO,"$7,396 ",49.10%,7396
+1258,Research & Development,Research Scientist,1,1,"$2,109 ",NO,"$7,436 ",49.10%,7436
+207,Research & Development,Laboratory Technician,1,8,"$2,153 ",NO,"$7,612 ",49.10%,7612
+367,Research & Development,Healthcare Representative,3,4,"$10,496 ",NO,"$38,984 ",49.10%,38984
+539,Sales,Sales Representative,1,2,"$3,875 ",NO,"$14,500 ",49.10%,14500
+1001,Research & Development,Laboratory Technician,1,3,"$3,629 ",NO,"$13,516 ",49.10%,13516
+1051,Sales,Sales Executive,2,1,"$4,768 ",NO,"$17,072 ",49.10%,17072
+1178,Sales,Sales Representative,1,2,"$2,783 ",NO,"$10,132 ",49.10%,10132
+734,Research & Development,Laboratory Technician,1,4,"$2,451 ",NO,"$8,804 ",49.10%,8804
+1133,Research & Development,Laboratory Technician,1,6,"$4,876 ",NO,"$18,504 ",49.10%,18504
+990,Sales,Sales Executive,2,5,"$9,998 ",NO,"$37,992 ",49.10%,37992
+1426,Research & Development,Laboratory Technician,1,6,"$2,837 ",NO,"$10,348 ",49.10%,10348
+1140,Research & Development,Research Director,5,22,"$19,049 ",NO,"$71,196 ",49.10%,71196
+1202,Research & Development,Laboratory Technician,1,0,"$3,306 ",NO,"$12,224 ",49.10%,12224
+1311,Research & Development,Research Scientist,1,0,"$1,514 ",NO,"$5,056 ",49.10%,5056
+972,Research & Development,Laboratory Technician,1,0,"$1,611 ",NO,"$5,444 ",49.10%,5444
+1374,Sales,Manager,4,1,"$17,875 ",NO,"$67,500 ",49.10%,67500
+554,Research & Development,Healthcare Representative,2,7,"$6,811 ",NO,"$25,244 ",49.10%,25244
+174,Sales,Sales Executive,2,5,"$5,006 ",NO,"$18,024 ",49.10%,18024
+1310,Research & Development,Research Director,4,2,"$15,787 ",NO,"$59,148 ",49.10%,59148
+1170,Research & Development,Research Scientist,1,4,"$2,580 ",NO,"$9,320 ",49.10%,9320
+571,Research & Development,Laboratory Technician,1,2,"$4,364 ",NO,"$16,456 ",49.10%,16456
+1257,Sales,Sales Executive,3,1,"$8,161 ",NO,"$29,644 ",49.10%,29644
+145,Research & Development,Research Scientist,1,3,"$3,204 ",NO,"$11,816 ",49.10%,11816
+675,Sales,Sales Representative,1,7,"$2,329 ",NO,"$8,316 ",49.10%,8316
+682,Research & Development,Laboratory Technician,1,3,"$2,332 ",NO,"$8,328 ",49.10%,8328
+252,Research & Development,Research Scientist,1,6,"$2,340 ",NO,"$8,360 ",49.10%,8360
+1411,Human Resources,Human Resources,1,2,"$2,187 ",NO,"$7,748 ",49.10%,7748
+648,Sales,Sales Representative,1,5,"$2,973 ",NO,"$10,892 ",49.10%,10892
+657,Research & Development,Laboratory Technician,1,4,"$2,532 ",NO,"$9,128 ",49.10%,9128
+1050,Research & Development,Laboratory Technician,1,12,"$3,673 ",NO,"$13,692 ",49.10%,13692
+1337,Sales,Sales Representative,1,1,"$2,856 ",NO,"$10,424 ",49.10%,10424
+1460,Research & Development,Research Scientist,1,5,"$3,785 ",NO,"$14,140 ",49.10%,14140
+1360,Research & Development,Laboratory Technician,1,2,"$3,978 ",NO,"$14,912 ",49.10%,14912
+1429,Research & Development,Research Scientist,2,7,"$4,108 ",NO,"$14,432 ",49.10%,14432
+1003,Research & Development,Laboratory Technician,1,3,"$3,229 ",NO,"$11,916 ",49.10%,11916
+1061,Sales,Sales Representative,1,1,"$2,033 ",NO,"$7,132 ",49.10%,7132
+447,Sales,Sales Executive,2,11,"$4,717 ",NO,"$16,868 ",49.10%,16868
+159,Sales,Sales Representative,1,4,"$2,231 ",NO,"$7,924 ",49.10%,7924
+7,Research & Development,Laboratory Technician,1,1,"$2,693 ",NO,"$9,772 ",49.10%,9772
+5,Research & Development,Laboratory Technician,1,7,"$3,068 ",NO,"$11,272 ",49.10%,11272
+1083,Research & Development,Laboratory Technician,1,5,"$2,018 ",NO,"$7,072 ",49.10%,7072
+1104,Research & Development,Research Scientist,1,1,"$2,451 ",NO,"$8,804 ",49.10%,8804
+1224,Research & Development,Laboratory Technician,1,3,"$2,305 ",NO,"$8,220 ",49.10%,8220
+512,Research & Development,Research Scientist,1,4,"$2,045 ",NO,"$7,180 ",49.10%,7180
+138,Sales,Sales Executive,2,2,"$8,639 ",NO,"$32,556 ",49.10%,32556
+1412,Research & Development,Laboratory Technician,1,12,"$3,748 ",NO,"$13,992 ",49.10%,13992
+697,Sales,Sales Representative,1,3,"$2,157 ",NO,"$7,628 ",49.10%,7628
+142,Research & Development,Research Scientist,2,3,"$4,317 ",NO,"$15,268 ",49.10%,15268
+900,Research & Development,Research Scientist,1,11,"$3,692 ",NO,"$13,768 ",49.10%,13768
+1065,Research & Development,Healthcare Representative,2,3,"$4,035 ",NO,"$14,140 ",49.10%,14140
+1219,Research & Development,Laboratory Technician,1,5,"$2,974 ",NO,"$10,896 ",49.10%,10896
+1263,Research & Development,Laboratory Technician,1,5,"$2,766 ",NO,"$10,064 ",49.10%,10064
+210,Sales,Sales Executive,3,14,"$10,400 ",NO,"$38,600 ",49.10%,38600
+490,Research & Development,Research Scientist,1,0,"$2,619 ",NO,"$9,476 ",49.10%,9476
+727,Research & Development,Research Scientist,1,0,"$1,051 ",NO,"$3,204 ",49.10%,3204
+638,Sales,Sales Executive,2,5,"$4,256 ",NO,"$15,024 ",49.10%,15024
+431,Research & Development,Laboratory Technician,2,1,"$3,780 ",NO,"$13,120 ",49.10%,13120
+702,Sales,Sales Executive,3,8,"$7,264 ",NO,"$26,056 ",49.10%,26056
+30,Research & Development,Laboratory Technician,1,1,"$2,496 ",NO,"$8,984 ",49.00%,8984
+1027,Research & Development,Laboratory Technician,1,5,"$3,294 ",NO,"$12,176 ",49.00%,12176
+221,Research & Development,Research Scientist,1,3,"$2,622 ",NO,"$9,488 ",49.00%,9488
+1108,Research & Development,Laboratory Technician,1,3,"$2,450 ",NO,"$8,800 ",49.00%,8800
+37,Sales,Sales Representative,1,2,"$2,014 ",NO,"$7,056 ",49.00%,7056
+1285,Sales,Sales Executive,2,2,"$7,991 ",NO,"$29,964 ",49.00%,29964
+274,Research & Development,Research Scientist,1,3,"$3,230 ",NO,"$11,920 ",49.00%,11920
+781,Research & Development,Laboratory Technician,1,5,"$3,955 ",NO,"$14,820 ",49.00%,14820
+706,Sales,Sales Executive,4,1,"$13,194 ",NO,"$48,776 ",49.00%,48776
+1336,Research & Development,Research Scientist,1,5,"$2,662 ",NO,"$9,648 ",49.00%,9648
+498,Research & Development,Research Scientist,1,2,"$2,773 ",NO,"$10,092 ",49.00%,10092
+850,Sales,Sales Representative,1,1,"$2,827 ",NO,"$10,308 ",49.00%,10308
+310,Human Resources,Human Resources,2,2,"$6,410 ",NO,"$23,640 ",49.00%,23640
+402,Sales,Sales Executive,2,5,"$6,577 ",NO,"$24,308 ",49.00%,24308
+41,Research & Development,Laboratory Technician,1,1,"$2,341 ",NO,"$8,364 ",49.00%,8364
+1094,Sales,Sales Executive,2,8,"$5,473 ",NO,"$19,892 ",49.00%,19892
+876,Sales,Sales Representative,1,2,"$2,678 ",NO,"$9,712 ",49.00%,9712
+1180,Research & Development,Laboratory Technician,1,4,"$2,013 ",NO,"$7,052 ",49.00%,7052
+347,Sales,Sales Representative,2,0,"$2,976 ",NO,"$9,904 ",49.00%,9904
+1325,Research & Development,Laboratory Technician,1,0,"$3,968 ",NO,"$14,872 ",49.00%,14872
+998,Research & Development,Research Scientist,1,4,"$3,904 ",NO,"$14,616 ",49.00%,14616
+43,Sales,Sales Executive,3,9,"$8,726 ",NO,"$31,904 ",49.00%,31904
+758,Sales,Manager,3,6,"$11,904 ",NO,"$44,616 ",49.00%,44616
+824,Research & Development,Laboratory Technician,2,1,"$4,272 ",NO,"$15,088 ",49.00%,15088
+1069,Research & Development,Research Scientist,1,1,"$1,563 ",NO,"$5,252 ",49.00%,5252
+268,Research & Development,Healthcare Representative,4,20,"$13,496 ",NO,"$49,984 ",49.00%,49984
+793,Research & Development,Laboratory Technician,1,4,"$2,207 ",NO,"$7,828 ",49.00%,7828
+315,Research & Development,Laboratory Technician,1,8,"$2,455 ",NO,"$8,820 ",49.00%,8820
+372,Research & Development,Healthcare Representative,2,1,"$6,540 ",NO,"$24,160 ",49.00%,24160
+970,Sales,Sales Representative,1,1,"$2,534 ",NO,"$9,136 ",49.00%,9136
+364,Research & Development,Laboratory Technician,1,5,"$3,452 ",NO,"$12,808 ",49.00%,12808
+459,Research & Development,Healthcare Representative,2,8,"$6,811 ",NO,"$25,244 ",49.00%,25244
+94,Sales,Sales Executive,2,11,"$5,010 ",NO,"$18,040 ",49.00%,18040
+761,Research & Development,Laboratory Technician,2,1,"$4,834 ",NO,"$17,336 ",49.00%,17336
+200,Research & Development,Manufacturing Director,2,2,"$4,298 ",NO,"$15,192 ",49.00%,15192
+1238,Research & Development,Laboratory Technician,1,3,"$3,295 ",NO,"$12,180 ",49.00%,12180
+1330,Research & Development,Manager,5,16,"$19,392 ",NO,"$72,568 ",49.00%,72568
+906,Research & Development,Research Scientist,1,1,"$2,585 ",NO,"$9,340 ",49.00%,9340
+262,Research & Development,Laboratory Technician,2,6,"$2,176 ",NO,"$6,704 ",49.00%,6704
+282,Sales,Sales Executive,2,10,"$4,554 ",NO,"$16,216 ",49.00%,16216
+974,Sales,Sales Executive,2,6,"$5,071 ",NO,"$18,284 ",49.00%,18284
+169,Research & Development,Research Scientist,1,5,"$3,038 ",NO,"$11,152 ",49.00%,11152
+119,Sales,Manager,4,25,"$16,959 ",NO,"$63,836 ",49.00%,63836
+1230,Research & Development,Laboratory Technician,1,6,"$3,907 ",NO,"$14,628 ",49.00%,14628
+49,Research & Development,Laboratory Technician,1,1,"$2,269 ",NO,"$8,076 ",49.00%,8076
+1394,Research & Development,Manufacturing Director,2,1,"$9,679 ",NO,"$36,716 ",49.00%,36716
+1321,Research & Development,Laboratory Technician,1,2,"$2,105 ",NO,"$7,420 ",49.00%,7420
+545,Sales,Sales Executive,2,8,"$5,304 ",NO,"$19,216 ",49.00%,19216
+1046,Research & Development,Research Scientist,1,5,"$3,420 ",NO,"$12,680 ",49.00%,12680
+504,Sales,Sales Executive,2,1,"$4,286 ",NO,"$15,144 ",49.00%,15144
+470,Sales,Sales Representative,1,2,"$2,400 ",NO,"$8,600 ",49.00%,8600
+840,Research & Development,Laboratory Technician,1,8,"$2,258 ",NO,"$8,032 ",49.00%,8032
+964,Sales,Sales Executive,2,10,"$6,125 ",NO,"$22,500 ",49.00%,22500
+831,Research & Development,Laboratory Technician,1,2,"$2,610 ",NO,"$9,440 ",48.90%,9440
+623,Research & Development,Research Scientist,1,5,"$3,761 ",NO,"$14,044 ",48.90%,14044
+218,Sales,Sales Executive,3,19,"$8,865 ",NO,"$32,460 ",48.90%,32460
+1129,Research & Development,Manager,5,1,"$19,613 ",NO,"$73,452 ",48.90%,73452
+910,Research & Development,Research Scientist,1,1,"$1,223 ",NO,"$3,892 ",48.90%,3892
+1269,Human Resources,Human Resources,1,9,"$3,539 ",NO,"$13,156 ",48.90%,13156
+780,Research & Development,Healthcare Representative,3,10,"$8,722 ",NO,"$31,888 ",48.90%,31888
+1423,Research & Development,Research Scientist,1,3,"$3,375 ",NO,"$12,500 ",48.90%,12500
+1082,Research & Development,Laboratory Technician,2,4,"$2,272 ",NO,"$7,088 ",48.90%,7088
+712,Research & Development,Research Scientist,1,3,"$3,452 ",NO,"$12,808 ",48.90%,12808
+1231,Research & Development,Healthcare Representative,2,10,"$5,562 ",NO,"$20,248 ",48.90%,20248
+196,Research & Development,Laboratory Technician,2,6,"$4,425 ",NO,"$15,700 ",48.90%,15700
+1015,Research & Development,Research Scientist,1,4,"$2,996 ",NO,"$10,984 ",48.90%,10984
+1193,Research & Development,Laboratory Technician,1,4,"$2,440 ",NO,"$8,760 ",48.90%,8760
+366,Sales,Sales Executive,2,8,"$9,355 ",NO,"$35,420 ",48.90%,35420
+1070,Sales,Sales Executive,2,4,"$4,898 ",NO,"$17,592 ",48.90%,17592
+1384,Sales,Sales Executive,3,14,"$9,888 ",NO,"$36,552 ",48.90%,36552
+647,Research & Development,Manufacturing Director,3,13,"$10,903 ",NO,"$40,612 ",48.90%,40612
+945,Research & Development,Research Director,4,3,"$16,880 ",NO,"$63,520 ",48.90%,63520
+671,Research & Development,Laboratory Technician,1,1,"$2,008 ",NO,"$7,032 ",48.90%,7032
+1064,Human Resources,Human Resources,1,5,"$2,064 ",NO,"$7,256 ",48.90%,7256
+775,Sales,Sales Executive,3,1,"$10,798 ",NO,"$40,192 ",48.90%,40192
+620,Research & Development,Research Scientist,1,6,"$2,559 ",NO,"$9,236 ",48.90%,9236
+250,Research & Development,Manufacturing Director,3,1,"$10,048 ",NO,"$37,192 ",48.90%,37192
+1052,Research & Development,Research Scientist,1,1,"$1,274 ",NO,"$4,096 ",48.90%,4096
+942,Research & Development,Healthcare Representative,3,7,"$7,094 ",NO,"$25,376 ",48.90%,25376
+640,Research & Development,Laboratory Technician,1,5,"$3,162 ",NO,"$11,648 ",48.90%,11648
+1004,Research & Development,Laboratory Technician,1,7,"$3,578 ",NO,"$13,312 ",48.90%,13312
+617,Research & Development,Healthcare Representative,2,5,"$5,933 ",NO,"$21,732 ",48.90%,21732
+1049,Sales,Sales Executive,2,2,"$5,301 ",NO,"$19,204 ",48.90%,19204
+1417,Sales,Sales Representative,1,2,"$3,067 ",NO,"$11,268 ",48.90%,11268
+951,Sales,Sales Executive,2,19,"$6,151 ",NO,"$22,604 ",48.90%,22604
+228,Sales,Sales Executive,3,10,"$8,789 ",NO,"$32,156 ",48.90%,32156
+550,Research & Development,Laboratory Technician,1,4,"$2,500 ",NO,"$9,000 ",48.90%,9000
+1149,Research & Development,Laboratory Technician,1,7,"$4,066 ",NO,"$15,264 ",48.90%,15264
+24,Research & Development,Research Scientist,1,4,"$2,960 ",NO,"$10,840 ",48.90%,10840
+501,Research & Development,Research Scientist,1,1,"$2,083 ",NO,"$7,332 ",48.90%,7332
+482,Sales,Sales Executive,2,3,"$4,233 ",NO,"$14,932 ",48.90%,14932
+586,Research & Development,Laboratory Technician,1,1,"$2,694 ",NO,"$9,776 ",48.90%,9776
+333,Research & Development,Healthcare Representative,3,1,"$9,985 ",NO,"$36,940 ",48.90%,36940
+176,Research & Development,Research Scientist,1,3,"$2,500 ",NO,"$9,000 ",48.90%,9000
+1275,Research & Development,Manager,3,2,"$13,116 ",NO,"$49,464 ",48.90%,49464
+1260,Research & Development,Research Scientist,1,7,"$2,718 ",NO,"$9,872 ",48.90%,9872
+146,Research & Development,Laboratory Technician,1,5,"$2,720 ",NO,"$9,880 ",48.90%,9880
+934,Research & Development,Research Scientist,1,2,"$2,096 ",NO,"$7,384 ",48.90%,7384
+818,Sales,Sales Representative,1,2,"$2,791 ",NO,"$10,164 ",48.90%,10164
+1212,Research & Development,Research Scientist,1,10,"$2,929 ",NO,"$10,716 ",48.90%,10716
+136,Research & Development,Manufacturing Director,3,4,"$10,650 ",NO,"$39,600 ",48.90%,39600
+659,Sales,Sales Executive,2,4,"$4,908 ",NO,"$17,632 ",48.90%,17632
+865,Sales,Sales Executive,2,4,"$4,115 ",NO,"$14,460 ",48.90%,14460
+1334,Research & Development,Research Scientist,1,7,"$4,774 ",NO,"$18,096 ",48.90%,18096
+1147,Research & Development,Laboratory Technician,1,9,"$3,211 ",NO,"$11,844 ",48.90%,11844
+532,Sales,Sales Executive,2,7,"$4,960 ",NO,"$17,840 ",48.90%,17840
+1134,Research & Development,Laboratory Technician,1,1,"$2,690 ",NO,"$9,760 ",48.90%,9760
+565,Research & Development,Research Scientist,1,2,"$3,505 ",NO,"$13,020 ",48.90%,13020
+1302,Research & Development,Laboratory Technician,1,5,"$2,705 ",NO,"$9,820 ",48.90%,9820
+806,Research & Development,Healthcare Representative,3,8,"$10,445 ",NO,"$38,780 ",48.90%,38780
+415,Sales,Sales Representative,1,2,"$2,351 ",NO,"$8,404 ",48.90%,8404
+131,Sales,Sales Executive,3,2,"$9,208 ",NO,"$33,832 ",48.90%,33832
+191,Research & Development,Research Scientist,1,7,"$2,279 ",NO,"$8,116 ",48.90%,8116
+128,Research & Development,Laboratory Technician,1,2,"$2,523 ",NO,"$9,092 ",48.90%,9092
+1138,Research & Development,Healthcare Representative,4,30,"$11,245 ",NO,"$40,980 ",48.90%,40980
+352,Sales,Manager,3,0,"$12,504 ",NO,"$47,016 ",48.90%,47016
+581,Research & Development,Laboratory Technician,1,2,"$3,833 ",NO,"$14,332 ",48.90%,14332
+260,Research & Development,Laboratory Technician,1,5,"$2,794 ",NO,"$10,176 ",48.90%,10176
+1241,Sales,Sales Executive,3,4,"$9,610 ",NO,"$35,440 ",48.80%,35440
+1389,Research & Development,Research Scientist,2,10,"$5,003 ",NO,"$18,012 ",48.80%,18012
+125,Research & Development,Research Scientist,1,5,"$2,368 ",NO,"$8,472 ",48.80%,8472
+198,Research & Development,Manufacturing Director,2,1,"$6,553 ",NO,"$24,212 ",48.80%,24212
+606,Research & Development,Research Scientist,1,5,"$2,553 ",NO,"$9,212 ",48.80%,9212
+181,Research & Development,Research Scientist,1,3,"$2,311 ",NO,"$8,244 ",48.80%,8244
+1393,Sales,Sales Executive,2,7,"$4,105 ",NO,"$14,420 ",48.80%,14420
+1309,Sales,Sales Executive,2,5,"$4,684 ",NO,"$16,736 ",48.80%,16736
+40,Research & Development,Laboratory Technician,1,1,"$1,951 ",NO,"$6,804 ",48.80%,6804
+1041,Sales,Sales Executive,2,5,"$8,463 ",NO,"$31,852 ",48.80%,31852
+678,Research & Development,Research Scientist,1,0,"$2,259 ",NO,"$8,036 ",48.80%,8036
+1152,Research & Development,Research Scientist,1,2,"$3,117 ",NO,"$11,468 ",48.80%,11468
+789,Human Resources,Human Resources,3,20,"$10,482 ",NO,"$38,928 ",48.80%,38928
+884,Sales,Sales Executive,2,5,"$6,852 ",NO,"$25,408 ",48.80%,25408
+866,Sales,Sales Executive,2,0,"$4,327 ",NO,"$15,308 ",48.80%,15308
+12,Research & Development,Research Scientist,1,5,"$2,911 ",NO,"$10,644 ",48.80%,10644
+379,Research & Development,Manager,4,5,"$16,659 ",NO,"$62,636 ",48.80%,62636
+386,Research & Development,Laboratory Technician,1,18,"$3,034 ",NO,"$11,136 ",48.80%,11136
+987,Sales,Sales Executive,3,4,"$10,596 ",NO,"$39,384 ",48.80%,39384
+1293,Research & Development,Research Scientist,1,3,"$2,438 ",NO,"$8,752 ",48.80%,8752
+423,Sales,Sales Executive,3,9,"$8,412 ",NO,"$30,648 ",48.80%,30648
+1248,Research & Development,Research Scientist,1,6,"$3,445 ",NO,"$12,780 ",48.80%,12780
+949,Research & Development,Manufacturing Director,2,8,"$4,534 ",NO,"$16,136 ",48.80%,16136
+728,Research & Development,Manufacturing Director,3,10,"$10,739 ",NO,"$39,956 ",48.80%,39956
+880,Research & Development,Laboratory Technician,1,2,"$2,743 ",NO,"$9,972 ",48.80%,9972
+292,Sales,Sales Representative,1,2,"$2,789 ",NO,"$10,156 ",48.80%,10156
+687,Research & Development,Laboratory Technician,1,11,"$2,519 ",NO,"$9,076 ",48.80%,9076
+1366,Sales,Sales Executive,2,3,"$5,736 ",NO,"$20,944 ",48.80%,20944
+1103,Sales,Sales Executive,2,8,"$6,439 ",NO,"$23,756 ",48.80%,23756
+668,Research & Development,Research Scientist,1,2,"$2,377 ",NO,"$8,508 ",48.80%,8508
+721,Research & Development,Manufacturing Director,4,12,"$13,973 ",NO,"$51,892 ",48.80%,51892
+1251,Sales,Sales Executive,3,7,"$7,140 ",NO,"$25,560 ",48.80%,25560
+1428,Sales,Sales Representative,1,2,"$2,269 ",NO,"$8,076 ",48.80%,8076
+322,Research & Development,Research Scientist,2,7,"$5,055 ",NO,"$18,220 ",48.80%,18220
+676,Research & Development,Healthcare Representative,2,10,"$4,014 ",NO,"$14,056 ",48.80%,14056
+685,Sales,Sales Executive,2,7,"$4,294 ",NO,"$15,176 ",48.80%,15176
+399,Research & Development,Laboratory Technician,1,4,"$2,218 ",NO,"$7,872 ",48.80%,7872
+599,Human Resources,Human Resources,1,5,"$2,143 ",NO,"$7,572 ",48.80%,7572
+608,Sales,Sales Executive,2,9,"$5,160 ",NO,"$18,640 ",48.80%,18640
+527,Sales,Sales Executive,2,10,"$5,396 ",NO,"$19,584 ",48.80%,19584
+563,Sales,Sales Executive,2,6,"$6,180 ",NO,"$22,720 ",48.80%,22720
+580,Sales,Sales Representative,1,3,"$2,572 ",NO,"$9,288 ",48.80%,9288
+868,Research & Development,Laboratory Technician,1,6,"$3,196 ",NO,"$11,784 ",48.80%,11784
+238,Sales,Sales Representative,1,4,"$3,931 ",NO,"$14,724 ",48.80%,14724
+1100,Sales,Sales Representative,1,5,"$2,430 ",NO,"$8,720 ",48.80%,8720
+426,Research & Development,Laboratory Technician,1,11,"$2,564 ",NO,"$9,256 ",48.80%,9256
+1234,Sales,Sales Executive,2,1,"$4,978 ",NO,"$17,912 ",48.80%,17912
+836,Sales,Sales Executive,3,11,"$7,336 ",NO,"$26,344 ",48.80%,26344
+1198,Sales,Sales Executive,2,6,"$5,368 ",NO,"$19,472 ",48.80%,19472
+965,Research & Development,Laboratory Technician,1,3,"$3,669 ",NO,"$13,676 ",48.80%,13676
+495,Sales,Sales Representative,1,4,"$3,041 ",NO,"$11,164 ",48.80%,11164
+954,Research & Development,Manager,4,20,"$17,861 ",NO,"$67,444 ",48.80%,67444
+754,Sales,Sales Representative,1,2,"$2,342 ",NO,"$8,368 ",48.80%,8368
+1048,Sales,Sales Executive,2,13,"$4,759 ",NO,"$17,036 ",48.80%,17036
+1324,Research & Development,Healthcare Representative,2,7,"$6,384 ",NO,"$23,536 ",48.80%,23536
+1218,Sales,Sales Executive,3,10,"$9,241 ",NO,"$33,964 ",48.80%,33964
+853,Research & Development,Research Scientist,1,1,"$2,552 ",NO,"$9,208 ",48.80%,9208
+957,Research & Development,Research Scientist,1,4,"$3,544 ",NO,"$13,176 ",48.80%,13176
+1247,Sales,Sales Executive,2,5,"$8,346 ",NO,"$31,384 ",48.80%,31384
+984,Sales,Sales Executive,2,5,"$4,724 ",NO,"$16,896 ",48.80%,16896
+771,Sales,Sales Executive,3,9,"$10,686 ",NO,"$39,744 ",48.80%,39744
+1289,Human Resources,Human Resources,1,11,"$2,592 ",NO,"$9,368 ",48.80%,9368
+579,Research & Development,Research Scientist,1,6,"$4,381 ",NO,"$16,524 ",48.80%,16524
+736,Research & Development,Healthcare Representative,3,15,"$10,999 ",NO,"$40,996 ",48.80%,40996
+1022,Research & Development,Laboratory Technician,1,6,"$3,500 ",NO,"$13,000 ",48.80%,13000
+85,Research & Development,Manufacturing Director,3,6,"$7,260 ",NO,"$26,040 ",48.80%,26040
+375,Research & Development,Healthcare Representative,3,5,"$10,965 ",NO,"$40,860 ",48.80%,40860
+446,Sales,Sales Executive,2,14,"$6,230 ",NO,"$22,920 ",48.80%,22920
+158,Sales,Sales Executive,3,12,"$10,855 ",NO,"$40,420 ",48.80%,40420
+555,Sales,Sales Representative,1,2,"$2,297 ",NO,"$8,188 ",48.80%,8188
+1092,Research & Development,Research Scientist,1,5,"$2,132 ",NO,"$7,528 ",48.80%,7528
+396,Research & Development,Healthcare Representative,2,5,"$4,522 ",NO,"$16,088 ",48.80%,16088
+737,Research & Development,Manufacturing Director,2,2,"$5,003 ",NO,"$18,012 ",48.80%,18012
+179,Research & Development,Laboratory Technician,1,2,"$2,288 ",NO,"$8,152 ",48.80%,8152
+1414,Research & Development,Healthcare Representative,3,17,"$8,633 ",NO,"$31,532 ",48.80%,31532
+1042,Research & Development,Laboratory Technician,1,5,"$3,162 ",NO,"$11,648 ",48.80%,11648
+936,Research & Development,Manager,5,0,"$18,061 ",NO,"$67,244 ",48.80%,67244
+483,Research & Development,Laboratory Technician,2,3,"$3,681 ",NO,"$12,724 ",48.80%,12724
+456,Sales,Manager,3,5,"$11,557 ",NO,"$43,228 ",48.80%,43228
+212,Sales,Sales Executive,2,7,"$9,981 ",NO,"$37,924 ",48.80%,37924
+74,Research & Development,Laboratory Technician,1,1,"$3,038 ",NO,"$11,152 ",48.80%,11152
+493,Human Resources,Human Resources,2,2,"$5,985 ",NO,"$21,940 ",48.80%,21940
+29,Sales,Manager,5,2,"$18,947 ",NO,"$70,788 ",48.80%,70788
+786,Research & Development,Laboratory Technician,1,3,"$4,621 ",NO,"$17,484 ",48.80%,17484
+1120,Sales,Sales Executive,2,3,"$4,198 ",NO,"$14,792 ",48.80%,14792
+240,Research & Development,Laboratory Technician,1,3,"$2,232 ",NO,"$7,928 ",48.80%,7928
+220,Research & Development,Laboratory Technician,2,13,"$5,914 ",NO,"$21,656 ",48.80%,21656
+993,Sales,Sales Executive,2,3,"$6,232 ",NO,"$22,928 ",48.80%,22928
+61,Research & Development,Laboratory Technician,2,10,"$2,406 ",NO,"$7,624 ",48.80%,7624
+95,Research & Development,Research Director,3,4,"$13,549 ",NO,"$51,196 ",48.80%,51196
+515,Research & Development,Laboratory Technician,1,1,"$1,281 ",NO,"$4,124 ",48.80%,4124
+226,Sales,Sales Representative,1,9,"$2,793 ",NO,"$10,172 ",48.80%,10172
+522,Research & Development,Research Scientist,1,1,"$4,680 ",NO,"$17,720 ",48.70%,17720
+1109,Sales,Sales Executive,3,4,"$9,250 ",NO,"$34,000 ",48.70%,34000
+161,Research & Development,Research Scientist,1,2,"$2,024 ",NO,"$7,096 ",48.70%,7096
+1089,Research & Development,Research Scientist,2,10,"$4,285 ",NO,"$15,140 ",48.70%,15140
+526,Research & Development,Healthcare Representative,2,20,"$4,553 ",NO,"$16,212 ",48.70%,16212
+1099,Research & Development,Healthcare Representative,3,10,"$7,441 ",NO,"$26,764 ",48.70%,26764
+1452,Sales,Sales Executive,2,6,"$6,728 ",NO,"$24,912 ",48.70%,24912
+904,Research & Development,Research Director,5,1,"$18,265 ",NO,"$68,060 ",48.70%,68060
+615,Research & Development,Research Scientist,1,0,"$1,706 ",NO,"$5,824 ",48.70%,5824
+241,Sales,Sales Executive,2,3,"$4,465 ",NO,"$15,860 ",48.70%,15860
+469,Sales,Sales Executive,2,4,"$4,707 ",NO,"$16,828 ",48.70%,16828
+1468,Sales,Sales Executive,2,9,"$5,390 ",NO,"$19,560 ",48.70%,19560
+684,Sales,Sales Executive,3,1,"$9,705 ",NO,"$35,820 ",48.70%,35820
+154,Sales,Sales Executive,3,9,"$8,998 ",NO,"$32,992 ",48.70%,32992
+516,Research & Development,Research Scientist,1,3,"$2,819 ",NO,"$10,276 ",48.70%,10276
+317,Research & Development,Research Scientist,2,8,"$4,941 ",NO,"$17,764 ",48.70%,17764
+1227,Research & Development,Laboratory Technician,1,5,"$3,477 ",NO,"$12,908 ",48.70%,12908
+1206,Research & Development,Laboratory Technician,1,7,"$2,570 ",NO,"$9,280 ",48.70%,9280
+1013,Sales,Sales Executive,2,3,"$4,779 ",NO,"$17,116 ",48.70%,17116
+812,Research & Development,Manufacturing Director,3,8,"$10,820 ",NO,"$40,280 ",48.70%,40280
+569,Sales,Sales Executive,3,10,"$7,587 ",NO,"$27,348 ",48.70%,27348
+1282,Research & Development,Research Scientist,1,10,"$3,143 ",NO,"$11,572 ",48.70%,11572
+1143,Sales,Sales Executive,2,10,"$4,385 ",NO,"$15,540 ",48.70%,15540
+938,Research & Development,Research Scientist,1,2,"$2,372 ",NO,"$8,488 ",48.70%,8488
+1107,Human Resources,Human Resources,2,6,"$6,077 ",NO,"$22,308 ",48.70%,22308
+183,Research & Development,Laboratory Technician,1,3,"$3,690 ",NO,"$13,760 ",48.70%,13760
+816,Research & Development,Laboratory Technician,2,5,"$6,782 ",NO,"$25,128 ",48.70%,25128
+837,Research & Development,Research Director,3,18,"$13,499 ",NO,"$50,996 ",48.70%,50996
+134,Human Resources,Human Resources,1,8,"$2,942 ",NO,"$10,768 ",48.70%,10768
+941,Research & Development,Laboratory Technician,2,9,"$4,627 ",NO,"$16,508 ",48.70%,16508
+328,Sales,Sales Executive,2,7,"$4,682 ",NO,"$16,728 ",48.70%,16728
+449,Research & Development,Laboratory Technician,1,8,"$3,755 ",NO,"$14,020 ",48.70%,14020
+89,Sales,Sales Executive,3,9,"$9,619 ",NO,"$35,476 ",48.70%,35476
+1455,Research & Development,Research Scientist,1,2,"$2,809 ",NO,"$10,236 ",48.70%,10236
+115,Sales,Sales Executive,3,5,"$7,428 ",NO,"$26,712 ",48.70%,26712
+1367,Research & Development,Research Scientist,1,5,"$2,226 ",NO,"$7,904 ",48.70%,7904
+374,Sales,Sales Executive,2,7,"$5,253 ",NO,"$19,012 ",48.70%,19012
+1030,Sales,Sales Executive,3,13,"$10,793 ",NO,"$40,172 ",48.70%,40172
+1159,Research & Development,Manufacturing Director,2,9,"$5,042 ",NO,"$18,168 ",48.70%,18168
+168,Sales,Sales Executive,2,8,"$8,686 ",NO,"$32,744 ",48.70%,32744
+519,Research & Development,Research Scientist,1,10,"$2,720 ",NO,"$9,880 ",48.70%,9880
+113,Research & Development,Laboratory Technician,1,5,"$2,774 ",NO,"$10,096 ",48.70%,10096
+311,Research & Development,Laboratory Technician,3,24,"$5,210 ",NO,"$17,840 ",48.70%,17840
+1233,Research & Development,Research Scientist,1,10,"$2,862 ",NO,"$10,448 ",48.70%,10448
+783,Research & Development,Research Scientist,1,10,"$3,376 ",NO,"$12,504 ",48.70%,12504
+82,Sales,Sales Executive,3,1,"$10,239 ",NO,"$37,956 ",48.70%,37956
+1072,Research & Development,Laboratory Technician,1,3,"$3,180 ",NO,"$11,720 ",48.70%,11720
+680,Research & Development,Research Scientist,1,6,"$4,678 ",NO,"$17,712 ",48.70%,17712
+1223,Sales,Sales Executive,4,23,"$12,936 ",NO,"$47,744 ",48.70%,47744
+642,Sales,Sales Representative,1,2,"$2,899 ",NO,"$10,596 ",48.70%,10596
+475,Sales,Sales Executive,2,5,"$6,272 ",NO,"$23,088 ",48.70%,23088
+129,Research & Development,Manufacturing Director,2,15,"$6,567 ",NO,"$24,268 ",48.70%,24268
+289,Research & Development,Research Scientist,1,5,"$3,310 ",NO,"$12,240 ",48.70%,12240
+442,Sales,Sales Executive,3,10,"$9,980 ",NO,"$36,920 ",48.70%,36920
+1242,Sales,Manager,5,21,"$19,833 ",NO,"$74,332 ",48.70%,74332
+148,Research & Development,Laboratory Technician,1,5,"$2,238 ",NO,"$7,952 ",48.70%,7952
+1434,Sales,Sales Representative,1,9,"$3,482 ",NO,"$12,928 ",48.70%,12928
+461,Sales,Sales Executive,2,5,"$4,859 ",NO,"$17,436 ",48.70%,17436
+735,Research & Development,Healthcare Representative,2,2,"$4,240 ",NO,"$14,960 ",48.70%,14960
+1415,Research & Development,Laboratory Technician,1,1,"$2,008 ",NO,"$7,032 ",48.70%,7032
+1291,Research & Development,Manufacturing Director,2,10,"$4,213 ",NO,"$14,852 ",48.70%,14852
+760,Sales,Sales Executive,3,15,"$7,525 ",NO,"$27,100 ",48.70%,27100
+1409,Research & Development,Laboratory Technician,2,10,"$6,323 ",NO,"$23,292 ",48.70%,23292
+166,Research & Development,Research Scientist,1,9,"$2,451 ",NO,"$8,804 ",48.70%,8804
+383,Research & Development,Research Scientist,1,2,"$2,244 ",NO,"$7,976 ",48.70%,7976
+834,Sales,Sales Executive,2,6,"$5,714 ",NO,"$20,856 ",48.70%,20856
+792,Research & Development,Research Scientist,2,13,"$4,508 ",NO,"$16,032 ",48.70%,16032
+890,Research & Development,Manufacturing Director,3,5,"$10,502 ",NO,"$39,008 ",48.70%,39008
+1363,Sales,Sales Executive,2,10,"$5,487 ",NO,"$19,948 ",48.70%,19948
+76,Sales,Sales Executive,2,15,"$4,312 ",NO,"$15,248 ",48.70%,15248
+817,Research & Development,Manufacturing Director,2,11,"$7,779 ",NO,"$29,116 ",48.70%,29116
+1286,Research & Development,Laboratory Technician,1,4,"$3,377 ",NO,"$12,508 ",48.70%,12508
+1002,Research & Development,Manufacturing Director,3,2,"$9,362 ",NO,"$34,448 ",48.70%,34448
+530,Research & Development,Manufacturing Director,3,9,"$7,412 ",NO,"$26,648 ",48.70%,26648
+768,Sales,Sales Executive,2,7,"$8,396 ",NO,"$31,584 ",48.70%,31584
+1361,Research & Development,Laboratory Technician,1,7,"$2,544 ",NO,"$9,176 ",48.70%,9176
+896,Research & Development,Healthcare Representative,2,10,"$6,812 ",NO,"$25,248 ",48.70%,25248
+893,Research & Development,Research Scientist,1,3,"$3,760 ",NO,"$14,040 ",48.70%,14040
+1018,Research & Development,Laboratory Technician,2,10,"$5,810 ",NO,"$21,240 ",48.70%,21240
+162,Research & Development,Research Scientist,1,5,"$2,713 ",NO,"$9,852 ",48.70%,9852
+1268,Research & Development,Manufacturing Director,4,3,"$12,965 ",NO,"$47,860 ",48.70%,47860
+1253,Sales,Sales Executive,2,11,"$5,147 ",NO,"$18,588 ",48.70%,18588
+8,Research & Development,Manufacturing Director,3,9,"$9,526 ",NO,"$35,104 ",48.70%,35104
+885,Sales,Sales Executive,2,4,"$4,950 ",NO,"$17,800 ",48.70%,17800
+1088,Research & Development,Laboratory Technician,1,1,"$4,841 ",NO,"$18,364 ",48.70%,18364
+639,Research & Development,Research Scientist,1,4,"$3,580 ",NO,"$13,320 ",48.70%,13320
+1023,Research & Development,Research Scientist,1,3,"$2,066 ",NO,"$7,264 ",48.70%,7264
+464,Research & Development,Manufacturing Director,3,6,"$7,491 ",NO,"$26,964 ",48.70%,26964
+68,Research & Development,Research Scientist,1,3,"$2,194 ",NO,"$7,776 ",48.70%,7776
+313,Research & Development,Manager,3,10,"$11,878 ",NO,"$44,512 ",48.70%,44512
+33,Sales,Sales Representative,2,1,"$2,086 ",NO,"$6,344 ",48.70%,6344
+1031,Sales,Sales Executive,3,7,"$10,096 ",NO,"$37,384 ",48.70%,37384
+1333,Sales,Sales Executive,3,8,"$7,314 ",NO,"$26,256 ",48.60%,26256
+418,Research & Development,Research Scientist,1,3,"$2,886 ",NO,"$10,544 ",48.60%,10544
+773,Research & Development,Manufacturing Director,3,14,"$8,858 ",NO,"$32,432 ",48.60%,32432
+740,Research & Development,Laboratory Technician,1,3,"$3,917 ",NO,"$14,668 ",48.60%,14668
+458,Sales,Sales Executive,3,1,"$10,932 ",NO,"$40,728 ",48.60%,40728
+130,Research & Development,Research Scientist,1,3,"$4,739 ",NO,"$17,956 ",48.60%,17956
+1266,Research & Development,Laboratory Technician,1,5,"$2,289 ",NO,"$8,156 ",48.60%,8156
+750,Sales,Sales Executive,4,12,"$13,320 ",NO,"$49,280 ",48.60%,49280
+1306,Sales,Sales Executive,3,3,"$9,637 ",NO,"$35,548 ",48.60%,35548
+705,Sales,Sales Executive,3,8,"$7,880 ",NO,"$28,520 ",48.60%,28520
+1350,Sales,Sales Executive,2,8,"$6,500 ",NO,"$24,000 ",48.60%,24000
+994,Research & Development,Manufacturing Director,4,5,"$13,247 ",NO,"$48,988 ",48.60%,48988
+848,Research & Development,Laboratory Technician,1,2,"$2,376 ",NO,"$8,504 ",48.60%,8504
+769,Research & Development,Research Scientist,1,5,"$2,007 ",NO,"$7,028 ",48.60%,7028
+63,Sales,Sales Executive,3,21,"$7,637 ",NO,"$27,548 ",48.60%,27548
+873,Research & Development,Laboratory Technician,1,7,"$2,741 ",NO,"$9,964 ",48.60%,9964
+56,Sales,Sales Executive,3,9,"$9,069 ",NO,"$33,276 ",48.60%,33276
+1347,Human Resources,Human Resources,2,10,"$3,886 ",NO,"$13,544 ",48.60%,13544
+1199,Research & Development,Healthcare Representative,2,3,"$5,347 ",NO,"$19,388 ",48.60%,19388
+844,Sales,Sales Executive,2,10,"$6,578 ",NO,"$24,312 ",48.60%,24312
+1256,Research & Development,Laboratory Technician,1,6,"$2,468 ",NO,"$8,872 ",48.60%,8872
+1019,Sales,Sales Executive,2,3,"$5,647 ",NO,"$20,588 ",48.60%,20588
+265,Sales,Sales Executive,2,0,"$6,644 ",NO,"$24,576 ",48.60%,24576
+794,Research & Development,Healthcare Representative,2,6,"$7,756 ",NO,"$29,024 ",48.60%,29024
+344,Research & Development,Manufacturing Director,3,16,"$8,095 ",NO,"$29,380 ",48.60%,29380
+407,Research & Development,Research Scientist,1,2,"$2,654 ",NO,"$9,616 ",48.60%,9616
+231,Research & Development,Manager,5,22,"$19,232 ",NO,"$71,928 ",48.60%,71928
+1044,Research & Development,Healthcare Representative,2,3,"$6,651 ",NO,"$24,604 ",48.60%,24604
+1220,Sales,Sales Representative,2,13,"$4,502 ",NO,"$16,008 ",48.60%,16008
+1228,Human Resources,Human Resources,2,3,"$6,430 ",NO,"$23,720 ",48.60%,23720
+698,Sales,Sales Executive,2,5,"$4,601 ",NO,"$16,404 ",48.60%,16404
+907,Sales,Manager,5,22,"$18,213 ",NO,"$67,852 ",48.60%,67852
+630,Research & Development,Manufacturing Director,2,2,"$4,775 ",NO,"$17,100 ",48.60%,17100
+1387,Research & Development,Healthcare Representative,2,5,"$5,373 ",NO,"$19,492 ",48.60%,19492
+351,Research & Development,Laboratory Technician,1,8,"$2,370 ",NO,"$8,480 ",48.60%,8480
+298,Research & Development,Laboratory Technician,1,1,"$3,688 ",NO,"$13,752 ",48.60%,13752
+1274,Sales,Sales Executive,2,12,"$5,468 ",NO,"$19,872 ",48.60%,19872
+144,Sales,Sales Executive,2,8,"$4,668 ",NO,"$16,672 ",48.60%,16672
+701,Sales,Manager,4,17,"$14,852 ",NO,"$55,408 ",48.60%,55408
+160,Research & Development,Research Scientist,1,2,"$2,323 ",NO,"$8,292 ",48.60%,8292
+87,Research & Development,Laboratory Technician,1,4,"$2,075 ",NO,"$7,300 ",48.60%,7300
+410,Research & Development,Manufacturing Director,2,5,"$6,091 ",NO,"$22,364 ",48.60%,22364
+156,Research & Development,Manufacturing Director,2,1,"$6,132 ",NO,"$22,528 ",48.60%,22528
+510,Human Resources,Human Resources,3,9,"$10,725 ",NO,"$39,900 ",48.60%,39900
+785,Research & Development,Healthcare Representative,3,11,"$10,322 ",NO,"$38,288 ",48.60%,38288
+808,Research & Development,Research Scientist,1,7,"$2,514 ",NO,"$9,056 ",48.60%,9056
+485,Research & Development,Research Scientist,1,5,"$2,187 ",NO,"$7,748 ",48.60%,7748
+10,Research & Development,Laboratory Technician,1,5,"$2,426 ",NO,"$8,704 ",48.60%,8704
+248,Research & Development,Research Scientist,1,3,"$3,920 ",NO,"$14,680 ",48.60%,14680
+46,Sales,Sales Executive,2,9,"$4,568 ",NO,"$16,272 ",48.60%,16272
+833,Research & Development,Research Scientist,1,4,"$2,539 ",NO,"$9,156 ",48.60%,9156
+583,Sales,Sales Executive,2,3,"$6,500 ",NO,"$24,000 ",48.60%,24000
+441,Research & Development,Laboratory Technician,1,2,"$2,093 ",NO,"$7,372 ",48.60%,7372
+96,Sales,Sales Executive,2,3,"$4,999 ",NO,"$17,996 ",48.60%,17996
+852,Research & Development,Laboratory Technician,1,10,"$3,131 ",NO,"$11,524 ",48.60%,11524
+1106,Sales,Sales Executive,2,10,"$9,714 ",NO,"$36,856 ",48.60%,36856
+977,Research & Development,Research Scientist,1,5,"$2,029 ",NO,"$7,116 ",48.60%,7116
+332,Research & Development,Research Scientist,2,4,"$4,869 ",NO,"$17,476 ",48.60%,17476
+722,Research & Development,Research Scientist,1,2,"$2,684 ",NO,"$9,736 ",48.60%,9736
+629,Human Resources,Human Resources,1,5,"$4,936 ",NO,"$18,744 ",48.60%,18744
+518,Sales,Sales Executive,2,7,"$4,028 ",NO,"$14,112 ",48.60%,14112
+902,Research & Development,Research Scientist,1,5,"$2,517 ",NO,"$9,068 ",48.60%,9068
+1151,Research & Development,Manufacturing Director,2,5,"$4,877 ",NO,"$17,508 ",48.60%,17508
+359,Sales,Sales Executive,3,13,"$9,699 ",NO,"$35,796 ",48.60%,35796
+232,Human Resources,Human Resources,1,2,"$2,267 ",NO,"$8,068 ",48.60%,8068
+1047,Sales,Sales Executive,2,4,"$4,373 ",NO,"$15,492 ",48.60%,15492
+863,Human Resources,Human Resources,1,5,"$3,600 ",NO,"$13,400 ",48.60%,13400
+1091,Research & Development,Manufacturing Director,2,5,"$4,320 ",NO,"$15,280 ",48.60%,15280
+1380,Sales,Sales Executive,2,5,"$5,561 ",NO,"$20,244 ",48.60%,20244
+704,Sales,Sales Executive,3,10,"$7,823 ",NO,"$28,292 ",48.60%,28292
+391,Research & Development,Laboratory Technician,2,1,"$3,448 ",NO,"$11,792 ",48.60%,11792
+1254,Sales,Sales Executive,2,5,"$4,507 ",NO,"$16,028 ",48.60%,16028
+65,Research & Development,Manager,4,5,"$14,756 ",NO,"$55,024 ",48.60%,55024
+205,Sales,Sales Executive,3,10,"$7,639 ",NO,"$27,556 ",48.60%,27556
+765,Research & Development,Research Scientist,1,2,"$2,821 ",NO,"$10,284 ",48.60%,10284
+1284,Research & Development,Research Director,3,4,"$13,464 ",NO,"$50,856 ",48.60%,50856
+334,Research & Development,Research Scientist,2,10,"$3,697 ",NO,"$12,788 ",48.60%,12788
+822,Research & Development,Manufacturing Director,2,3,"$4,033 ",NO,"$14,132 ",48.60%,14132
+299,Research & Development,Manufacturing Director,2,4,"$5,482 ",NO,"$19,928 ",48.60%,19928
+209,Research & Development,Healthcare Representative,3,4,"$9,396 ",NO,"$34,584 ",48.60%,34584
+1081,Research & Development,Healthcare Representative,3,11,"$8,606 ",NO,"$31,424 ",48.60%,31424
+1073,Research & Development,Manufacturing Director,2,8,"$6,549 ",NO,"$24,196 ",48.60%,24196
+558,Research & Development,Laboratory Technician,2,10,"$5,309 ",NO,"$19,236 ",48.60%,19236
+1383,Research & Development,Laboratory Technician,1,5,"$2,810 ",NO,"$10,240 ",48.50%,10240
+1287,Research & Development,Healthcare Representative,2,0,"$5,538 ",NO,"$20,152 ",48.50%,20152
+356,Research & Development,Healthcare Representative,2,1,"$6,781 ",NO,"$25,124 ",48.50%,25124
+567,Sales,Sales Executive,2,6,"$6,274 ",NO,"$23,096 ",48.50%,23096
+1163,Research & Development,Research Scientist,1,8,"$3,936 ",NO,"$14,744 ",48.50%,14744
+592,Research & Development,Manager,4,26,"$16,752 ",NO,"$63,008 ",48.50%,63008
+1407,Research & Development,Healthcare Representative,2,4,"$4,617 ",NO,"$16,468 ",48.50%,16468
+388,Research & Development,Laboratory Technician,1,5,"$2,576 ",NO,"$9,304 ",48.50%,9304
+1141,Research & Development,Research Scientist,1,6,"$2,141 ",NO,"$7,564 ",48.50%,7564
+1371,Sales,Sales Executive,2,0,"$5,380 ",NO,"$19,520 ",48.50%,19520
+97,Sales,Sales Executive,2,5,"$4,221 ",NO,"$14,884 ",48.50%,14884
+199,Research & Development,Manufacturing Director,2,7,"$6,261 ",NO,"$23,044 ",48.50%,23044
+9,Research & Development,Healthcare Representative,2,7,"$5,237 ",NO,"$18,948 ",48.50%,18948
+373,Research & Development,Laboratory Technician,1,5,"$3,816 ",NO,"$14,264 ",48.50%,14264
+1243,Human Resources,Human Resources,3,5,"$9,756 ",NO,"$36,024 ",48.50%,36024
+872,Sales,Sales Executive,2,10,"$4,539 ",NO,"$16,156 ",48.50%,16156
+188,Research & Development,Manufacturing Director,2,10,"$9,547 ",NO,"$36,188 ",48.50%,36188
+772,Research & Development,Research Scientist,1,5,"$2,942 ",NO,"$10,768 ",48.50%,10768
+1264,Research & Development,Research Director,5,1,"$19,038 ",NO,"$71,152 ",48.50%,71152
+135,Research & Development,Manufacturing Director,2,3,"$4,941 ",NO,"$17,764 ",48.50%,17764
+823,Research & Development,Research Scientist,1,7,"$3,291 ",NO,"$12,164 ",48.50%,12164
+44,Research & Development,Laboratory Technician,2,12,"$4,011 ",NO,"$14,044 ",48.50%,14044
+967,Research & Development,Laboratory Technician,1,4,"$2,387 ",NO,"$8,548 ",48.50%,8548
+1131,Research & Development,Healthcare Representative,2,8,"$5,063 ",NO,"$18,252 ",48.50%,18252
+1356,Sales,Sales Executive,2,5,"$4,393 ",NO,"$15,572 ",48.50%,15572
+84,Research & Development,Manufacturing Director,2,5,"$4,325 ",NO,"$15,300 ",48.50%,15300
+969,Research & Development,Manufacturing Director,3,10,"$7,898 ",NO,"$28,592 ",48.50%,28592
+1432,Research & Development,Research Director,3,16,"$13,744 ",NO,"$51,976 ",48.50%,51976
+153,Research & Development,Laboratory Technician,2,17,"$2,348 ",NO,"$7,392 ",48.50%,7392
+297,Sales,Sales Executive,3,11,"$8,020 ",NO,"$29,080 ",48.50%,29080
+508,Research & Development,Research Scientist,2,17,"$6,646 ",NO,"$24,584 ",48.50%,24584
+1181,Research & Development,Healthcare Representative,4,15,"$13,966 ",NO,"$51,864 ",48.50%,51864
+1191,Sales,Sales Executive,2,10,"$5,476 ",NO,"$19,904 ",48.50%,19904
+1127,Research & Development,Research Scientist,1,2,"$2,073 ",NO,"$7,292 ",48.50%,7292
+247,Research & Development,Manufacturing Director,2,11,"$5,957 ",NO,"$21,828 ",48.50%,21828
+1175,Research & Development,Manufacturing Director,2,5,"$5,295 ",NO,"$19,180 ",48.50%,19180
+272,Research & Development,Research Scientist,1,5,"$2,070 ",NO,"$7,280 ",48.50%,7280
+587,Research & Development,Laboratory Technician,2,5,"$3,149 ",NO,"$10,596 ",48.50%,10596
+570,Research & Development,Research Scientist,1,4,"$4,258 ",NO,"$16,032 ",48.50%,16032
+767,Research & Development,Healthcare Representative,2,4,"$4,107 ",NO,"$14,428 ",48.50%,14428
+302,Research & Development,Healthcare Representative,2,8,"$5,661 ",NO,"$20,644 ",48.50%,20644
+325,Research & Development,Manufacturing Director,3,10,"$8,943 ",NO,"$32,772 ",48.50%,32772
+345,Research & Development,Research Scientist,1,4,"$2,904 ",NO,"$10,616 ",48.50%,10616
+628,Sales,Sales Executive,2,1,"$6,334 ",NO,"$23,336 ",48.50%,23336
+883,Research & Development,Research Scientist,1,14,"$2,781 ",NO,"$10,124 ",48.50%,10124
+723,Research & Development,Manufacturing Director,3,8,"$10,845 ",NO,"$40,380 ",48.50%,40380
+847,Research & Development,Healthcare Representative,2,13,"$5,343 ",NO,"$19,372 ",48.50%,19372
+285,Research & Development,Research Scientist,1,17,"$2,115 ",NO,"$7,460 ",48.50%,7460
+489,Research & Development,Research Director,4,1,"$16,627 ",NO,"$62,508 ",48.50%,62508
+524,Research & Development,Healthcare Representative,3,8,"$8,621 ",NO,"$31,484 ",48.50%,31484
+611,Research & Development,Manufacturing Director,3,8,"$10,221 ",NO,"$37,884 ",48.50%,37884
+387,Sales,Sales Executive,2,5,"$5,715 ",NO,"$20,860 ",48.50%,20860
+358,Sales,Sales Executive,2,1,"$6,653 ",NO,"$24,612 ",48.50%,24612
+1105,Sales,Sales Executive,2,2,"$6,392 ",NO,"$23,568 ",48.50%,23568
+462,Sales,Sales Executive,2,10,"$5,337 ",NO,"$19,348 ",48.50%,19348
+1320,Research & Development,Research Scientist,1,6,"$2,936 ",NO,"$10,744 ",48.50%,10744
+1420,Research & Development,Research Scientist,1,5,"$2,782 ",NO,"$10,128 ",48.50%,10128
+607,Sales,Sales Executive,3,9,"$7,654 ",NO,"$27,616 ",48.50%,27616
+499,Sales,Sales Executive,2,5,"$7,104 ",NO,"$26,416 ",48.50%,26416
+979,Research & Development,Laboratory Technician,2,8,"$5,429 ",NO,"$19,716 ",48.50%,19716
+596,Research & Development,Research Scientist,1,2,"$2,506 ",NO,"$9,024 ",48.50%,9024
+428,Research & Development,Manufacturing Director,2,5,"$5,070 ",NO,"$18,280 ",48.50%,18280
+454,Research & Development,Manufacturing Director,2,3,"$4,262 ",NO,"$15,048 ",48.50%,15048
+13,Research & Development,Laboratory Technician,1,2,"$2,661 ",NO,"$9,644 ",48.50%,9644
+280,Research & Development,Research Director,4,5,"$17,584 ",NO,"$66,336 ",48.50%,66336
+1316,Sales,Sales Executive,2,7,"$5,675 ",NO,"$20,700 ",48.50%,20700
+355,Sales,Sales Executive,2,8,"$5,296 ",NO,"$19,184 ",48.50%,19184
+605,Research & Development,Healthcare Representative,2,4,"$6,288 ",NO,"$23,152 ",48.50%,23152
+245,Research & Development,Research Director,3,2,"$13,675 ",NO,"$51,700 ",48.50%,51700
+1280,Human Resources,Human Resources,2,10,"$4,071 ",NO,"$14,284 ",48.50%,14284
+1447,Sales,Sales Executive,2,15,"$5,406 ",NO,"$19,624 ",48.50%,19624
+117,Sales,Sales Executive,3,9,"$9,738 ",NO,"$35,952 ",48.50%,35952
+874,Research & Development,Laboratory Technician,2,10,"$3,491 ",NO,"$11,964 ",48.50%,11964
+520,Sales,Sales Executive,2,2,"$8,120 ",NO,"$30,480 ",48.50%,30480
+543,Research & Development,Laboratory Technician,1,5,"$3,708 ",NO,"$13,832 ",48.50%,13832
+899,Research & Development,Manager,5,1,"$18,711 ",NO,"$69,844 ",48.50%,69844
+653,Research & Development,Manager,4,31,"$17,924 ",NO,"$67,696 ",48.50%,67696
+983,Research & Development,Healthcare Representative,2,14,"$6,687 ",NO,"$24,748 ",48.50%,24748
+537,Research & Development,Manufacturing Director,3,9,"$8,793 ",NO,"$32,172 ",48.50%,32172
+269,Research & Development,Laboratory Technician,1,15,"$3,210 ",NO,"$11,840 ",48.50%,11840
+75,Research & Development,Manufacturing Director,2,11,"$4,424 ",NO,"$15,696 ",48.50%,15696
+1458,Research & Development,Research Scientist,1,4,"$2,977 ",NO,"$10,908 ",48.50%,10908
+556,Research & Development,Laboratory Technician,2,2,"$2,450 ",NO,"$7,800 ",48.50%,7800
+507,Sales,Sales Executive,2,6,"$5,561 ",NO,"$20,244 ",48.50%,20244
+185,Research & Development,Research Scientist,1,8,"$2,756 ",NO,"$10,024 ",48.50%,10024
+536,Sales,Sales Executive,2,2,"$5,405 ",NO,"$19,620 ",48.50%,19620
+1362,Research & Development,Healthcare Representative,2,4,"$5,399 ",NO,"$19,596 ",48.50%,19596
+879,Sales,Sales Executive,2,11,"$5,220 ",NO,"$18,880 ",48.40%,18880
+1341,Research & Development,Laboratory Technician,2,10,"$4,197 ",NO,"$14,788 ",48.40%,14788
+622,Sales,Sales Executive,2,5,"$4,403 ",NO,"$15,612 ",48.40%,15612
+1418,Research & Development,Manufacturing Director,2,8,"$5,321 ",NO,"$19,284 ",48.40%,19284
+66,Research & Development,Manufacturing Director,2,6,"$6,499 ",NO,"$23,996 ",48.40%,23996
+1463,Research & Development,Manufacturing Director,2,9,"$9,936 ",NO,"$37,744 ",48.40%,37744
+287,Research & Development,Healthcare Representative,2,2,"$5,745 ",NO,"$20,980 ",48.40%,20980
+360,Research & Development,Healthcare Representative,2,3,"$6,755 ",NO,"$25,020 ",48.40%,25020
+878,Human Resources,Human Resources,2,4,"$6,272 ",NO,"$23,088 ",48.40%,23088
+826,Human Resources,Human Resources,1,7,"$2,844 ",NO,"$10,376 ",48.40%,10376
+1323,Human Resources,Human Resources,1,3,"$2,706 ",NO,"$9,824 ",48.40%,9824
+1283,Research & Development,Research Scientist,1,5,"$2,044 ",NO,"$7,176 ",48.40%,7176
+114,Research & Development,Research Scientist,2,1,"$4,505 ",NO,"$16,020 ",48.40%,16020
+548,Sales,Sales Executive,2,2,"$6,804 ",NO,"$25,216 ",48.40%,25216
+1125,Research & Development,Healthcare Representative,2,6,"$8,853 ",NO,"$33,412 ",48.40%,33412
+187,Research & Development,Research Director,5,24,"$18,722 ",NO,"$69,888 ",48.40%,69888
+788,Research & Development,Research Scientist,2,8,"$3,660 ",NO,"$12,640 ",48.40%,12640
+1177,Research & Development,Research Director,3,14,"$13,269 ",NO,"$50,076 ",48.40%,50076
+1355,Sales,Sales Executive,2,4,"$5,507 ",NO,"$20,028 ",48.40%,20028
+472,Research & Development,Manufacturing Director,2,6,"$6,447 ",NO,"$23,788 ",48.40%,23788
+1290,Research & Development,Laboratory Technician,2,7,"$5,346 ",NO,"$19,384 ",48.40%,19384
+1079,Research & Development,Manufacturing Director,3,2,"$8,376 ",NO,"$30,504 ",48.40%,30504
+713,Research & Development,Laboratory Technician,1,5,"$2,270 ",NO,"$8,080 ",48.40%,8080
+843,Research & Development,Laboratory Technician,1,8,"$4,420 ",NO,"$16,680 ",48.40%,16680
+404,Research & Development,Laboratory Technician,2,10,"$4,558 ",NO,"$16,232 ",48.40%,16232
+1156,Research & Development,Manufacturing Director,3,18,"$10,435 ",NO,"$38,740 ",48.40%,38740
+1376,Research & Development,Research Scientist,1,5,"$4,771 ",NO,"$18,084 ",48.40%,18084
+1038,Sales,Sales Executive,2,2,"$5,486 ",NO,"$19,944 ",48.40%,19944
+1132,Sales,Sales Executive,2,5,"$4,639 ",NO,"$16,556 ",48.40%,16556
+576,Sales,Sales Executive,2,4,"$4,342 ",NO,"$15,368 ",48.40%,15368
+393,Sales,Sales Executive,2,3,"$6,538 ",NO,"$24,152 ",48.40%,24152
+1469,Research & Development,Laboratory Technician,2,4,"$4,404 ",NO,"$15,616 ",48.40%,15616
+71,Research & Development,Research Scientist,1,5,"$2,703 ",NO,"$9,812 ",48.40%,9812
+1033,Research & Development,Manufacturing Director,3,10,"$7,446 ",NO,"$26,784 ",48.40%,26784
+1335,Research & Development,Research Scientist,2,2,"$3,902 ",NO,"$13,608 ",48.40%,13608
+116,Research & Development,Manager,3,11,"$11,631 ",NO,"$43,524 ",48.40%,43524
+303,Sales,Sales Executive,2,8,"$6,929 ",NO,"$25,716 ",48.40%,25716
+420,Research & Development,Research Director,3,10,"$11,935 ",NO,"$44,740 ",48.40%,44740
+211,Research & Development,Manufacturing Director,3,11,"$8,474 ",NO,"$30,896 ",48.40%,30896
+939,Research & Development,Laboratory Technician,2,10,"$4,883 ",NO,"$17,532 ",48.40%,17532
+242,Research & Development,Research Scientist,2,1,"$3,072 ",NO,"$10,288 ",48.40%,10288
+641,Sales,Sales Executive,2,10,"$6,524 ",NO,"$24,096 ",48.40%,24096
+696,Research & Development,Laboratory Technician,2,9,"$4,447 ",NO,"$15,788 ",48.40%,15788
+444,Sales,Sales Executive,2,9,"$4,051 ",NO,"$14,204 ",48.40%,14204
+1158,Research & Development,Manufacturing Director,2,4,"$5,768 ",NO,"$21,072 ",48.40%,21072
+151,Sales,Sales Executive,3,10,"$7,295 ",NO,"$26,180 ",48.40%,26180
+223,Sales,Sales Executive,3,16,"$10,609 ",NO,"$39,436 ",48.40%,39436
+692,Research & Development,Manufacturing Director,2,8,"$6,725 ",NO,"$24,900 ",48.40%,24900
+574,Research & Development,Research Scientist,1,4,"$3,280 ",NO,"$12,120 ",48.40%,12120
+419,Research & Development,Laboratory Technician,1,5,"$2,097 ",NO,"$7,388 ",48.40%,7388
+928,Research & Development,Healthcare Representative,3,10,"$7,978 ",NO,"$28,912 ",48.40%,28912
+677,Research & Development,Laboratory Technician,3,26,"$7,403 ",NO,"$26,612 ",48.40%,26612
+869,Research & Development,Research Director,5,4,"$19,081 ",NO,"$71,324 ",48.40%,71324
+1210,Research & Development,Laboratory Technician,1,14,"$2,028 ",NO,"$7,112 ",48.40%,7112
+782,Research & Development,Manufacturing Director,2,6,"$9,957 ",NO,"$37,828 ",48.40%,37828
+1272,Research & Development,Laboratory Technician,1,5,"$3,702 ",NO,"$13,808 ",48.40%,13808
+1276,Sales,Sales Executive,2,5,"$4,189 ",NO,"$14,756 ",48.40%,14756
+1026,Sales,Sales Executive,2,4,"$9,204 ",NO,"$34,816 ",48.40%,34816
+120,Research & Development,Research Scientist,1,10,"$2,613 ",NO,"$9,452 ",48.40%,9452
+276,Research & Development,Manager,3,7,"$11,996 ",NO,"$44,984 ",48.40%,44984
+1292,Sales,Sales Executive,2,2,"$4,127 ",NO,"$14,508 ",48.40%,14508
+1451,Sales,Sales Executive,2,10,"$5,343 ",NO,"$19,372 ",48.40%,19372
+339,Sales,Sales Executive,2,8,"$6,214 ",NO,"$22,856 ",48.40%,22856
+1063,Sales,Sales Executive,2,10,"$8,620 ",NO,"$32,480 ",48.40%,32480
+384,Sales,Sales Executive,3,10,"$7,596 ",NO,"$27,384 ",48.40%,27384
+243,Research & Development,Research Scientist,2,9,"$3,319 ",NO,"$11,276 ",48.40%,11276
+814,Research & Development,Research Director,5,20,"$19,626 ",NO,"$73,504 ",48.40%,73504
+467,Sales,Sales Executive,3,9,"$8,834 ",NO,"$32,336 ",48.40%,32336
+108,Research & Development,Research Scientist,1,2,"$2,889 ",NO,"$10,556 ",48.40%,10556
+1385,Sales,Sales Executive,3,8,"$8,628 ",NO,"$31,512 ",48.40%,31512
+572,Research & Development,Healthcare Representative,2,8,"$4,335 ",NO,"$15,340 ",48.40%,15340
+694,Research & Development,Healthcare Representative,2,5,"$6,949 ",NO,"$25,796 ",48.40%,25796
+452,Sales,Sales Executive,2,8,"$4,805 ",NO,"$17,220 ",48.40%,17220
+349,Sales,Sales Executive,2,4,"$4,649 ",NO,"$16,596 ",48.40%,16596
+1045,Research & Development,Research Scientist,1,3,"$2,345 ",NO,"$8,380 ",48.40%,8380
+503,Research & Development,Research Scientist,1,10,"$2,691 ",NO,"$9,764 ",48.40%,9764
+417,Sales,Manager,5,20,"$18,041 ",NO,"$67,164 ",48.40%,67164
+1328,Sales,Sales Representative,2,9,"$3,540 ",NO,"$12,160 ",48.40%,12160
+551,Human Resources,Human Resources,2,8,"$6,389 ",NO,"$23,556 ",48.40%,23556
+306,Sales,Sales Executive,2,13,"$5,484 ",NO,"$19,936 ",48.40%,19936
+891,Research & Development,Research Scientist,1,10,"$2,011 ",NO,"$7,044 ",48.40%,7044
+832,Research & Development,Healthcare Representative,2,6,"$5,731 ",NO,"$20,924 ",48.40%,20924
+121,Sales,Sales Executive,2,7,"$6,146 ",NO,"$22,584 ",48.40%,22584
+594,Research & Development,Research Scientist,1,10,"$2,700 ",NO,"$9,800 ",48.40%,9800
+1440,Research & Development,Manufacturing Director,2,4,"$5,131 ",NO,"$18,524 ",48.40%,18524
+155,Research & Development,Manufacturing Director,2,10,"$4,319 ",NO,"$15,276 ",48.40%,15276
+103,Research & Development,Research Scientist,2,16,"$4,809 ",NO,"$17,236 ",48.40%,17236
+531,Research & Development,Research Director,3,7,"$11,159 ",NO,"$41,636 ",48.30%,41636
+960,Sales,Sales Executive,2,9,"$4,103 ",NO,"$14,412 ",48.30%,14412
+1211,Sales,Sales Executive,2,6,"$9,525 ",NO,"$36,100 ",48.30%,36100
+246,Research & Development,Research Scientist,1,2,"$2,911 ",NO,"$10,644 ",48.30%,10644
+172,Research & Development,Laboratory Technician,1,8,"$2,088 ",NO,"$7,352 ",48.30%,7352
+1119,Sales,Sales Executive,2,9,"$9,924 ",NO,"$37,696 ",48.30%,37696
+637,Research & Development,Laboratory Technician,1,3,"$2,314 ",NO,"$8,256 ",48.30%,8256
+1203,Research & Development,Healthcare Representative,3,4,"$7,005 ",NO,"$25,020 ",48.30%,25020
+661,Research & Development,Manufacturing Director,2,1,"$4,765 ",NO,"$17,060 ",48.30%,17060
+1357,Research & Development,Research Director,3,13,"$13,348 ",NO,"$50,392 ",48.30%,50392
+167,Sales,Sales Executive,3,10,"$9,419 ",NO,"$34,676 ",48.30%,34676
+803,Research & Development,Research Scientist,1,0,"$2,979 ",NO,"$10,916 ",48.30%,10916
+959,Research & Development,Research Scientist,2,9,"$4,661 ",NO,"$16,644 ",48.30%,16644
+165,Research & Development,Manager,5,5,"$19,926 ",NO,"$74,704 ",48.30%,74704
+1439,Sales,Sales Executive,3,9,"$7,644 ",NO,"$27,576 ",48.30%,27576
+619,Sales,Sales Executive,2,9,"$4,037 ",NO,"$14,148 ",48.30%,14148
+22,Research & Development,Research Director,3,12,"$11,994 ",NO,"$44,976 ",48.30%,44976
+1217,Research & Development,Research Scientist,1,5,"$4,401 ",NO,"$16,604 ",48.30%,16604
+1090,Research & Development,Healthcare Representative,2,7,"$9,715 ",NO,"$36,860 ",48.30%,36860
+851,Research & Development,Manager,5,5,"$19,943 ",NO,"$74,772 ",48.30%,74772
+227,Sales,Sales Executive,3,11,"$7,918 ",NO,"$28,672 ",48.30%,28672
+1466,Research & Development,Healthcare Representative,3,7,"$9,991 ",NO,"$36,964 ",48.30%,36964
+839,Sales,Sales Executive,2,6,"$5,155 ",NO,"$18,620 ",48.30%,18620
+944,Research & Development,Laboratory Technician,2,9,"$6,674 ",NO,"$24,696 ",48.30%,24696
+1294,Research & Development,Healthcare Representative,2,3,"$6,870 ",NO,"$25,480 ",48.30%,25480
+923,Human Resources,Human Resources,2,10,"$4,490 ",NO,"$15,960 ",48.30%,15960
+654,Human Resources,Human Resources,2,5,"$5,204 ",NO,"$18,816 ",48.30%,18816
+1424,Research & Development,Research Scientist,2,10,"$5,098 ",NO,"$18,392 ",48.30%,18392
+377,Research & Development,Research Scientist,1,2,"$2,543 ",NO,"$9,172 ",48.30%,9172
+278,Research & Development,Manufacturing Director,2,6,"$6,397 ",NO,"$23,588 ",48.30%,23588
+305,Research & Development,Laboratory Technician,2,9,"$5,674 ",NO,"$20,696 ",48.30%,20696
+340,Research & Development,Manufacturing Director,2,6,"$6,347 ",NO,"$23,388 ",48.30%,23388
+254,Sales,Sales Executive,2,3,"$6,931 ",NO,"$25,724 ",48.30%,25724
+726,Research & Development,Manufacturing Director,2,4,"$4,148 ",NO,"$14,592 ",48.30%,14592
+877,Research & Development,Manufacturing Director,2,6,"$7,379 ",NO,"$27,516 ",48.30%,27516
+1453,Sales,Sales Executive,2,6,"$6,652 ",NO,"$24,608 ",48.30%,24608
+1265,Research & Development,Research Scientist,2,9,"$3,055 ",NO,"$10,220 ",48.30%,10220
+1183,Research & Development,Healthcare Representative,2,5,"$6,842 ",NO,"$25,368 ",48.30%,25368
+1150,Research & Development,Research Scientist,2,16,"$5,208 ",NO,"$18,832 ",48.30%,18832
+88,Research & Development,Healthcare Representative,2,11,"$4,152 ",NO,"$14,608 ",48.30%,14608
+784,Research & Development,Healthcare Representative,3,19,"$8,823 ",NO,"$32,292 ",48.30%,32292
+413,Research & Development,Healthcare Representative,2,6,"$4,523 ",NO,"$16,092 ",48.30%,16092
+604,Research & Development,Manufacturing Director,2,9,"$4,434 ",NO,"$15,736 ",48.30%,15736
+104,Research & Development,Healthcare Representative,2,1,"$5,163 ",NO,"$18,652 ",48.30%,18652
+549,Research & Development,Healthcare Representative,2,5,"$6,142 ",NO,"$22,568 ",48.30%,22568
+219,Sales,Sales Executive,2,6,"$5,940 ",NO,"$21,760 ",48.30%,21760
+787,Research & Development,Manufacturing Director,3,3,"$10,976 ",NO,"$40,904 ",48.30%,40904
+955,Research & Development,Manager,5,19,"$19,187 ",NO,"$71,748 ",48.30%,71748
+1464,Sales,Sales Representative,1,4,"$2,966 ",NO,"$10,864 ",48.30%,10864
+376,Sales,Sales Executive,2,7,"$4,936 ",NO,"$17,744 ",48.30%,17744
+733,Research & Development,Manufacturing Director,2,8,"$5,472 ",NO,"$19,888 ",48.30%,19888
+1431,Sales,Sales Executive,3,14,"$10,422 ",NO,"$38,688 ",48.30%,38688
+67,Research & Development,Research Scientist,3,1,"$9,724 ",NO,"$35,896 ",48.30%,35896
+1446,Sales,Sales Executive,2,8,"$6,712 ",NO,"$24,848 ",48.30%,24848
+266,Research & Development,Healthcare Representative,2,9,"$5,582 ",NO,"$20,328 ",48.30%,20328
+1117,Research & Development,Research Scientist,2,2,"$5,484 ",NO,"$19,936 ",48.30%,19936
+1154,Human Resources,Manager,5,5,"$19,658 ",NO,"$73,632 ",48.30%,73632
+326,Research & Development,Manager,5,21,"$19,272 ",NO,"$72,088 ",48.30%,72088
+506,Research & Development,Manufacturing Director,3,10,"$9,434 ",NO,"$34,736 ",48.30%,34736
+739,Research & Development,Manufacturing Director,2,3,"$4,227 ",NO,"$14,908 ",48.30%,14908
+255,Research & Development,Manufacturing Director,2,4,"$4,898 ",NO,"$17,592 ",48.30%,17592
+70,Sales,Sales Executive,2,4,"$5,473 ",NO,"$19,892 ",48.20%,19892
+535,Human Resources,Manager,5,21,"$19,141 ",NO,"$71,564 ",48.20%,71564
+337,Research & Development,Laboratory Technician,1,3,"$3,983 ",NO,"$14,932 ",48.20%,14932
+1124,Sales,Sales Executive,3,7,"$8,237 ",NO,"$29,948 ",48.20%,29948
+1187,Research & Development,Research Scientist,2,13,"$4,735 ",NO,"$16,940 ",48.20%,16940
+626,Research & Development,Research Scientist,2,5,"$5,175 ",NO,"$18,700 ",48.20%,18700
+411,Research & Development,Manager,5,29,"$19,566 ",NO,"$73,264 ",48.20%,73264
+1148,Research & Development,Manufacturing Director,2,7,"$5,377 ",NO,"$19,508 ",48.20%,19508
+403,Sales,Sales Executive,3,10,"$8,392 ",NO,"$30,568 ",48.20%,30568
+963,Sales,Sales Executive,2,7,"$6,893 ",NO,"$25,572 ",48.20%,25572
+770,Research & Development,Research Director,5,2,"$19,627 ",NO,"$73,508 ",48.20%,73508
+273,Sales,Sales Executive,2,5,"$6,502 ",NO,"$24,008 ",48.20%,24008
+27,Sales,Sales Executive,2,9,"$6,825 ",NO,"$25,300 ",48.20%,25300
+1331,Research & Development,Research Director,5,22,"$19,665 ",NO,"$73,660 ",48.20%,73660
+213,Research & Development,Research Director,3,10,"$12,490 ",NO,"$46,960 ",48.20%,46960
+560,Research & Development,Manufacturing Director,2,0,"$5,121 ",NO,"$18,484 ",48.20%,18484
+394,Research & Development,Manufacturing Director,2,13,"$4,306 ",NO,"$15,224 ",48.20%,15224
+425,Research & Development,Manager,4,27,"$17,046 ",NO,"$64,184 ",48.20%,64184
+1437,Research & Development,Manager,5,6,"$19,431 ",NO,"$72,724 ",48.20%,72724
+39,Sales,Sales Executive,2,5,"$5,376 ",NO,"$19,504 ",48.20%,19504
+1397,Research & Development,Research Scientist,2,4,"$2,897 ",NO,"$9,588 ",48.20%,9588
+1403,Sales,Sales Executive,4,20,"$13,341 ",NO,"$49,364 ",48.20%,49364
+708,Sales,Sales Executive,2,7,"$5,079 ",NO,"$18,316 ",48.20%,18316
+1388,Research & Development,Healthcare Representative,2,5,"$6,667 ",NO,"$24,668 ",48.20%,24668
+427,Sales,Sales Executive,3,18,"$10,266 ",NO,"$38,064 ",48.20%,38064
+920,Research & Development,Laboratory Technician,2,11,"$4,444 ",NO,"$15,776 ",48.20%,15776
+173,Research & Development,Laboratory Technician,2,12,"$3,072 ",NO,"$10,288 ",48.20%,10288
+1404,Research & Development,Research Scientist,2,20,"$4,332 ",NO,"$15,328 ",48.20%,15328
+1377,Research & Development,Research Director,5,5,"$19,161 ",NO,"$71,644 ",48.20%,71644
+590,Research & Development,Research Director,3,13,"$11,691 ",NO,"$43,764 ",48.20%,43764
+846,Research & Development,Manufacturing Director,3,7,"$10,274 ",NO,"$38,096 ",48.20%,38096
+820,Sales,Sales Executive,2,5,"$4,968 ",NO,"$17,872 ",48.20%,17872
+1300,Sales,Sales Executive,2,10,"$6,799 ",NO,"$25,196 ",48.20%,25196
+538,Human Resources,Manager,5,22,"$19,189 ",NO,"$71,756 ",48.20%,71756
+412,Research & Development,Manufacturing Director,2,10,"$4,810 ",NO,"$17,240 ",48.20%,17240
+982,Research & Development,Research Scientist,1,4,"$2,610 ",NO,"$9,440 ",48.20%,9440
+432,Research & Development,Research Scientist,1,7,"$2,768 ",NO,"$10,072 ",48.20%,10072
+1416,Sales,Sales Executive,2,15,"$4,440 ",NO,"$15,760 ",48.20%,15760
+916,Sales,Manager,5,11,"$18,789 ",NO,"$70,156 ",48.20%,70156
+1245,Human Resources,Human Resources,1,2,"$2,145 ",NO,"$7,580 ",48.20%,7580
+1457,Research & Development,Research Scientist,1,5,"$2,001 ",NO,"$7,004 ",48.20%,7004
+958,Research & Development,Healthcare Representative,3,9,"$8,500 ",NO,"$31,000 ",48.20%,31000
+600,Research & Development,Manufacturing Director,2,14,"$6,162 ",NO,"$22,648 ",48.20%,22648
+1113,Research & Development,Research Scientist,2,6,"$4,087 ",NO,"$14,348 ",48.20%,14348
+1101,Research & Development,Research Scientist,2,7,"$5,878 ",NO,"$21,512 ",48.20%,21512
+541,Research & Development,Research Director,3,8,"$11,713 ",NO,"$43,852 ",48.20%,43852
+321,Sales,Sales Executive,2,7,"$7,547 ",NO,"$28,188 ",48.20%,28188
+1304,Research & Development,Healthcare Representative,2,7,"$4,448 ",NO,"$15,792 ",48.20%,15792
+233,Sales,Manager,5,7,"$19,517 ",NO,"$73,068 ",48.20%,73068
+1182,Research & Development,Manufacturing Director,2,3,"$4,374 ",NO,"$15,496 ",48.20%,15496
+484,Sales,Sales Executive,2,7,"$5,460 ",NO,"$19,840 ",48.20%,19840
+751,Sales,Sales Executive,2,18,"$6,347 ",NO,"$23,388 ",48.20%,23388
+99,Research & Development,Laboratory Technician,2,3,"$2,042 ",NO,"$6,168 ",48.20%,6168
+330,Research & Development,Laboratory Technician,2,9,"$5,257 ",NO,"$19,028 ",48.20%,19028
+208,Research & Development,Healthcare Representative,2,3,"$4,876 ",NO,"$17,504 ",48.20%,17504
+1130,Research & Development,Laboratory Technician,2,10,"$3,407 ",NO,"$11,628 ",48.20%,11628
+679,Sales,Sales Executive,2,9,"$6,932 ",NO,"$25,728 ",48.20%,25728
+59,Research & Development,Manufacturing Director,2,7,"$5,993 ",NO,"$21,972 ",48.20%,21972
+584,Research & Development,Manager,5,24,"$18,430 ",NO,"$68,720 ",48.20%,68720
+1,Research & Development,Research Scientist,2,10,"$5,130 ",NO,"$18,520 ",48.20%,18520
+409,Research & Development,Research Scientist,2,5,"$4,556 ",NO,"$16,224 ",48.20%,16224
+1139,Research & Development,Research Scientist,1,3,"$3,312 ",NO,"$12,248 ",48.20%,12248
+1112,Research & Development,Manufacturing Director,2,5,"$4,855 ",NO,"$17,420 ",48.20%,17420
+224,Research & Development,Manufacturing Director,2,5,"$4,345 ",NO,"$15,380 ",48.20%,15380
+392,Research & Development,Research Director,5,4,"$19,406 ",NO,"$72,624 ",48.10%,72624
+809,Research & Development,Manufacturing Director,3,9,"$7,655 ",NO,"$27,620 ",48.10%,27620
+1346,Research & Development,Manufacturing Director,2,9,"$5,906 ",NO,"$21,624 ",48.10%,21624
+517,Sales,Sales Executive,2,3,"$4,851 ",NO,"$17,404 ",48.10%,17404
+15,Research & Development,Manufacturing Director,3,10,"$9,980 ",NO,"$36,920 ",48.10%,36920
+58,Research & Development,Laboratory Technician,2,7,"$5,915 ",NO,"$21,660 ",48.10%,21660
+1239,Research & Development,Manufacturing Director,2,5,"$5,238 ",NO,"$18,952 ",48.10%,18952
+1173,Research & Development,Healthcare Representative,3,3,"$8,008 ",NO,"$29,032 ",48.10%,29032
+1189,Sales,Sales Executive,2,6,"$5,505 ",NO,"$20,020 ",48.10%,20020
+978,Research & Development,Healthcare Representative,2,12,"$6,377 ",NO,"$23,508 ",48.10%,23508
+279,Research & Development,Research Director,5,10,"$19,144 ",NO,"$71,576 ",48.10%,71576
+1430,Research & Development,Research Director,3,18,"$13,206 ",NO,"$49,824 ",48.10%,49824
+1410,Sales,Sales Executive,2,11,"$5,677 ",NO,"$20,708 ",48.10%,20708
+743,Research & Development,Manufacturing Director,4,5,"$13,726 ",NO,"$50,904 ",48.10%,50904
+471,Research & Development,Healthcare Representative,2,1,"$9,824 ",NO,"$37,296 ",48.10%,37296
+1298,Research & Development,Healthcare Representative,2,9,"$8,926 ",NO,"$33,704 ",48.10%,33704
+593,Research & Development,Manufacturing Director,2,9,"$5,228 ",NO,"$18,912 ",48.10%,18912
+64,Research & Development,Healthcare Representative,3,17,"$10,096 ",NO,"$37,384 ",48.10%,37384
+251,Research & Development,Healthcare Representative,3,19,"$10,938 ",NO,"$40,752 ",48.10%,40752
+724,Research & Development,Manufacturing Director,2,4,"$4,377 ",NO,"$15,508 ",48.10%,15508
+1322,Research & Development,Manufacturing Director,3,9,"$8,578 ",NO,"$31,312 ",48.10%,31312
+261,Sales,Sales Executive,2,8,"$5,249 ",NO,"$18,996 ",48.10%,18996
+935,Sales,Sales Executive,2,10,"$6,209 ",NO,"$22,836 ",48.10%,22836
+1448,Sales,Sales Executive,2,5,"$8,938 ",NO,"$33,752 ",48.10%,33752
+973,Research & Development,Laboratory Technician,2,9,"$5,363 ",NO,"$19,452 ",48.10%,19452
+110,Research & Development,Healthcare Representative,3,13,"$7,484 ",NO,"$26,936 ",48.10%,26936
+137,Sales,Sales Executive,2,15,"$5,902 ",NO,"$21,608 ",48.10%,21608
+249,Research & Development,Manufacturing Director,2,3,"$6,434 ",NO,"$23,736 ",48.10%,23736
+1314,Sales,Sales Executive,2,8,"$5,154 ",NO,"$18,616 ",48.10%,18616
+1146,Research & Development,Manufacturing Director,2,9,"$4,724 ",NO,"$16,896 ",48.10%,16896
+150,Research & Development,Research Scientist,2,20,"$5,605 ",NO,"$20,420 ",48.10%,20420
+774,Research & Development,Manager,4,9,"$16,756 ",NO,"$63,024 ",48.10%,63024
+307,Research & Development,Research Director,3,10,"$12,061 ",NO,"$45,244 ",48.10%,45244
+73,Research & Development,Research Scientist,2,10,"$6,220 ",NO,"$22,880 ",48.10%,22880
+1232,Research & Development,Manufacturing Director,2,7,"$6,883 ",NO,"$25,532 ",48.10%,25532
+805,Sales,Sales Executive,2,15,"$5,593 ",NO,"$20,372 ",48.00%,20372
+529,Research & Development,Healthcare Representative,2,9,"$7,625 ",NO,"$28,500 ",48.00%,28500
+1190,Research & Development,Research Scientist,2,9,"$5,470 ",NO,"$19,880 ",48.00%,19880
+557,Research & Development,Healthcare Representative,2,1,"$5,093 ",NO,"$18,372 ",48.00%,18372
+184,Research & Development,Manufacturing Director,2,4,"$4,450 ",NO,"$15,800 ",48.00%,15800
+81,Research & Development,Research Scientist,1,6,"$2,859 ",NO,"$10,436 ",48.00%,10436
+445,Sales,Manager,4,10,"$16,835 ",NO,"$63,340 ",48.00%,63340
+650,Research & Development,Healthcare Representative,2,5,"$5,562 ",NO,"$20,248 ",48.00%,20248
+1381,Research & Development,Research Scientist,1,5,"$2,144 ",NO,"$7,576 ",48.00%,7576
+112,Human Resources,Manager,4,5,"$17,328 ",NO,"$65,312 ",48.00%,65312
+1160,Research & Development,Manufacturing Director,2,10,"$5,770 ",NO,"$21,080 ",48.00%,21080
+401,Sales,Sales Executive,4,7,"$13,212 ",NO,"$48,848 ",48.00%,48848
+186,Research & Development,Manager,5,20,"$19,033 ",NO,"$71,132 ",48.00%,71132
+1054,Research & Development,Healthcare Representative,3,8,"$10,466 ",NO,"$38,864 ",48.00%,38864
+552,Research & Development,Healthcare Representative,4,10,"$11,103 ",NO,"$40,412 ",48.00%,40412
+919,Research & Development,Manufacturing Director,3,9,"$10,512 ",NO,"$39,048 ",48.00%,39048
+1075,Research & Development,Manager,3,5,"$11,244 ",NO,"$41,976 ",48.00%,41976
+716,Research & Development,Research Director,5,18,"$19,419 ",NO,"$72,676 ",48.00%,72676
+681,Research & Development,Research Director,3,15,"$13,582 ",NO,"$51,328 ",48.00%,51328
+281,Sales,Sales Executive,2,20,"$4,907 ",NO,"$17,628 ",48.00%,17628
+1259,Research & Development,Healthcare Representative,2,7,"$5,294 ",NO,"$19,176 ",48.00%,19176
+1221,Research & Development,Healthcare Representative,3,23,"$10,748 ",NO,"$39,992 ",48.00%,39992
+1155,Research & Development,Laboratory Technician,2,10,"$3,069 ",NO,"$10,276 ",48.00%,10276
+1465,Research & Development,Laboratory Technician,2,5,"$2,571 ",NO,"$8,284 ",48.00%,8284
+35,Research & Development,Research Scientist,1,5,"$2,645 ",NO,"$9,580 ",48.00%,9580
+295,Sales,Sales Executive,4,20,"$13,525 ",NO,"$50,100 ",48.00%,50100
+790,Research & Development,Healthcare Representative,3,3,"$7,119 ",NO,"$25,476 ",48.00%,25476
+992,Research & Development,Healthcare Representative,3,6,"$10,920 ",NO,"$40,680 ",48.00%,40680
+897,Sales,Sales Executive,2,6,"$5,171 ",NO,"$18,684 ",48.00%,18684
+646,Sales,Sales Executive,4,2,"$11,836 ",NO,"$43,344 ",48.00%,43344
+324,Research & Development,Research Scientist,2,10,"$5,775 ",NO,"$21,100 ",48.00%,21100
+1053,Research & Development,Research Scientist,2,12,"$4,900 ",NO,"$17,600 ",48.00%,17600
+1305,Research & Development,Research Scientist,2,7,"$6,854 ",NO,"$25,416 ",48.00%,25416
+821,Sales,Sales Executive,4,9,"$13,120 ",NO,"$48,480 ",47.90%,48480
+1208,Research & Development,Laboratory Technician,2,15,"$3,986 ",NO,"$13,944 ",47.90%,13944
+1441,Research & Development,Healthcare Representative,2,13,"$6,306 ",NO,"$23,224 ",47.90%,23224
+922,Research & Development,Manager,5,25,"$19,190 ",NO,"$71,760 ",47.90%,71760
+291,Research & Development,Research Scientist,2,8,"$4,485 ",NO,"$15,940 ",47.90%,15940
+1174,Research & Development,Manufacturing Director,2,7,"$5,206 ",NO,"$18,824 ",47.90%,18824
+1398,Research & Development,Healthcare Representative,2,9,"$5,968 ",NO,"$21,872 ",47.90%,21872
+1352,Research & Development,Healthcare Representative,2,2,"$5,033 ",NO,"$18,132 ",47.90%,18132
+1029,Research & Development,Laboratory Technician,2,8,"$3,975 ",NO,"$13,900 ",47.90%,13900
+488,Research & Development,Healthcare Representative,2,10,"$4,089 ",NO,"$14,356 ",47.90%,14356
+757,Sales,Sales Executive,2,15,"$9,725 ",NO,"$36,900 ",47.90%,36900
+855,Research & Development,Manufacturing Director,2,14,"$6,474 ",NO,"$23,896 ",47.90%,23896
+649,Research & Development,Research Director,4,12,"$14,275 ",NO,"$53,100 ",47.90%,53100
+197,Research & Development,Manufacturing Director,2,5,"$5,265 ",NO,"$19,060 ",47.90%,19060
+448,Research & Development,Manufacturing Director,4,20,"$13,237 ",NO,"$48,948 ",47.90%,48948
+25,Research & Development,Manager,5,14,"$19,094 ",NO,"$71,376 ",47.90%,71376
+1372,Research & Development,Manufacturing Director,2,10,"$5,151 ",NO,"$18,604 ",47.90%,18604
+1179,Research & Development,Research Scientist,2,11,"$5,433 ",NO,"$19,732 ",47.90%,19732
+898,Research & Development,Research Director,5,8,"$19,740 ",NO,"$73,960 ",47.90%,73960
+858,Research & Development,Manager,5,7,"$18,606 ",NO,"$69,424 ",47.90%,69424
+20,Research & Development,Manufacturing Director,2,4,"$4,011 ",NO,"$14,044 ",47.90%,14044
+424,Sales,Manager,4,1,"$14,118 ",NO,"$52,472 ",47.90%,52472
+244,Research & Development,Manager,5,24,"$19,202 ",NO,"$71,808 ",47.80%,71808
+875,Research & Development,Research Scientist,2,20,"$4,541 ",NO,"$16,164 ",47.80%,16164
+329,Research & Development,Research Director,5,3,"$18,300 ",NO,"$68,200 ",47.80%,68200
+613,Human Resources,Human Resources,1,3,"$3,737 ",NO,"$13,948 ",47.80%,13948
+1307,Research & Development,Research Scientist,1,3,"$3,591 ",NO,"$13,364 ",47.80%,13364
+492,Research & Development,Manager,4,3,"$15,402 ",NO,"$57,608 ",47.80%,57608
+78,Research & Development,Research Director,3,5,"$13,664 ",NO,"$51,656 ",47.80%,51656
+1135,Sales,Manager,4,26,"$17,567 ",NO,"$66,268 ",47.80%,66268
+466,Sales,Manager,4,18,"$16,595 ",NO,"$62,380 ",47.80%,62380
+1008,Research & Development,Research Director,4,20,"$17,328 ",NO,"$65,312 ",47.80%,65312
+1405,Research & Development,Research Director,3,11,"$11,031 ",NO,"$41,124 ",47.80%,41124
+257,Research & Development,Research Director,5,21,"$19,436 ",NO,"$72,744 ",47.80%,72744
+971,Research & Development,Manufacturing Director,4,5,"$13,142 ",NO,"$48,568 ",47.80%,48568
+710,Sales,Manager,4,10,"$17,444 ",NO,"$65,776 ",47.80%,65776
+193,Research & Development,Research Scientist,1,5,"$2,089 ",NO,"$7,356 ",47.80%,7356
+1225,Research & Development,Research Director,4,21,"$16,704 ",NO,"$62,816 ",47.80%,62816
+1080,Sales,Manager,4,13,"$16,606 ",NO,"$62,424 ",47.80%,62424
+178,Sales,Sales Executive,3,24,"$10,453 ",NO,"$38,812 ",47.80%,38812
+1071,Research & Development,Laboratory Technician,2,3,"$4,789 ",NO,"$17,156 ",47.80%,17156
+813,Research & Development,Healthcare Representative,4,18,"$12,169 ",NO,"$44,676 ",47.80%,44676
+18,Sales,Manager,4,25,"$15,427 ",NO,"$57,708 ",47.80%,57708
+304,Research & Development,Healthcare Representative,3,18,"$9,613 ",NO,"$35,452 ",47.70%,35452
+267,Research & Development,Healthcare Representative,2,6,"$4,000 ",NO,"$14,000 ",47.70%,14000
+582,Research & Development,Healthcare Representative,2,8,"$4,244 ",NO,"$14,976 ",47.70%,14976
+1299,Research & Development,Healthcare Representative,2,5,"$6,513 ",NO,"$24,052 ",47.70%,24052
+225,Research & Development,Research Scientist,1,1,"$2,177 ",NO,"$7,708 ",47.70%,7708
+1195,Research & Development,Manager,4,8,"$15,379 ",NO,"$57,516 ",47.70%,57516
+588,Research & Development,Research Director,4,4,"$17,639 ",NO,"$66,556 ",47.70%,66556
+1421,Research & Development,Research Director,3,13,"$11,957 ",NO,"$44,828 ",47.70%,44828
+300,Sales,Manager,4,22,"$16,015 ",NO,"$60,060 ",47.70%,60060
+1055,Research & Development,Research Director,4,14,"$17,007 ",NO,"$64,028 ",47.70%,64028
+616,Sales,Manager,4,20,"$16,307 ",NO,"$61,228 ",47.70%,61228
+1370,Research & Development,Research Scientist,2,8,"$5,467 ",NO,"$19,868 ",47.70%,19868
+627,Research & Development,Manufacturing Director,4,9,"$13,826 ",NO,"$51,304 ",47.70%,51304
+348,Research & Development,Research Director,4,1,"$15,992 ",NO,"$59,968 ",47.70%,59968
+365,Research & Development,Manufacturing Director,2,1,"$5,258 ",NO,"$19,032 ",47.60%,19032
+968,Sales,Sales Executive,2,15,"$4,639 ",NO,"$16,556 ",47.60%,16556
+1462,Sales,Sales Executive,4,20,"$12,031 ",NO,"$44,124 ",47.60%,44124
+1157,Research & Development,Healthcare Representative,2,14,"$4,148 ",NO,"$14,592 ",47.60%,14592
+1288,Research & Development,Manufacturing Director,2,7,"$5,762 ",NO,"$21,048 ",47.60%,21048
+810,Sales,Manager,4,12,"$17,465 ",NO,"$65,860 ",47.60%,65860
+746,Research & Development,Research Director,5,21,"$19,973 ",NO,"$74,892 ",47.60%,74892
+1348,Research & Development,Manager,4,19,"$16,823 ",NO,"$63,292 ",47.60%,63292
+609,Research & Development,Research Director,4,4,"$17,159 ",NO,"$64,636 ",47.60%,64636
+194,Research & Development,Manager,4,20,"$16,792 ",NO,"$63,168 ",47.60%,63168
+1014,Research & Development,Research Director,4,3,"$16,422 ",NO,"$61,688 ",47.50%,61688
+1399,Research & Development,Healthcare Representative,3,10,"$7,510 ",NO,"$27,040 ",47.50%,27040
+434,Research & Development,Manufacturing Director,3,13,"$10,648 ",NO,"$39,592 ",47.50%,39592
+802,Sales,Sales Executive,2,3,"$4,302 ",NO,"$15,208 ",47.50%,15208
+1040,Research & Development,Research Director,3,9,"$13,757 ",NO,"$52,028 ",47.50%,52028
+338,Sales,Sales Executive,2,10,"$6,118 ",NO,"$22,472 ",47.50%,22472
+1209,Research & Development,Healthcare Representative,3,1,"$10,883 ",NO,"$40,532 ",47.50%,40532
+1327,Sales,Sales Executive,4,19,"$13,225 ",NO,"$48,900 ",47.50%,48900
+147,Research & Development,Manager,4,7,"$17,181 ",NO,"$64,724 ",47.50%,64724
+1445,Research & Development,Manufacturing Director,4,20,"$13,570 ",NO,"$50,280 ",47.40%,50280
+189,Research & Development,Healthcare Representative,4,7,"$13,734 ",NO,"$50,936 ",47.40%,50936
+1301,Sales,Manager,4,16,"$16,291 ",NO,"$61,164 ",47.40%,61164
+1078,Research & Development,Research Director,4,20,"$16,328 ",NO,"$61,312 ",47.40%,61312
+894,Research & Development,Research Director,4,10,"$17,779 ",NO,"$67,116 ",47.40%,67116
+799,Research & Development,Manager,4,22,"$17,665 ",NO,"$66,660 ",47.40%,66660
+1194,Sales,Manager,4,3,"$15,972 ",NO,"$59,888 ",47.40%,59888
+90,Research & Development,Healthcare Representative,4,22,"$13,503 ",NO,"$50,012 ",47.40%,50012
+28,Research & Development,Healthcare Representative,3,22,"$10,248 ",NO,"$37,992 ",47.40%,37992
+999,Human Resources,Manager,4,20,"$16,799 ",NO,"$63,196 ",47.40%,63196
+755,Sales,Manager,4,9,"$17,650 ",NO,"$66,600 ",47.30%,66600
+1351,Research & Development,Manager,4,22,"$17,174 ",NO,"$64,696 ",47.30%,64696
+1076,Research & Development,Manager,4,14,"$16,032 ",NO,"$60,128 ",47.30%,60128
+699,Research & Development,Manager,4,9,"$17,099 ",NO,"$64,396 ",47.30%,64396
+105,Human Resources,Manager,5,3,"$18,844 ",NO,"$70,376 ",47.30%,70376
+1176,Research & Development,Research Director,4,4,"$16,413 ",NO,"$61,652 ",47.30%,61652
+804,Research & Development,Manager,4,5,"$16,885 ",NO,"$63,540 ",47.20%,63540
+1185,Research & Development,Research Director,4,14,"$17,603 ",NO,"$66,412 ",47.20%,66412
+714,Research & Development,Research Director,4,5,"$17,399 ",NO,"$65,596 ",47.20%,65596
+1043,Research & Development,Research Director,4,9,"$16,598 ",NO,"$62,392 ",47.20%,62392
+738,Research & Development,Manufacturing Director,4,21,"$12,742 ",NO,"$46,968 ",47.20%,46968
+390,Research & Development,Research Director,4,25,"$14,336 ",NO,"$53,344 ",47.10%,53344
+429,Research & Development,Research Director,4,3,"$17,861 ",NO,"$67,444 ",47.10%,67444
+509,Research & Development,Healthcare Representative,2,13,"$7,725 ",NO,"$28,900 ",47.10%,28900
+534,Research & Development,Research Director,4,5,"$14,814 ",NO,"$55,256 ",47.10%,55256
+1024,Research & Development,Research Director,4,20,"$17,169 ",NO,"$64,676 ",47.10%,64676
+905,Research & Development,Research Director,4,7,"$16,124 ",NO,"$60,496 ",46.90%,60496
+455,Research & Development,Research Director,4,6,"$16,184 ",NO,"$60,736 ",46.80%,60736
+408,Research & Development,Manager,4,5,"$16,555 ",NO,"$62,220 ",46.80%,62220
+1184,Research & Development,Manager,4,10,"$17,426 ",NO,"$65,704 ",46.60%,65704
+1166,Research & Development,Manager,4,2,"$15,202 ",NO,"$56,808 ",46.60%,56808
+1010,Research & Development,Research Director,4,7,"$14,732 ",NO,"$54,928 ",46.50%,54928
+867,Research & Development,Manager,4,2,"$17,856 ",NO,"$67,424 ",46.50%,67424
