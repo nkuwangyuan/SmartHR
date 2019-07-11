@@ -51,7 +51,7 @@ def add_image(image_name):
 
 app.layout = html.Div([
 
-    html.Div([add_image('SmartHR_5.png')], className="row"),
+    html.Div([add_image('SmartHR.png')], className="row"),
     
     dcc.Tabs(id="tabs", value='tab-1', children=[
         dcc.Tab(label='Company Strategy', value='tab-1'),
