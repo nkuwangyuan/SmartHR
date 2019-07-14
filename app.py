@@ -59,7 +59,7 @@ app.layout = html.Div([
         dcc.Tab(label='Employee Analysis', value='tab-3'),
     ]),
     
-    html.Div(id='top-bar', className='row', style={'backgroundColor': '#ff7f0e', 'height': '3px'}),
+    html.Div(id='top-bar', className='row', style={'backgroundColor': '#1f77b4', 'height': '3px'}),
 
     html.Div(id='tabs-content'),
 ])
@@ -146,7 +146,7 @@ Feature_Ranking = dcc.Graph(figure = go.Figure(
             showgrid=False,
             showline=True,
             showticklabels=True,
-            titlefont=dict(size=15),
+            tickfont=dict(size=18),
             ),
         xaxis=dict(
             zeroline=False,
@@ -165,9 +165,9 @@ Feature_Ranking = dcc.Graph(figure = go.Figure(
 Tab2_Design = html.Div(children=[
     
     html.Div(children=[  
-        html.H6(' Turnover Rate by Factors '),
+        html.H6('Turnover Rate by Factor'),
         dcc.RadioItems(id='feature_name',
-            options=[{'label': i, 'value': i} for i in ['[ Working Over Time ]', '[ Working Years At Company ]', '[ Employee Current Age ]', '[ Monthly Income ]', '[ Business Travel ]', '[ Job Role ]', 'clear']],
+            options=[{'label': i, 'value': i} for i in ['Working Over Time', 'Working Years At Company', 'Employee Current Age', 'Monthly Income', 'Business Travel', 'Job Role', 'clear']],
             value='clear',)
         ], className="three columns"),
 
@@ -181,17 +181,17 @@ Tab2_Design = html.Div(children=[
     [Input(component_id='feature_name', component_property='value')]
 )
 def update_output_div(feature_name):
-    if feature_name == '[ Employee Current Age ]':
+    if feature_name == 'Employee Current Age':
         return Age_plot
-    elif feature_name == '[ Working Years At Company ]':
+    elif feature_name == 'Working Years At Company':
         return Year_plot
-    elif feature_name == '[ Monthly Income ]':
+    elif feature_name == 'Monthly Income':
         return Salary_plot
-    elif feature_name == '[ Working Over Time ]':
+    elif feature_name == 'Working Over Time':
         return turnover_rate_plot('OverTime')
-    elif feature_name == '[ Business Travel ]':
+    elif feature_name == 'Business Travel':
         return turnover_rate_plot('BusinessTravel')
-    elif feature_name == '[ Job Role ]':
+    elif feature_name == 'Job Role':
         return turnover_rate_plot('JobRole')
     else:
         return
@@ -541,5 +541,3 @@ def Exit_Analysis(Employee_ID):
 
 if __name__ == '__main__':
     app.run_server(debug=True)
-
-    
