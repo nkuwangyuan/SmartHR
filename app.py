@@ -54,9 +54,9 @@ app.layout = html.Div([
     html.Div([add_image('SmartHR.png')], className="row"),
     
     dcc.Tabs(id="tabs", value='tab-1', children=[
-        dcc.Tab(label='Company Strategy', value='tab-1'),
+        dcc.Tab(label='Workforce Analytics', value='tab-1'),
         dcc.Tab(label='Attrition Factors', value='tab-2'),
-        dcc.Tab(label='Employee Analysis', value='tab-3'),
+        dcc.Tab(label='Employee Analytics', value='tab-3'),
     ]),
     
     html.Div(id='top-bar', className='row', style={'backgroundColor': '#1f77b4', 'height': '3px'}),
